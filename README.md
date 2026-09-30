@@ -1,5 +1,8 @@
 # AntiMatter: Why Is There More Matter Than Antimatter?
 
+[Readable project overview](https://maldonado-research.github.io/projects/antimatter/) · [All research projects](https://maldonado-research.github.io/)
+
+
 **Ricardo Maldonado · Public research checkpoint v1.23.1**
 
 This repository makes the AntiMatter working hypothesis, calculations, and audit results available for inspection. It explores possible field mechanisms for the matter–antimatter imbalance in the early Universe. It is part of a broader research programme toward unification, but the present checkpoint does **not** establish successful baryogenesis or a completed theory of everything.
