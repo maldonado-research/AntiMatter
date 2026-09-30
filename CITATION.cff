@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the archived AntiMatter v1.23.1 research checkpoint when using these notes, calculations, or data."
+title: "AntiMatter: Wilson-Line and Cosmology Audit - Efficiency-Dependent Energy Bounds and Reproducibility"
+authors:
+  - family-names: Maldonado
+    given-names: Ricardo
+version: 1.23.1
+date-released: 2026-09-05
+doi: 10.5281/zenodo.22400470
+url: "https://zenodo.org/records/22400470"
+repository-code: "https://github.com/maldonado-research/AntiMatter"
+license: CC-BY-4.0
