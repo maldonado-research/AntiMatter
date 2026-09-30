@@ -1,0 +1,40 @@
+{
+  "source_release": "AM123, August 17, 2026",
+  "files": [
+    {
+      "filename": "AM123_ALL_IN_ONE.txt",
+      "bytes": 123302,
+      "sha256": "5f257f652fb4df572d5153142e3a2904b13368a981418ed8aabaf8b521d82bfa"
+    },
+    {
+      "filename": "AM123_CHECKSUMS.txt",
+      "bytes": 451,
+      "sha256": "8ca2729987b26f81003d0f1edf1c5cd6da6a6c43fb1c1fe1a64543907d30db87"
+    },
+    {
+      "filename": "AM123_COMPLETE.zip",
+      "bytes": 351139,
+      "sha256": "2014b0a707f7dcb2272ab6c0b47cce6893501db08fe61daa9327e8f60179bc5d"
+    },
+    {
+      "filename": "AM123_PHONE.zip",
+      "bytes": 318295,
+      "sha256": "992eafd7f5f007436799cd60869d6ef4d6ae57bfdef67a2533efc96ec91cadee"
+    },
+    {
+      "filename": "Archive-ANTIMATTER-August-17-2026.zip",
+      "bytes": 713192,
+      "sha256": "0dd0b2af871c06845d58c0b186137005ea9ef15d69dcfb24f00bf4c2fb2a59e7"
+    },
+    {
+      "filename": "v1.23_ONE_PAGE.md",
+      "bytes": 2157,
+      "sha256": "a50626db3c9c2f43dd9c9e35706133fed6268b6ce7b48ec93d4b8a51f894fdc3"
+    },
+    {
+      "filename": "v1.23_wilson_instanton_cosmology_audit_note.md",
+      "bytes": 12828,
+      "sha256": "49ed915a9b33269105fb4ccc50c43f8eb90afdb404c043cf0c0a33ab72904ae4"
+    }
+  ]
+}

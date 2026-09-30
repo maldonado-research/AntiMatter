@@ -1,0 +1,293 @@
+{
+  "audit_date": "2026-09-05",
+  "command_template": "python v1.23_wilson_instanton_cosmology_audit.py --parent-zip AM122_COMPLETE.zip --output-root replay",
+  "environment": {
+    "machine": "arm64",
+    "packages": {
+      "contourpy": "1.3.3",
+      "cycler": "0.12.1",
+      "fonttools": "4.64.0",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.10.8",
+      "numpy": "2.5.2",
+      "packaging": "26.3",
+      "pillow": "12.3.0",
+      "pyparsing": "3.3.2",
+      "python-dateutil": "2.9.0.post0",
+      "scipy": "1.17.1",
+      "six": "1.17.0"
+    },
+    "platform": "Darwin",
+    "python": "3.12.14"
+  },
+  "file_counts": {
+    "byte_identical": 26,
+    "different": 6,
+    "total": 32
+  },
+  "files": [
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_ONE_PAGE.md",
+      "original_sha256": "a50626db3c9c2f43dd9c9e35706133fed6268b6ce7b48ec93d4b8a51f894fdc3",
+      "replay_sha256": "a50626db3c9c2f43dd9c9e35706133fed6268b6ce7b48ec93d4b8a51f894fdc3"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_README.md",
+      "original_sha256": "8d1f3d652d846b51a4682d5ee08717b14a436fc6d7b2e170bec20a8a4d506ae3",
+      "replay_sha256": "8d1f3d652d846b51a4682d5ee08717b14a436fc6d7b2e170bec20a8a4d506ae3"
+    },
+    {
+      "byte_identical": false,
+      "classification": "manifest reflecting renderer differences",
+      "file": "v1.23_SHA256.txt",
+      "original_sha256": "3869cc10a14eb1d8d68a966fa21c8312358186b95a9bd633a2f09294fc95c05e",
+      "replay_sha256": "a2d56b3942bf578de4d8bf4e399750550da22b33df5f0128537502a342314084"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_WE_DWSB_energy.csv",
+      "original_sha256": "cc9970037535fbff15dab1e279e58e0cb418ba7d85edbe2df066cced83f39709",
+      "replay_sha256": "cc9970037535fbff15dab1e279e58e0cb418ba7d85edbe2df066cced83f39709"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_WE_DWSB_site_map.csv",
+      "original_sha256": "386cb87bbe1f4f82894723b299f10e621b6e9cf500e760a4b786522e01fc6691",
+      "replay_sha256": "386cb87bbe1f4f82894723b299f10e621b6e9cf500e760a4b786522e01fc6691"
+    },
+    {
+      "byte_identical": false,
+      "classification": "renderer-dependent figure",
+      "file": "v1.23_baryogenesis_energy_gate.png",
+      "original_sha256": "1c9cc500cae265fa3e7022f2ce3c137abb514efb18ec22258872a582627cff77",
+      "replay_sha256": "497d168526dec749a750a9f285013c6032672031bc8f93bec4ad808254a6e7f8"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_branch_decision.csv",
+      "original_sha256": "214c8e8c614ef640686c6c3984103a8cad5aa0edffb7ffaf90399461fac9a06b",
+      "replay_sha256": "214c8e8c614ef640686c6c3984103a8cad5aa0edffb7ffaf90399461fac9a06b"
+    },
+    {
+      "byte_identical": false,
+      "classification": "manifest reflecting renderer differences",
+      "file": "v1.23_bundle_manifest.csv",
+      "original_sha256": "44be657d1d57f069256c3b14d6e705656eabf12ff717672f6b02602a002fc063",
+      "replay_sha256": "a35d6b2b37a906545af100a2478b08a735f9419cf41c3106f5d43f3ba31a53e4"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_domain_walls.csv",
+      "original_sha256": "58cda7e056aae90b46ec35b4a9fee7374ac288173b313daf9f85b10f5e51d622",
+      "replay_sha256": "58cda7e056aae90b46ec35b4a9fee7374ac288173b313daf9f85b10f5e51d622"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_gates.csv",
+      "original_sha256": "f8d4f49766627480d2b6d07b72395733ea22bc96ca3dcb655de27111c724a1b5",
+      "replay_sha256": "f8d4f49766627480d2b6d07b72395733ea22bc96ca3dcb655de27111c724a1b5"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_gauge_kernel.csv",
+      "original_sha256": "f9aaed6dedce543865625672eaf9cdbdc732a3cca2811adaa79966b00133653b",
+      "replay_sha256": "f9aaed6dedce543865625672eaf9cdbdc732a3cca2811adaa79966b00133653b"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_harmonic_action_gates.csv",
+      "original_sha256": "d8a9a62fd493b5a12c00f05891aefec023b8b3c9177c03221526f5a9b324dabd",
+      "replay_sha256": "d8a9a62fd493b5a12c00f05891aefec023b8b3c9177c03221526f5a9b324dabd"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_instanton_action_scan.csv",
+      "original_sha256": "5045dfe828890c526934888a67935712c058beeffb82874e34de6993ca3de683",
+      "replay_sha256": "5045dfe828890c526934888a67935712c058beeffb82874e34de6993ca3de683"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_misalignment.csv",
+      "original_sha256": "d01f8e45bfef0e5a2be5e0f9918fc0084a7e2283a12a2a4faabae7301b318c89",
+      "replay_sha256": "d01f8e45bfef0e5a2be5e0f9918fc0084a7e2283a12a2a4faabae7301b318c89"
+    },
+    {
+      "byte_identical": false,
+      "classification": "renderer-dependent figure",
+      "file": "v1.23_misalignment_constraint.png",
+      "original_sha256": "eaf1ac32ea6dcb9ed459f2a2206fc68e5124124d3109bbcdae39ac52167a6fb6",
+      "replay_sha256": "7eb2966fafad8f997d051b6856a75d80348bff5456b6aed306ae9f7093dc1f4f"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_parent_verification.csv",
+      "original_sha256": "9ee112b710a29246f5ef3032967f7e79677d90162d557c542f8974da772b4209",
+      "replay_sha256": "9ee112b710a29246f5ef3032967f7e79677d90162d557c542f8974da772b4209"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_primary_sources.csv",
+      "original_sha256": "8b4ce1944cc0d2b41b5915ba5166b96622ecfdc7fff3232e94f0d02c7a886241",
+      "replay_sha256": "8b4ce1944cc0d2b41b5915ba5166b96622ecfdc7fff3232e94f0d02c7a886241"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_sigma_relic.csv",
+      "original_sha256": "ee5038e082b5c8f831183f9ca7c1257c3bd1962ff8786a41d6de4a2778678788",
+      "replay_sha256": "ee5038e082b5c8f831183f9ca7c1257c3bd1962ff8786a41d6de4a2778678788"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_source_normalization.csv",
+      "original_sha256": "505a63231fdbf6dc72046807643fbda4208519a23761278f69476bd24e5e8997",
+      "replay_sha256": "505a63231fdbf6dc72046807643fbda4208519a23761278f69476bd24e5e8997"
+    },
+    {
+      "byte_identical": false,
+      "classification": "renderer-dependent figure",
+      "file": "v1.23_source_period_obstruction.png",
+      "original_sha256": "d273aa65fc6cf6fda1fdaa1409750868d7d437adaf485f6269fa0599462b165b",
+      "replay_sha256": "2b8a2b4809980c299f28280dfa5bed37bc7fa9494099549c44b8ea4fa544ce8b"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_summary.csv",
+      "original_sha256": "cc271bb478c415b2dbc0ee1681a0d92df4e2bf76ec39eded64b7840155088485",
+      "replay_sha256": "cc271bb478c415b2dbc0ee1681a0d92df4e2bf76ec39eded64b7840155088485"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_summary.json",
+      "original_sha256": "f3be1a7e588e91703d2931734e7225d8d71fdf7fe90170acb41a6eeda48a9252",
+      "replay_sha256": "f3be1a7e588e91703d2931734e7225d8d71fdf7fe90170acb41a6eeda48a9252"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_thermal_potential.csv",
+      "original_sha256": "d238b30bb0ba0415455647e6cdc5aed2be89e952b36b73758570a1008f726bfb",
+      "replay_sha256": "d238b30bb0ba0415455647e6cdc5aed2be89e952b36b73758570a1008f726bfb"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_uniform_propagator_audit.csv",
+      "original_sha256": "19f8bb71de587daec7e1b063dfad282610f5c878d7c1445322266357a828b5a9",
+      "replay_sha256": "19f8bb71de587daec7e1b063dfad282610f5c878d7c1445322266357a828b5a9"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_unwanted_site_action_gaps.csv",
+      "original_sha256": "9b52ee7e7d0a9c52643255027dd1272e79de4a7bb191cfc0a8e48ff2bd286b59",
+      "replay_sha256": "9b52ee7e7d0a9c52643255027dd1272e79de4a7bb191cfc0a8e48ff2bd286b59"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_wall_bias.csv",
+      "original_sha256": "56d8015e05ebdab9275451ec240511a374a664ea01c4f4b4e8370c9cc0e0acb9",
+      "replay_sha256": "56d8015e05ebdab9275451ec240511a374a664ea01c4f4b4e8370c9cc0e0acb9"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_wilson_benchmark.csv",
+      "original_sha256": "b343472a4a0be6497132d24d808fbaf6acc4e15132ee576cfaf8961bf4a8bcc4",
+      "replay_sha256": "b343472a4a0be6497132d24d808fbaf6acc4e15132ee576cfaf8961bf4a8bcc4"
+    },
+    {
+      "byte_identical": false,
+      "classification": "renderer-dependent figure",
+      "file": "v1.23_wilson_harmonic_purity.png",
+      "original_sha256": "692e609f81c78393166576dd4e8ab86d2af2f5743c445e8ebf0a240db6873242",
+      "replay_sha256": "900c31d7ff7e56d2727e8a4071b114c484203d10abf5098bc160cf5c073faec8"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_wilson_hessian.csv",
+      "original_sha256": "54beed741d6b173b28d9184cfcd1683f199771b89651527521e554b117ce5c42",
+      "replay_sha256": "54beed741d6b173b28d9184cfcd1683f199771b89651527521e554b117ce5c42"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_wilson_hybrid_lock.csv",
+      "original_sha256": "b8c0b5cba7464752bc04cdb1bcc7bf47ca070aab534095bb14734361e35c8b07",
+      "replay_sha256": "b8c0b5cba7464752bc04cdb1bcc7bf47ca070aab534095bb14734361e35c8b07"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_wilson_instanton_cosmology_audit.py",
+      "original_sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c",
+      "replay_sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c"
+    },
+    {
+      "byte_identical": true,
+      "classification": "scientific output or unchanged source",
+      "file": "v1.23_wilson_instanton_cosmology_audit_note.md",
+      "original_sha256": "49ed915a9b33269105fb4ccc50c43f8eb90afdb404c043cf0c0a33ab72904ae4",
+      "replay_sha256": "49ed915a9b33269105fb4ccc50c43f8eb90afdb404c043cf0c0a33ab72904ae4"
+    }
+  ],
+  "limitations": [
+    "Parent archive integrity was checked; parent script calculations were not independently rerun by this audit.",
+    "v1.23 freezes parent benchmark constants; its script verifies parent bytes rather than reading every constant dynamically from the parent.",
+    "Original rendering environment was not archived. Figure files differ in this environment, so no cross-environment byte-identical ZIP claim is made.",
+    "Matching output reproduces the stated calculation and does not establish the assumptions, a UV completion, successful baryogenesis, or a theory of everything.",
+    "The AM123_PHONE archive includes the complete archive's ledger, which lists files absent from the phone subset. That ledger is a complete-bundle reference, not a self-contained phone-subset ledger."
+  ],
+  "numerical_tolerance": "None needed: all CSV scientific outputs and JSON are byte-for-byte identical.",
+  "original": {
+    "archive": "AM123_COMPLETE_original.zip",
+    "expected_archive_hash_pass": true,
+    "expected_sha256": "2014b0a707f7dcb2272ab6c0b47cce6893501db08fe61daa9327e8f60179bc5d",
+    "ledger_entries": 31,
+    "ledger_passed": 31,
+    "sha256": "2014b0a707f7dcb2272ab6c0b47cce6893501db08fe61daa9327e8f60179bc5d",
+    "zip_crc_pass": true
+  },
+  "original_generator_modified": false,
+  "parent": {
+    "archive": "AM122_COMPLETE.zip",
+    "expected_archive_hash_pass": true,
+    "expected_sha256": "44e5e29bb345e3da82d1dbddcc662b1e6c852f99bf951a3a6f5038da4bb8b807",
+    "ledger_entries": 31,
+    "ledger_passed": 31,
+    "sha256": "44e5e29bb345e3da82d1dbddcc662b1e6c852f99bf951a3a6f5038da4bb8b807",
+    "zip_crc_pass": true
+  },
+  "passed": true,
+  "replay": {
+    "archive": "AM123_COMPLETE.zip",
+    "ledger_entries": 31,
+    "ledger_passed": 31,
+    "sha256": "b82cacbdc6deac10fb4d36b6c76dbb1bdb846c5e2aebc97f5f55cd71e1fd8030",
+    "zip_crc_pass": true
+  },
+  "scientific_csv_count": 21,
+  "scientific_csv_exact_count": 21,
+  "scope": "v1.23 numerical replay and archive integrity; no independent parent calculation replay or physical validation",
+  "unexpected_differences": []
+}
