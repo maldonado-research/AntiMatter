@@ -1,0 +1,29 @@
+gate_id,status,decision
+PARENT-01,PASS,v1.22 complete archive and internal ledger verified
+SOURCE-NORMALIZATION-01,PASS_CORRECTION,A_local is potential height; A_local/3^30 is projected force normalization
+GAUGED-NONLOCAL-CHARACTER-01,FAIL_THEOREM,"compact invariant character is m(3^30,...,1) and has ultra-short period"
+UNIFORM-PROPAGATION-01,FAIL,desired full-chain suppression violates two-edge shortcut budget
+GLOBAL-ENDPOINT-INSTANTON-01,CONDITIONAL_PASS_EFT,"global scalar branch only; hidden dynamics, radial map, thermal history, and R-soft alignment open"
+INSTANTON-NDA-01,CONDITIONAL_PASS,M=4pi Lambda gives S=10.7601 and passes dilute harmonic gate
+WILSON-PERIOD-01,PASS_EXACT,standalone 31-holonomy clockwork reproduces F_eff
+WILSON-GAUGE-01,PASS_STANDALONE,closed Wilson loops are gauge invariant
+WILSON-HARMONIC-01,PASS_BENCHMARK,x_E=4.25 keeps endpoint harmonics within the inherited continuity-design budget
+WILSON-HESSIAN-01,PASS_BENCHMARK,one light direction and positive heavy spectrum
+WILSON-HYBRID-LOCK-01,FAIL_GAUGE_TOPOLOGY,one cannot make both lock and source invariant with only the proposed phases
+WILSON-MESSENGER-PORT-01,OPEN_NOT_INHERITED,"17+0 messenger, Sigma repair, and P/Y texture are absent from replacement"
+WILSON-RADION-KINETIC-01,OPEN,"radion, kinetic mixing, orbifold/parity anomalies, and SUSY breaking uncompleted"
+TAU-MAP-01,PASS_LEAST_COST_SITE0,tau1=theta0/(2pi) is the unique least-cost map
+TAU-ENDPOINT-01,PRACTICALLY_EXCLUDED_FIXED_BENCHMARK,endpoint mapping costs 3^60; not a mathematical no-go if an enormous new driver/winding is allowed
+WE-ENERGY-16-01,FAIL_BENCHMARK_WITHOUT_DRIVER_INJECTION,one source-height budget supplies only 1/9.3546 of n=16 kinetic requirement
+WE-WINDING-01,CONDITIONAL,single-height energy budget requires n_det>=49 at unit exact-K_B efficiencies
+WE-BACKREACTION-01,FAIL_AT_16,kinetic energy is 54.9 percent of radiation
+AUTONOMOUS-DRIVE-01,OPEN,"A(t), phase, reservoir, shutdown, and energy dump not derived"
+SOURCE-MISALIGN-01,FAIL_GENERIC_INITIAL_CONDITIONS_GLOBAL_BRANCH,inherited/global constant source needs theta_i about 5e-5 or tracking/decay/dilution
+THERMAL-POTENTIAL-01,FAIL_INCOMPLETE,phase-only pins are undefined at field origin
+Y-WALL-01,FAIL_IF_POSTINFLATION_FORMATION,three degenerate vacua without compatible bias
+X-WALL-01,FAIL_IF_DYNAMIC_AND_UNBIASED,twelve degenerate vacua without compatible bias
+SIGMA-RELIC-01,FAIL_IF_RELATIVISTIC_FULL_MULTIPLET_POPULATION,illustrative degenerate stable-odd chiral population overproduced by about 1e7
+R-SOFT-ALIGNMENT-01,OPEN,source/instanton coefficient still needs aligned R=-2 breaking
+ANOMALY-NONLINEAR-GS-01,OPEN,"nonlinear discrete, hidden mixed, and GS completion not closed"
+BARYOGENESIS-01,NO_CLAIM,full CP invariant and coupled transport/energy evolution absent
+PUBLICATION-01,HOLD,conditional new models plus severe dynamical/cosmological gates remain

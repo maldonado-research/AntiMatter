@@ -1,0 +1,10 @@
+quantity,value,unit,status
+m_Sigma,0.654092165542,GeV,unit lambda benchmark
+maximum all-DM yield,6.690750700636e-10,n/s,upper bound
+illustrative relativistic degenerate full-chiral yield,0.0091034961912,n/s,FAIL_IF_ALL_FOUR_DEGREES_ARE_POPULATED
+relativistic Omega h2,1.632730902438e+06,dimensionless,FAIL
+yield overproduction factor,1.360609085365e+07,ratio,FAIL
+effective hidden coupling 2 eta,0.118922383549,dimensionless,lambda_Sigma=1
+rough broken-phase Gamma/H at 185 GeV,2.164721486749e+12,ratio,only if zero-temperature Y VEV persists and channels are open; thermal phase unknown
+optimistic no-repopulation equilibrium x=m/T,19.8551387349,dimensionless,diagnostic only
+optimistic same-bath no-repopulation temperature ceiling,0.0329432180895,GeV,requires zero initial/inflaton production; cold/sequestered hidden bath can evade

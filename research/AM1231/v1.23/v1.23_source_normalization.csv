@@ -1,0 +1,8 @@
+quantity,value,unit,meaning
+physical local/endpoint potential height A,6.201160965236e+08,GeV^4,height required for the inherited long-period force
+A^(1/4),157.804088544,GeV,local source energy scale
+projected force normalization D=A/3^30,3.011864038119e-06,GeV^4,not the physical potential height
+D^(1/4),0.041659,GeV,41.659 MeV drive scale
+F_alpha,250,GeV,local/site-0 canonical scale
+F_eff=3^30 F_alpha,5.147278302366e+16,GeV,desired endpoint period
+primitive invariant period,1.079319055471e-12,GeV,compact invariant character has ultra-short period

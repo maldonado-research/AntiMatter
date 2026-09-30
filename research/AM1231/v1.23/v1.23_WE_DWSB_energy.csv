@@ -1,0 +1,13 @@
+quantity,value,unit,status
+K_B exact,1.020689,dimensionless,frozen input
+u required at n=16 kappa_dyn=1,0.520665704197,dimensionless,derived
+rho_kin/rho_rad at n=16,0.549047322678,dimensionless,FAIL_RD_SELF_CONSISTENCY
+u maximum from one conservative source-height budget,0.170233821346,dimensionless,autonomous moving driver could inject additional work
+A required/A available without driver work,9.35462209607,ratio,FAIL_N16_WITHOUT_DRIVER_INJECTION
+missing injection at n=16 under single-height budget,5.180835642147e+09,GeV^4,OPEN_DRIVER
+minimum integer n_det from single-height energy,49,count,CONDITIONAL_NEW_OPERATOR_OR_DRIVER
+minimum integer n_det for <1% backreaction,119,count,CONDITIONAL_NEW_OPERATOR
+endpoint rho_kin/rho_rad,2.327475195623e+28,dimensionless,PRACTICALLY_EXCLUDED_FIXED_BENCHMARK
+endpoint u maximum,8.268147326875e-16,dimensionless,PRACTICALLY_EXCLUDED_FIXED_BENCHMARK
+endpoint continuous n_det minimum,1.007559606501e+16,count,could be altered only by enormous winding or autonomous work
+rounded-K_B u,0.525415357002,dimensionless,legacy comparison

@@ -1,0 +1,5 @@
+harmonic_n,minimum_action_gap_equal_prefactors,criterion
+2,6.2676671659,per-contaminant bound S_n-S_1 > ln(n/b_remaining); combined force sum must still stay below b_remaining
+3,6.673132274,per-contaminant bound S_n-S_1 > ln(n/b_remaining); combined force sum must still stay below b_remaining
+4,6.96081434646,per-contaminant bound S_n-S_1 > ln(n/b_remaining); combined force sum must still stay below b_remaining
+5,7.18395789777,per-contaminant bound S_n-S_1 > ln(n/b_remaining); combined force sum must still stay below b_remaining

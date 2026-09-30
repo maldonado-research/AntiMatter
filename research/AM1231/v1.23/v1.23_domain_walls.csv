@@ -1,0 +1,5 @@
+sector,R_charge,unbroken_subgroup,N_DW,f_GeV,phase_mass_GeV,rigid_radius_wall_tension_estimate_GeV3,scaling_domination_temperature_estimate_GeV,status
+Y pin,8,Z8^R,3,15.5568024109,2087.10537155,448985.716186,3.182050178999e-07,FAIL_IF_POSTINFLATION_FORMATION
+diagnostic dynamical X pin,2,Z2^R,12,138.507349053,2965.18562233,3.160276014232e+06,8.442153976956e-07,FAIL_IF_DYNAMIC_AND_UNBIASED
+Sigma,17,no breaking at zero VEV,0,,,,,NO_NEW_WALL
+combined separate Y and X pins,8 and 2,Z2^R,12 per exact R orbit; 36 separate-pin minima,,,,,ACCIDENTAL_THREE_ORBIT_DEGENERACY_UNLESS_CROSS_COUPLING_LIFTS

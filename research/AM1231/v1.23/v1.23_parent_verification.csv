@@ -1,0 +1,4 @@
+check,observed,expected,status
+AM122_COMPLETE archive SHA-256,44e5e29bb345e3da82d1dbddcc662b1e6c852f99bf951a3a6f5038da4bb8b807,44e5e29bb345e3da82d1dbddcc662b1e6c852f99bf951a3a6f5038da4bb8b807,PASS
+ZIP CRC/integrity,no bad member,no bad member,PASS
+internal SHA ledger,31/31 pass,all listed members pass,PASS

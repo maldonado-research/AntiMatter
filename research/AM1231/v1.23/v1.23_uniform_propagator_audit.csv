@@ -1,0 +1,5 @@
+scenario,full_action,per_edge_Mgap_a,two_edge_coefficient,result,reason
+fit correctly normalized physical A_local with uniform propagator,0.636006029382,0.0212002009794,0.958485924088,FAIL_STRONGER,two-edge coefficient exceeds 0.0037933 by 252.679x
+fit projected D with uniform propagator (conservative weaker no-go),33.5943746894,1.11981248965,0.10649843601,FAIL,two-edge coefficient exceeds 0.0037933 by 28.075x
+impose inherited two-edge locality gap; compare with projected D,83.61779978,2.78725999267,0.0037932959829,FAIL_AMPLITUDE,max full-chain height 5.674634e-28 GeV^4 undershoots D by 5.308e+21
+impose inherited two-edge locality gap; compare with physical A_local,83.61779978,2.78725999267,0.0037932959829,FAIL_AMPLITUDE_STRONGER,max full-chain height 5.674634e-28 GeV^4 undershoots A_local by 1.093e+36

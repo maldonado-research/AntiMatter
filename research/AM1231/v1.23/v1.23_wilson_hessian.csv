@@ -1,0 +1,4 @@
+configuration,light_mode_eV,heavy_min_GeV,heavy_max_GeV,status
+source off,0.0,213.726844566,425.408442528,one exact zero mode
+source minimum,0.000457592467423,213.753471463,425.414883581,PASS_BENCHMARK
+source maximum,0.000515087692264,213.657853979,425.404512217,one intended tachyon; heavy modes positive

@@ -1,0 +1,5 @@
+quantity,value,unit,status
+Y pin energy scale proxy,104.03314516,GeV,not a critical temperature
+naive analytic cubic coefficient A3,43998.807333,GeV,FAIL_RADIAL_NATURALNESS
+A3/Lambda,237.831390989,dimensionless,about 238; nonperturbative/unnatural and shifts the frozen radial stationary point without further terms
+critical/restoration temperature,undetermined,,FAIL_INCOMPLETE_THERMAL_POTENTIAL

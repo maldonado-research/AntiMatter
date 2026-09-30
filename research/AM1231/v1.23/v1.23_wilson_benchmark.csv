@@ -1,0 +1,31 @@
+quantity,value,unit,status
+sites/holonomies,31,count,chosen
+site Wilson scale,235.702260396,GeV,derived
+F_alpha,250,GeV,exact target
+F_eff,5.147278302366e+16,GeV,PASS_EXACT
+endpoint real degrees,8,count,four charged complex scalars or same net SUSY-broken determinant
+link real degrees per edge,4,count,two charged complex scalars or same net SUSY-broken determinant
+endpoint winding action x_E,4.25,dimensionless,PASS_HARMONIC
+link winding action x_L,3.13947506426,dimensionless,amplitude matched
+R inverse,1773.30779593,GeV,derived
+g4,1.19740345669,dimensionless,moderately coupled
+endpoint particle mass,1199.48048072,GeV,below R inverse
+link particle mass,886.056249245,GeV,below R inverse
+endpoint force harmonics,0.00267167435368,relative force,PASS
+inherited continuity stress target plus Wilson harmonics,0.00887837837078,relative force,PASS_LT_1PCT_IF_PARENT_PROFILE_IS_PORTED
+remaining continuity-design force budget,0.00112162162922,relative force,tight; parent profile not yet inherited
+tightened r_hop,0.0334906200185,dimensionless,conditional
+tightened M_gap a,3.39648987881,dimensionless,conditional
+conservative C_eff=11 NDA loop proxy,0.0998743514557,dimensionless,WATCH_NEAR_0P1_CONVENTION_DEPENDENT
+exact scalar beta loop proxy b=22/3,0.0665829009705,dimensionless,moderately coupled
+adjacent kinetic-mixing leading-log estimate,0.0492104854701,dimensionless,must include full kinetic matrix next
+5D NDA cutoff diagnostic C_eff=11,13316.5405088,GeV,conditional; only about 7.5 KK levels
+NDA cutoff times R,7.50943549639,dimensionless,moderate separation not parametric
+5D Planck scale diagnostic,1.187227812528e+13,GeV,diagnostic
+all-harmonic absolute dV/dlnR,1.133284676756e+11,GeV^4,radion source estimate
+radion mass for <1pct displacement,1.12882056606,meV,canonical f_rho=sqrt(3/2) Mpl estimate
+all-harmonic radion barrier scale proxy,372.69891054,GeV,OPEN_STABILIZATION
+charge-basis determinant,1,integer,unimodular basis
+diagonal-metric WGC sigma_min(Z),10.7697128439,dimensionless,conditional electric diagnostic
+WGC support lower bound sigma_min/sqrt31,1.93429752807,dimensionless,passes unit and sqrt2 diagnostic thresholds
+S_E F_eff/Mpl,0.0898395596922,dimensionless,passes mild conjectural check only

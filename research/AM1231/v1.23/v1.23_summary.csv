@@ -1,0 +1,54 @@
+quantity,value
+version,v1.23
+title,"Wilson-line, nonlocal-instanton, baryogenesis-energy, and cosmology audit"
+parent_sha256_expected,44e5e29bb345e3da82d1dbddcc662b1e6c852f99bf951a3a6f5038da4bb8b807
+q,3
+N,30
+q_to_N,205891132094649
+primitive_invariant_degree,308836698141973
+desired_endpoint_period_GeV,5.147278302366e+16
+primitive_invariant_period_GeV,1.079319055471e-12
+period_ratio,4.769005305962e+28
+physical_source_height_GeV4,6.201160965236e+08
+projected_force_normalization_GeV4,3.011864038119e-06
+remaining_parent_force_budget,0.0037932959829
+instanton_dilute_tower_action_gate,6.27050720354
+uniform_physical_full_action,0.636006029382
+uniform_physical_per_edge_action,0.0212002009794
+uniform_physical_two_edge_coefficient,0.958485924088
+wilson_f_site_GeV,235.702260396
+wilson_x_endpoint,4.25
+wilson_x_link,3.13947506426
+wilson_R_inverse_GeV,1773.30779593
+wilson_g4,1.19740345669
+wilson_endpoint_mass_GeV,1199.48048072
+wilson_link_mass_GeV,886.056249245
+wilson_force_harmonics,0.00267167435368
+continuity_design_parent_plus_wilson_stress,0.00887837837078
+wilson_heavy_gap_GeV,213.753471463
+wilson_light_mass_eV,0.000457592467423
+wilson_scalar_beta_loop_proxy,0.0665829009705
+wilson_adjacent_mixing_estimate,0.0492104854701
+wilson_radion_mass_1pct_meV,1.12882056606
+wilson_radion_barrier_proxy_GeV,372.69891054
+wilson_WGC_sigma_min_diagonal_metric,10.7697128439
+WE_u_required_exact_KB,0.520665704197
+WE_kinetic_over_radiation_n16,0.549047322678
+WE_A_required_over_A,9.35462209607
+WE_minimum_n_energy,49
+WE_minimum_n_1pct_backreaction,119
+misalignment_Omega_h2_coefficient,4.572747793320e+07
+misalignment_theta_max,5.12273627722e-05
+misalignment_relaxed_curvature_height_GeV4,5.695355553047e+08
+Y_wall_N,3
+X_wall_N,12
+Sigma_yield_max,6.690750700636e-10
+Sigma_full_chiral_relativistic_overproduction_diagnostic,1.360609085365e+07
+best_continuity_branch,"global scalar moose plus endpoint hidden topological sector, conditional EFT"
+best_gauge_invariant_new_model,"standalone 31-holonomy Wilson clockwork, conditional replacement"
+recommended_next,"derive an autonomous site-0 source pulse and analytic thermal potential, then solve coupled phase-Friedmann-sphaleron-odd-relic Boltzmann dynamics; in parallel port messenger/anomaly structure to the Wilson replacement"
+baryogenesis_claim,NO_CLAIM
+publication_decision,HOLD
+parent_sha256_observed,44e5e29bb345e3da82d1dbddcc662b1e6c852f99bf951a3a6f5038da4bb8b807
+parent_internal_hashes_passed,31
+parent_internal_hashes_total,31

@@ -1,0 +1,5 @@
+desired_height,prefactor,prefactor_GeV,action_S,diagnostic_g_sqrt_8pi2_over_S,dilute_tower_force_ratio,purity_status,interpretation
+projected D (too weak for long-period force),Lambda,185,33.5943746894,1.53306858842,5.142549077684e-15,PASS,conditional; determinant/running not computed
+projected D (too weak for long-period force),4pi Lambda,2324.77856366,43.7184716773,1.34388584787,2.062238967787e-19,PASS,conditional; determinant/running not computed
+required A_local,Lambda,185,0.636006029382,11.1420281097,3.51544961528,FAIL,conditional; determinant/running not computed
+required A_local,4pi Lambda,2324.77856366,10.7601030173,2.70886056918,4.24610237288e-05,PASS,conditional; determinant/running not computed

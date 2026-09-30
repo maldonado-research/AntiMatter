@@ -1,0 +1,6 @@
+quantity,value,unit,status
+constant-source oscillation temperature,331.682846025,GeV,standard-RD estimate for inherited/global scalar branch
+Omega_a h2 coefficient,4.572747793320e+07,times theta_i^2,FAIL_GENERIC_INITIAL_CONDITIONS_INHERITED_GLOBAL_BRANCH
+theta_i maximum for Omega h2<=0.12,5.12273627722e-05,radian,tuned unless tracking/decay/dilution/transient source
+effective relaxed harmonic curvature m_a^2 F_eff^2,5.695355553047e+08,GeV^4,0.918434 times underlying A; used in estimate
+underlying written potential height A,6.201160965236e+08,GeV^4,normalization corrected; not directly substituted for relaxed curvature

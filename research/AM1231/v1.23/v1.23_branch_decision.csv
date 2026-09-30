@@ -1,0 +1,6 @@
+branch,gauge_invariance,long_period,messenger_anomaly_inheritance,cosmology,decision
+original gauged scalar moose + nonlocal electric source,FAIL_THEOREM,FAIL,yes before failed source,not reached,REJECT
+uniform full-chain propagator,not sufficient,not sufficient,conditional,not reached,REJECT_SHORTCUT_CONFLICT
+global scalar moose + endpoint hidden instanton,global branch only,PASS_KINEMATIC,conditional v1.22,severe open gates,CONDITIONAL_EFT_BEST_CONTINUITY
+standalone 31-holonomy Wilson clockwork,PASS_STANDALONE,PASS_EXACT,NOT_INHERITED,severe open gates,CONDITIONAL_NEW_MODEL
+two-field Wilson hybrid lock,FAIL_GAUGE_TOPOLOGY,PASS_KINEMATIC_ONLY,no,not reached,REJECT

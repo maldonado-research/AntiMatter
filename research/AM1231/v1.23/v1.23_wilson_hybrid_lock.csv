@@ -1,0 +1,6 @@
+quantity,value,unit,status
+B lock height,4.798169784749e+10,GeV^4,source-off gap only
+B^(1/4),468.024839365,GeV,source-off gap only
+B through source maximum,4.860181394401e+10,GeV^4,keeps lock gap at least inherited heavy maximum
+B^(1/4) through source maximum,469.529755096,GeV,kinematically sufficient before topology test
+gauge topology,closed w makes lock noninvariant; shifting w makes cos(w) noninvariant,,FAIL_GAUGE_TOPOLOGY
