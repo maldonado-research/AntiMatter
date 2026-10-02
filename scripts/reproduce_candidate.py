@@ -11,25 +11,11 @@ import subprocess
 import sys
 import tempfile
 
+from reproduction_policy import compare_artifact
+
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
-
-
-def json_differences(before, after, path=''):
-    if type(before) is not type(after):
-        return [{'path': path, 'expected': before, 'observed': after}]
-    if isinstance(before, dict):
-        result = []
-        for key in sorted(before.keys() | after.keys()):
-            result += json_differences(before.get(key), after.get(key), path + '/' + key)
-        return result
-    if isinstance(before, list):
-        if len(before) != len(after):
-            return [{'path': path, 'expected_length': len(before), 'observed_length': len(after)}]
-        return [item for i, pair in enumerate(zip(before, after))
-                for item in json_differences(*pair, path + '/' + str(i))]
-    return [] if before == after else [{'path': path, 'expected': before, 'observed': after}]
 
 
 def check_ledger(root, expected_count):
@@ -114,27 +100,14 @@ def main():
         }.items():
             for name in names:
                 relative = f'{folder}/{name}'
-                equal = (candidate / relative).read_bytes() == (copy / relative).read_bytes()
-                report['producer_byte_identical'][relative] = equal
-                content_equal = equal
-                ignored = []
-                if not equal and name == 'results.json':
-                    before = json.loads((candidate / relative).read_text())
-                    after = json.loads((copy / relative).read_text())
-                    # The interpreter's installation path is provenance, not a
-                    # numerical output. Keep all versions, inputs, hashes,
-                    # controls and scientific values exact.
-                    for document in [before, after]:
-                        if 'python_executable' in document.get('runtime', {}):
-                            document['runtime']['python_executable'] = '<interpreter path>'
-                    ignored = ['runtime.python_executable']
-                    content_equal = (json.dumps(before, sort_keys=True) ==
-                                     json.dumps(after, sort_keys=True))
-                report['producer_content_checks'][relative] = {
-                    'passed': content_equal, 'ignored_metadata_fields': ignored,
-                }
-                if not content_equal:
-                    detail = json.dumps(json_differences(before, after)[:8]) if name == 'results.json' else ''
+                comparison = compare_artifact(relative, candidate / relative, copy / relative)
+                report['producer_byte_identical'][relative] = comparison['byte_identical']
+                report['producer_content_checks'][relative] = comparison
+                if not comparison['passed']:
+                    rejected = comparison['scientific_or_unapproved_differences']
+                    patterns = sorted({item['path'] for item in rejected})
+                    detail = json.dumps({'rejected_paths': patterns,
+                                         'first_differences': rejected[:8]})
                     raise RuntimeError(f'Producer output changed: {relative}\n{detail}')
         for name, relative in {
             'wilson_comparison': 'wilson-metric-independent/comparison-results.json',

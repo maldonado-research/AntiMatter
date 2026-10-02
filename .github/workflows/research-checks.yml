@@ -6,6 +6,7 @@ on:
     paths:
       - research/**
       - scripts/reproduce_candidate.py
+      - scripts/reproduction_policy.py
       - .github/workflows/research-checks.yml
   schedule:
     - cron: '17 */4 * * *'
