@@ -1,0 +1,51 @@
+{
+  "completed_at_utc": "2026-10-02T05:12:04.608750+00:00",
+  "producer_controls": {
+    "command": "python -m unittest -v test_transport",
+    "executed": 9,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "exit_code": 0
+  },
+  "numerical_result_command": "python run_round.py",
+  "numerical_result_exit_code": 0,
+  "registration_preserved": true,
+  "baseline_inputs": [
+    {
+      "path": "/workspace/AntiMatter/research/AM1232_CANDIDATE_20261001/NEXT_TESTS.md",
+      "sha256_before": "e0d6a119c508473744b3e1ced6ecf6caa9ff3741ef7bf1c1e46eefe74184b258",
+      "sha256_after": "e0d6a119c508473744b3e1ced6ecf6caa9ff3741ef7bf1c1e46eefe74184b258",
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/AntiMatter/research/AM1232_CANDIDATE_20261001/CLAIM_REVIEW.md",
+      "sha256_before": "20d676fe421d06d0c8e3f114026e3285cf3feec917370aa755701c26975a3d2f",
+      "sha256_after": "20d676fe421d06d0c8e3f114026e3285cf3feec917370aa755701c26975a3d2f",
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/AntiMatter/research/AM1232_CANDIDATE_20261001/literature/LITERATURE_REVIEW_20261001.md",
+      "sha256_before": "38c798e64a376933b5187a8153eb6d74ae63cdae5d01c010ed4aff7288b086f2",
+      "sha256_after": "38c798e64a376933b5187a8153eb6d74ae63cdae5d01c010ed4aff7288b086f2",
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/AntiMatter/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py",
+      "sha256_before": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c",
+      "sha256_after": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c",
+      "unchanged": true
+    }
+  ],
+  "repository_files_edited_by_this_round": false,
+  "published_by_this_round": false,
+  "producer_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "source": "results.json original executed producer run"
+  },
+  "pinned_environment_rerun": {
+    "numpy": "2.5.2",
+    "status": "not asserted by original producer receipt; parent owns repeat environment validation"
+  }
+}

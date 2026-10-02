@@ -11,13 +11,14 @@
   "protocol": "docs/research-routine/ROUND_PROTOCOL.md",
   "official_release": "v1.23.1",
   "current_candidate": "research/AM1232_CANDIDATE_20261001",
-  "latest_completed_round": null,
+  "latest_completed_round": "research/rounds/2026-10-01_transport_gate",
   "queue": [
     {
       "priority": 1,
       "question": "Derive a susceptibility-weighted reaction-network response and test conserved-charge, sign-reversal and washout controls",
-      "status": "in_progress_in_current_session",
-      "scientific_scope": "General illustrative transport diagnostic; candidate operator and rates remain unspecified"
+      "status": "completed_diagnostic",
+      "scientific_scope": "General illustrative transport diagnostic; candidate operator and rates remain unspecified",
+      "evidence": "research/rounds/2026-10-01_transport_gate/README.md"
     },
     {
       "priority": 2,
@@ -44,7 +45,8 @@
     "path": ".github/workflows/research-checks.yml",
     "cron_utc": "17 */4 * * *",
     "status": "prepared_not_activated_default_branch_merge_required",
-    "ai_research": false
+    "ai_research": false,
+    "hosted_validation_status": "in_progress_after_portability_fix"
   },
   "publication": {
     "research_pr": "https://github.com/maldonado-research/AntiMatter/pull/1",

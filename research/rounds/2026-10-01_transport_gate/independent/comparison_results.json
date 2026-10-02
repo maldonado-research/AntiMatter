@@ -1,0 +1,129 @@
+{
+  "all_passed": true,
+  "all_numerical_comparisons_passed": true,
+  "all_provenance_checks_passed": true,
+  "validation_errors": [],
+  "comparisons": [
+    {
+      "name": "compatible stationary",
+      "max_absolute_error": 3.469446951953614e-18,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "positive interval",
+      "max_absolute_error": 8.673617379884035e-18,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "signed interval",
+      "max_absolute_error": 1.6479873021779667e-17,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "shutdown",
+      "max_absolute_error": 1.6479873021779667e-17,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "washout",
+      "max_absolute_error": 1.0396862283587552e-18,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "equal cycle stationary",
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "equal cycle current",
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "unequal cycle stationary",
+      "max_absolute_error": 1.0842021724855044e-18,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "unequal cycle current",
+      "max_absolute_error": 3.469446951953614e-18,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "nonzero relaxation eigenvalues",
+      "max_absolute_error": 4.440892098500626e-16,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "complete signed trajectory",
+      "max_absolute_error": 1.6479873021779667e-17,
+      "absolute_tolerance": 2e-12,
+      "passed": true
+    }
+  ],
+  "maximum_numerical_discrepancy": 4.440892098500626e-16,
+  "trajectory_valid": true,
+  "required_trajectory_rows": 201,
+  "required_trajectory_columns": [
+    "tau",
+    "x_A",
+    "x_B",
+    "x_C",
+    "mu_A_over_T",
+    "mu_B_over_T",
+    "mu_C_over_T",
+    "conserved_charge"
+  ],
+  "provenance_scope": "current rerun checked against immutable original session snapshot; original receipt not modified",
+  "registration_unchanged": true,
+  "registration_sha256": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+  "original_registration_sha256": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+  "registration_receipt_unchanged": true,
+  "registration_receipt_sha256": "2bbd13f5465735b84968d92384b2633972300ad56d8c678eb1258764ff5a0bba",
+  "original_registration_receipt_sha256": "2bbd13f5465735b84968d92384b2633972300ad56d8c678eb1258764ff5a0bba",
+  "registered_inputs": [
+    {
+      "source_relative_path": "research/AM1232_CANDIDATE_20261001/NEXT_TESTS.md",
+      "expected_sha256": "e0d6a119c508473744b3e1ced6ecf6caa9ff3741ef7bf1c1e46eefe74184b258",
+      "actual_sha256": "e0d6a119c508473744b3e1ced6ecf6caa9ff3741ef7bf1c1e46eefe74184b258",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "source_relative_path": "research/AM1232_CANDIDATE_20261001/CLAIM_REVIEW.md",
+      "expected_sha256": "20d676fe421d06d0c8e3f114026e3285cf3feec917370aa755701c26975a3d2f",
+      "actual_sha256": "20d676fe421d06d0c8e3f114026e3285cf3feec917370aa755701c26975a3d2f",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "source_relative_path": "research/AM1232_CANDIDATE_20261001/literature/LITERATURE_REVIEW_20261001.md",
+      "expected_sha256": "38c798e64a376933b5187a8153eb6d74ae63cdae5d01c010ed4aff7288b086f2",
+      "actual_sha256": "38c798e64a376933b5187a8153eb6d74ae63cdae5d01c010ed4aff7288b086f2",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "source_relative_path": "research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py",
+      "expected_sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c",
+      "actual_sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c",
+      "exists": true,
+      "matches": true
+    }
+  ],
+  "audited_file_sha256": {
+    "transport.py": "cc38a4f5aa519ca9b41b0abdb110970dd9307c2ce357b28a4b8182f3b2e36e2b",
+    "results.json": "4f7bafe6d1a0633d5308967c0a98cd9842a7d02a3efc02cd3d115baaeb24cd86",
+    "signed_trajectory.csv": "cb6cbb01f737c24e90ab048d2d4a9c8babff635b7006869c0326cb4bdfc379b2"
+  }
+}

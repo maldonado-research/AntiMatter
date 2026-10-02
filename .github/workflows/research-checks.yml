@@ -42,6 +42,21 @@ jobs:
           XDG_CACHE_HOME: ${{ runner.temp }}/antimatter-cache
           MPLCONFIGDIR: ${{ runner.temp }}/antimatter-matplotlib
         run: python scripts/reproduce_candidate.py --output "$RUNNER_TEMP/antimatter-checks"
+      - name: Transport diagnostic controls
+        env:
+          PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
+        run: |
+          antimatter_repo_root="$PWD"
+          antimatter_transport_work=$(mktemp -d "$RUNNER_TEMP/antimatter-transport.XXXXXX")
+          cp -R research/rounds/2026-10-01_transport_gate "$antimatter_transport_work/round"
+          cd "$antimatter_transport_work/round"
+          {
+            sha256sum --check SHA256SUMS.txt
+            python -m unittest discover -s producer -p test_transport.py -v
+            (cd producer && python run_round.py)
+            python independent/independent_check.py --producer-dir "$PWD/producer"
+            python independent/compare_results.py --producer-dir "$PWD/producer" --repo-root "$antimatter_repo_root"
+          } > "$RUNNER_TEMP/antimatter-transport-check.log" 2>&1
       - name: Keep public verification receipts
         if: always()
         uses: actions/upload-artifact@v4
@@ -50,5 +65,6 @@ jobs:
           path: |
             ${{ runner.temp }}/antimatter-checks/receipt.json
             ${{ runner.temp }}/antimatter-checks/step-*.log
+            ${{ runner.temp }}/antimatter-transport-check.log
           if-no-files-found: warn
           retention-days: 14

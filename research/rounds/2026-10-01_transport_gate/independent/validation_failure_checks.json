@@ -1,0 +1,71 @@
+{
+  "all_passed": true,
+  "check_count": 7,
+  "scope": "publication-validation controls, not extra physical transport controls",
+  "checks": [
+    {
+      "case": "portable_context",
+      "passed": true,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "validation_errors": []
+    },
+    {
+      "case": "changed_registration",
+      "passed": true,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "validation_errors": [
+        "original registration document hash mismatch"
+      ]
+    },
+    {
+      "case": "changed_receipt",
+      "passed": true,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "validation_errors": [
+        "original registration receipt hash mismatch"
+      ]
+    },
+    {
+      "case": "missing_column",
+      "passed": true,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "validation_errors": [
+        "trajectory is missing required columns"
+      ]
+    },
+    {
+      "case": "missing_row",
+      "passed": true,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "validation_errors": [
+        "trajectory requires 201 rows, found 200"
+      ]
+    },
+    {
+      "case": "missing_context",
+      "passed": true,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "validation_errors": [
+        "required public input missing or hash mismatch: research/AM1232_CANDIDATE_20261001/NEXT_TESTS.md",
+        "required public input missing or hash mismatch: research/AM1232_CANDIDATE_20261001/CLAIM_REVIEW.md",
+        "required public input missing or hash mismatch: research/AM1232_CANDIDATE_20261001/literature/LITERATURE_REVIEW_20261001.md",
+        "required public input missing or hash mismatch: research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py"
+      ]
+    },
+    {
+      "case": "changed_context",
+      "passed": true,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "validation_errors": [
+        "required public input missing or hash mismatch: research/AM1232_CANDIDATE_20261001/NEXT_TESTS.md"
+      ]
+    }
+  ]
+}

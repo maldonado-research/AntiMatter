@@ -1,0 +1,30 @@
+{
+  "scope": "Pinned-environment safe-copy replay, separate from original run",
+  "status": "passed",
+  "python": "3.12.14",
+  "numpy": "2.5.2",
+  "scipy": "1.17.1",
+  "commands": [
+    {
+      "step": 1,
+      "exit_code": 0
+    },
+    {
+      "step": 2,
+      "exit_code": 0
+    },
+    {
+      "step": 3,
+      "exit_code": 0
+    },
+    {
+      "step": 4,
+      "exit_code": 0
+    }
+  ],
+  "producer_tests": 9,
+  "independent_controls": 71,
+  "comparisons": 11,
+  "maximum_numerical_discrepancy": 4.440892098500626e-16,
+  "public_context_hashes_pass": true
+}

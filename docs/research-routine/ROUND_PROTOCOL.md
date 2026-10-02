@@ -7,6 +7,11 @@ The Codex CLI was present and its non-interactive interface was inspected;
 a persistent external host, valid authentication and the requested model mapping
 have not been validated. No AI schedule is active.
 
+The first completed round is
+[`2026-10-01_transport_gate`](../../research/rounds/2026-10-01_transport_gate/README.md).
+It supplies conserved-charge and signed-response controls for an illustrative
+network. The physical candidate source and reaction content remain open.
+
 ## Each research round
 
 1. Read `routine.json`, the latest completed round and the current Git/PR state.
@@ -77,6 +82,10 @@ calculation evidence; private reference files never enter the artifact upload.
 Checksum failure, a failed calculation/comparison, changed producer output or a
 timeout is a failed run. Do not alter preserved outputs to make it pass. The
 first GitHub-hosted execution has not been verified merely by a local replay.
+The workflow also checks the completed transport round in its own temporary copy:
+nine producer tests, 71 independent controls, 11 comparisons and provenance checks.
+Its nine/71 checks and all 201 trajectory samples pass in the pinned local
+environment; GitHub-hosted outcome must be checked separately in job history.
 
 ## Durable round record
 

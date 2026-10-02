@@ -1,0 +1,177 @@
+{
+  "scope": "illustrative dimensionless diagnostic, not candidate baryon yield",
+  "run_at_utc": "2026-10-02T05:06:50.090676+00:00",
+  "registration_receipt": {
+    "registered_at_utc": "2026-10-02T05:04:24.228061+00:00",
+    "registration_sha256": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+    "inputs": [
+      {
+        "path": "/workspace/AntiMatter/research/AM1232_CANDIDATE_20261001/NEXT_TESTS.md",
+        "sha256": "e0d6a119c508473744b3e1ced6ecf6caa9ff3741ef7bf1c1e46eefe74184b258"
+      },
+      {
+        "path": "/workspace/AntiMatter/research/AM1232_CANDIDATE_20261001/CLAIM_REVIEW.md",
+        "sha256": "20d676fe421d06d0c8e3f114026e3285cf3feec917370aa755701c26975a3d2f"
+      },
+      {
+        "path": "/workspace/AntiMatter/research/AM1232_CANDIDATE_20261001/literature/LITERATURE_REVIEW_20261001.md",
+        "sha256": "38c798e64a376933b5187a8153eb6d74ae63cdae5d01c010ed4aff7288b086f2"
+      },
+      {
+        "path": "/workspace/AntiMatter/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py",
+        "sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c"
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "inputs": {
+    "S": [
+      [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -1.0
+      ]
+    ],
+    "C": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "amplitude": 0.01,
+    "rates": [
+      1,
+      1,
+      1
+    ],
+    "uneven_rates": [
+      1,
+      2,
+      4
+    ],
+    "source_vector_d": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "positive_relaxation_eigenvalues": [
+    1.2324081207560018,
+    2.434258545910665
+  ],
+  "conserved_charge_nullity": 1,
+  "compatible_bias": {
+    "compatible": true,
+    "residual_norm": 4.9065389333867974e-18,
+    "residual": [
+      -3.469446951953614e-18,
+      0.0,
+      3.469446951953614e-18
+    ]
+  },
+  "compatible_stationary_x": [
+    0.008333333333333331,
+    -0.0033333333333333322,
+    -0.004999999999999996
+  ],
+  "incompatible_cycle_bias": {
+    "compatible": false,
+    "residual_norm": 0.017320508075688773,
+    "residual": [
+      0.010000000000000005,
+      0.009999999999999997,
+      0.01
+    ]
+  },
+  "equal_rate_cycle_stationary_x": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "equal_rate_cycle_progress": [
+    0.01,
+    0.01,
+    0.01
+  ],
+  "uneven_rate_cycle_stationary_x": [
+    0.005238095238095237,
+    -0.003809523809523809,
+    -0.0014285714285714266
+  ],
+  "uneven_rate_cycle_progress": [
+    0.01714285714285714,
+    0.017142857142857144,
+    0.01714285714285715
+  ],
+  "positive_pulse_x_at_1": [
+    0.007554369824542495,
+    -0.0033611026840830085,
+    -0.004193267140459487
+  ],
+  "zero_bias_after_positive_x_at_2": [
+    0.000696552606923931,
+    -6.796734923379489e-05,
+    -0.000628585257690137
+  ],
+  "zero_integrated_signed_bias_x_at_2": [
+    -0.006857817217618563,
+    0.003293135334849214,
+    0.003564681882769349
+  ],
+  "sign_reversed_x_at_2": [
+    0.006857817217618563,
+    -0.003293135334849214,
+    -0.003564681882769349
+  ],
+  "freeze_at_2_x_at_22": [
+    -0.006857817217618563,
+    0.003293135334849214,
+    0.0035646818827693495
+  ],
+  "washout_x_at_22": [
+    -2.353566793374722e-15,
+    -1.5547098415059837e-14,
+    1.790130658585229e-14
+  ],
+  "washout_norm": 2.3826630547752883e-14,
+  "trajectory_max_abs_mu_over_T": 0.007554369824542495,
+  "trajectory_max_charge_drift": 2.168404344971009e-18,
+  "independent_rk4_convergence": [
+    {
+      "steps_per_segment": 32,
+      "error_norm": 1.1566520542148456e-09
+    },
+    {
+      "steps_per_segment": 64,
+      "error_norm": 7.003277837201252e-11
+    },
+    {
+      "steps_per_segment": 128,
+      "error_norm": 4.3081965686770655e-12
+    }
+  ]
+}

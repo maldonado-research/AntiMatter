@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "round_id": "2026-10-01_transport_gate",
+  "date_local": "2026-10-01",
+  "timezone": "America/Los_Angeles",
+  "status": "completed",
+  "scientific_status": "illustrative general diagnostic; microscopic Antimatter transport remains open",
+  "context_commit": "fadef6b67064eda06b3528a7a73ef959c205d8a2",
+  "predecessor": "research/AM1232_CANDIDATE_20261001",
+  "agent_delegation_settings": {
+    "producer_model": "gpt-6.1-sol",
+    "independent_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "scope": "Requested and configured through the session delegation tool; no claim that a prompt switches the root model"
+  },
+  "registration_sha256": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+  "public_context_hashes": [
+    {
+      "path": "research/AM1232_CANDIDATE_20261001/NEXT_TESTS.md",
+      "sha256": "e0d6a119c508473744b3e1ced6ecf6caa9ff3741ef7bf1c1e46eefe74184b258"
+    },
+    {
+      "path": "research/AM1232_CANDIDATE_20261001/CLAIM_REVIEW.md",
+      "sha256": "20d676fe421d06d0c8e3f114026e3285cf3feec917370aa755701c26975a3d2f"
+    },
+    {
+      "path": "research/AM1232_CANDIDATE_20261001/literature/LITERATURE_REVIEW_20261001.md",
+      "sha256": "38c798e64a376933b5187a8153eb6d74ae63cdae5d01c010ed4aff7288b086f2"
+    },
+    {
+      "path": "research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py",
+      "sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c"
+    }
+  ],
+  "validation": {
+    "producer_tests": 9,
+    "independent_controls": 71,
+    "numerical_comparisons": 11,
+    "trajectory_samples": 201,
+    "pinned_replay": "PINNED_REPLAY.json"
+  },
+  "next_question": "Construct one action-derived physical source, particle/reaction content and thermal source vector; no arbitrary response efficiency can replace this match",
+  "publication_state": "Prepared for existing GitHub draft PR; no merged release, site deployment or new DOI",
+  "privacy_scope": "Only fresh public-input comparator work; no private raw references or personal documents"
+}

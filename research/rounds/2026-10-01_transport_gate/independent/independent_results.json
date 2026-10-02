@@ -1,0 +1,561 @@
+{
+  "method": "Chemical-potential coordinates with scipy.linalg.expm augmented generator; constrained linear equilibrium and weighted least squares",
+  "producer_imports": false,
+  "input_source": "REGISTRATION.md only; producer implementation not read before independent implementation",
+  "registration_sha256": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "controls": [
+    {
+      "name": "stoichiometric conservation",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "cycle null vector",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "compatible bias cycle sum",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "conserved source gauge",
+      "passed": true,
+      "max_absolute_error": 5.204170427930421e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "conserved-current source bias",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal compatible stationary",
+      "passed": true,
+      "max_absolute_error": 8.673617379884035e-19,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal compatible flux",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal stationary relaxation",
+      "passed": true,
+      "max_absolute_error": 4.423544863740858e-17,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal compatible projection",
+      "passed": true,
+      "max_absolute_error": 1.734723475976807e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal whitened symmetric",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal charge zero mode",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal density zero mode",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal signed analytic history",
+      "passed": true,
+      "max_absolute_error": 2.6020852139652106e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal signed source zero area",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal reversal",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal shutdown",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal washout",
+      "passed": true,
+      "max_absolute_error": 1.790234627208065e-14,
+      "absolute_tolerance": 1e-10
+    },
+    {
+      "name": "equal signed conserved charge",
+      "passed": true,
+      "max_absolute_error": 8.673617379884035e-19,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal compatible stationary",
+      "passed": true,
+      "max_absolute_error": 1.734723475976807e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal compatible flux",
+      "passed": true,
+      "max_absolute_error": 6.938893903907228e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal stationary relaxation",
+      "passed": true,
+      "max_absolute_error": 2.203098814490545e-16,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal compatible projection",
+      "passed": true,
+      "max_absolute_error": 1.734723475976807e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal whitened symmetric",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal charge zero mode",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal density zero mode",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal signed analytic history",
+      "passed": true,
+      "max_absolute_error": 1.734723475976807e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal signed source zero area",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal reversal",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal shutdown",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal washout",
+      "passed": true,
+      "max_absolute_error": 6.505213034913027e-19,
+      "absolute_tolerance": 1e-10
+    },
+    {
+      "name": "unequal signed conserved charge",
+      "passed": true,
+      "max_absolute_error": 5.204170427930421e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal cycle stationary",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal cycle flux",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal cycle charge production",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal weighted bias projection",
+      "passed": true,
+      "max_absolute_error": 3.386616781216827e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal weighted residual orthogonality",
+      "passed": true,
+      "max_absolute_error": 6.938893903907228e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "equal steady work/dissipation",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal cycle stationary",
+      "passed": true,
+      "max_absolute_error": 8.673617379884035e-19,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal cycle flux",
+      "passed": true,
+      "max_absolute_error": 3.469446951953614e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal cycle charge production",
+      "passed": true,
+      "max_absolute_error": 3.469446951953614e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal weighted bias projection",
+      "passed": true,
+      "max_absolute_error": 4.336808689942018e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal weighted residual orthogonality",
+      "passed": true,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "unequal steady work/dissipation",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "nonzero-charge equilibrium",
+      "passed": true,
+      "max_absolute_error": 5.551115123125783e-17,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "nonzero-charge preservation",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "zero-bias quadratic free energy decreases",
+      "passed": true,
+      "max_increment": -1.2349384008458753e-08
+    },
+    {
+      "name": "work/entropy identity 0",
+      "passed": true,
+      "max_absolute_error": 5.421010862427522e-20,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "work/entropy identity 1",
+      "passed": true,
+      "max_absolute_error": 4.336808689942018e-19,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "work/entropy identity 2",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "work/entropy identity 3",
+      "passed": true,
+      "max_absolute_error": 6.938893903907228e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "work/entropy identity 4",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "work/entropy identity 5",
+      "passed": true,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "work/entropy identity 6",
+      "passed": true,
+      "max_absolute_error": 2.7755575615628914e-17,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "work/entropy identity 7",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "work/entropy identity 8",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "non-diagonal susceptibility stationary",
+      "passed": true,
+      "max_absolute_error": 3.469446951953614e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "non-diagonal susceptibility charge",
+      "passed": true,
+      "max_absolute_error": 8.673617379884035e-19,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active conserved dimension 1",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active charges 1",
+      "passed": true,
+      "max_absolute_error": 2.220446049250313e-16,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active stationary charges 1",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active stationary motion 1",
+      "passed": true,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active conserved dimension 2",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active charges 2",
+      "passed": true,
+      "max_absolute_error": 2.7755575615628914e-17,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active stationary charges 2",
+      "passed": true,
+      "max_absolute_error": 2.7755575615628914e-17,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active stationary motion 2",
+      "passed": true,
+      "max_absolute_error": 5.204170427930421e-18,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active conserved dimension 3",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active charges 3",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active stationary charges 3",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "active stationary motion 3",
+      "passed": true,
+      "max_absolute_error": 0.0,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "negative susceptibility rejected",
+      "passed": true
+    },
+    {
+      "name": "negative rate rejected",
+      "passed": true
+    }
+  ],
+  "control_count": 71,
+  "all_passed": true,
+  "cases": {
+    "equal": {
+      "stationary": [
+        0.008333333333333333,
+        -0.0033333333333333327,
+        -0.004999999999999999
+      ],
+      "x_at_1": [
+        0.007554369824542486,
+        -0.003361102684083003,
+        -0.004193267140459485
+      ],
+      "signed_x_at_2": [
+        -0.006857817217618547,
+        0.0032931353348492026,
+        0.0035646818827693434
+      ],
+      "signed_norm": 0.008401270990108685,
+      "washed_x_at_22": [
+        -2.3532608153797874e-15,
+        -1.5546591791704145e-14,
+        1.790234627208065e-14
+      ],
+      "washed_norm": 2.3827050905400872e-14,
+      "relaxation_eigenvalues": [
+        1.6653345369377348e-16,
+        1.2324081207560018,
+        2.4342585459106645
+      ]
+    },
+    "unequal": {
+      "stationary": [
+        0.008333333333333335,
+        -0.003333333333333333,
+        -0.004999999999999999
+      ],
+      "x_at_1": [
+        0.008259767649238253,
+        -0.0030430573072229403,
+        -0.005216710342015315
+      ],
+      "signed_x_at_2": [
+        -0.00819252161044208,
+        0.002783729548626621,
+        0.005408792061815464
+      ],
+      "signed_norm": 0.010203998829155923,
+      "washed_x_at_22": [
+        2.168404344971009e-19,
+        2.168404344971009e-19,
+        6.505213034913027e-19
+      ],
+      "washed_norm": 7.19178360604521e-19,
+      "relaxation_eigenvalues": [
+        -6.83481049534862e-16,
+        2.2344355629253623,
+        6.265564437074638
+      ]
+    },
+    "cycle_equal": {
+      "stationary": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flux": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "projected_bias": [
+        -3.2938861738499946e-18,
+        3.386616781216827e-18,
+        -9.273060736682989e-20
+      ],
+      "cycle_sum": 0.03,
+      "dissipation": 0.00030000000000000003
+    },
+    "cycle_unequal": {
+      "stationary": [
+        0.005238095238095238,
+        -0.003809523809523809,
+        -0.0014285714285714277
+      ],
+      "flux": [
+        0.017142857142857144,
+        0.017142857142857144,
+        0.017142857142857147
+      ],
+      "projected_bias": [
+        -0.007142857142857144,
+        0.001428571428571433,
+        0.005714285714285715
+      ],
+      "cycle_sum": 0.03,
+      "dissipation": 0.0005142857142857144
+    },
+    "nondiagonal": {
+      "susceptibility": [
+        [
+          2.0,
+          0.2,
+          0.1
+        ],
+        [
+          0.2,
+          1.5,
+          0.3
+        ],
+        [
+          0.1,
+          0.3,
+          3.0
+        ]
+      ],
+      "stationary": [
+        0.013129870129870134,
+        -0.003974025974025973,
+        -0.009155844155844152
+      ],
+      "signed_x_at_2": [
+        -0.007816005373573638,
+        0.0035731842375667415,
+        0.004242821136006896
+      ]
+    }
+  }
+}
