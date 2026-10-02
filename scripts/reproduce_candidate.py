@@ -4,6 +4,7 @@ import argparse
 from datetime import datetime, timezone
 import hashlib
 import json
+import os
 from pathlib import Path
 import shutil
 import subprocess
@@ -86,7 +87,10 @@ def main():
             report['commands'].append({'script': command[0], 'exit_code': proc.returncode})
             print(json.dumps(report['commands'][-1]), flush=True)
             if proc.returncode:
-                raise RuntimeError(f'Calculation failed: {command[0]} (see step-{number}.log)')
+                # These commands process public mathematical inputs only. Include their
+                # failure detail in GitHub's check annotation as well as the public log.
+                detail = (proc.stdout + proc.stderr)[-1800:]
+                raise RuntimeError(f'Calculation failed: {command[0]}\n{detail}')
         for folder, names in {
             'wilson-metric': ['results.json', 'results.csv'],
             'source-duration': ['results.json', 'trajectories.csv', 'duration_bounds.csv'],
@@ -108,6 +112,9 @@ def main():
         report['status'] = 'failed'
         report['error'] = str(error)
         print(str(error), file=sys.stderr)
+        if os.environ.get('GITHUB_ACTIONS') == 'true':
+            message = str(error).replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+            print(f'::error title=Antimatter replay failure::{message}', flush=True)
     finally:
         report['ended_utc'] = datetime.now(timezone.utc).isoformat()
         receipt.write_text(json.dumps(report, indent=2) + '\n')
