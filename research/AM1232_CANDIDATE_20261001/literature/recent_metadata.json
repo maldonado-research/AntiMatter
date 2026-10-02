@@ -1,0 +1,2492 @@
+{
+  "fetched_at_utc": "2026-10-02T04:02:39.264606+00:00",
+  "source_csv": "/workspace/AntiMatter/research/AM1231/v1.23/v1.23_primary_sources.csv",
+  "queries": [
+    {
+      "kind": "arxiv_landing_metadata",
+      "requested_id": "2504.03506",
+      "url": "https://arxiv.org/abs/2504.03506",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.03506",
+      "metadata": {
+        "citation_title": [
+          "Baryogenesis from cosmological CP breaking"
+        ],
+        "citation_author": [
+          "Duch, Mateusz",
+          "Strumia, Alessandro",
+          "Titov, Arsenii"
+        ],
+        "citation_date": [
+          "2025/04/04"
+        ],
+        "citation_online_date": [
+          "2025/10/02"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2504.03506"
+        ],
+        "citation_arxiv_id": [
+          "2504.03506"
+        ]
+      },
+      "date_banner_snippets": [
+        "Submitted on 4 Apr 2025 ( v1 ), last revised 2 Oct 2025 (this version, v2)"
+      ],
+      "verification_scope": "Title, authors, identifiers, and dates from authoritative landing metadata; no full-paper claim verification."
+    },
+    {
+      "kind": "arxiv_landing_metadata",
+      "requested_id": "2606.02728",
+      "url": "https://arxiv.org/abs/2606.02728",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.02728",
+      "metadata": {
+        "citation_title": [
+          "Deconstructing the Extra-Dimensional Axion"
+        ],
+        "citation_author": [
+          "Hor, Shihwen",
+          "Nakai, Yuichiro",
+          "Suzuki, Motoo",
+          "Xu, Junxuan"
+        ],
+        "citation_date": [
+          "2026/06/01"
+        ],
+        "citation_online_date": [
+          "2026/06/01"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2606.02728"
+        ],
+        "citation_arxiv_id": [
+          "2606.02728"
+        ]
+      },
+      "date_banner_snippets": [
+        "Submitted on 1 Jun 2026"
+      ],
+      "verification_scope": "Title, authors, identifiers, and dates from authoritative landing metadata; no full-paper claim verification."
+    },
+    {
+      "kind": "arxiv_landing_metadata",
+      "requested_id": "2604.08700",
+      "url": "https://arxiv.org/abs/2604.08700",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2604.08700",
+      "metadata": {
+        "citation_title": [
+          "Axion Quality in Warped Extra-Dimension"
+        ],
+        "citation_author": [
+          "Choi, Kiwoon",
+          "Lee, Chang Hyeon",
+          "Shin, Chang Sub"
+        ],
+        "citation_date": [
+          "2026/04/09"
+        ],
+        "citation_online_date": [
+          "2026/05/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2604.08700"
+        ],
+        "citation_arxiv_id": [
+          "2604.08700"
+        ]
+      },
+      "date_banner_snippets": [
+        "Submitted on 9 Apr 2026 ( v1 ), last revised 28 May 2026 (this version, v2)"
+      ],
+      "verification_scope": "Title, authors, identifiers, and dates from authoritative landing metadata; no full-paper claim verification."
+    },
+    {
+      "kind": "inspire_search_metadata",
+      "label": "spontaneous_baryogenesis",
+      "query": "date 2024->2026 and \"spontaneous baryogenesis\"",
+      "url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+%22spontaneous+baryogenesis%22&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "http_status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+%22spontaneous+baryogenesis%22&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "total": 18,
+      "returned_count": 15,
+      "hits": [
+        {
+          "inspire_id": "3200784",
+          "inspire_url": "https://inspirehep.net/literature/3200784",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Minimal spontaneous baryogenesis from flavor"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2609.05605"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-09-04",
+          "earliest_date": "2026-09-04",
+          "authors": [
+            "Mojahed, Martin A.",
+            "Stanzione, Alfredo"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3177454",
+          "inspire_url": "https://inspirehep.net/literature/3177454",
+          "titles": [
+            {
+              "source": "SISSA",
+              "title": "The flipped rotating axion: Baryogenesis and Dark Matter"
+            },
+            {
+              "source": "arXiv",
+              "title": "Flipped rotating axion: Baryogenesis and Dark Matter"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "gr-qc",
+                "hep-th"
+              ],
+              "value": "2607.03085"
+            }
+          ],
+          "dois": [
+            {
+              "source": "SISSA",
+              "value": "10.22323/1.509.0068"
+            }
+          ],
+          "preprint_date": "2026-07-03",
+          "earliest_date": "2026-07-03",
+          "authors": [
+            "Dimopoulos, Konstantinos"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "CORFU2025",
+              "artid": "068",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/3152917"
+              },
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213080"
+              },
+              "page_start": "068",
+              "journal_title": "PoS",
+              "cnum": "C25-04-27.1"
+            },
+            {
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/3152917"
+              },
+              "cnum": "C25-04-27.1"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "3156698",
+          "inspire_url": "https://inspirehep.net/literature/3156698",
+          "titles": [
+            {
+              "source": "WSP",
+              "title": "Impact of spectator fields and nonminimal couplings in spontaneous baryogenesis"
+            },
+            {
+              "source": "arXiv",
+              "title": "Impact of spectator fields and non-minimal couplings in spontaneous baryogenesis"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "gr-qc"
+              ],
+              "value": "2605.16212"
+            }
+          ],
+          "dois": [
+            {
+              "source": "WSP",
+              "value": "10.1142/s0217751x26460085"
+            },
+            {
+              "material": "publication",
+              "source": "arXiv",
+              "value": "10.1142/S0217751X26460085"
+            }
+          ],
+          "preprint_date": "2026-05-15",
+          "earliest_date": "2026-05-15",
+          "authors": [
+            "Dubbini, Mattia"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "41",
+              "artid": "2646008",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/2894764"
+              },
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1613973"
+              },
+              "journal_issue": "24n25",
+              "journal_title": "Int.J.Mod.Phys.A",
+              "cnum": "C25-09-01.4"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "Baryon asymmetry"
+            },
+            {
+              "source": "author",
+              "value": "symmetry breaking"
+            },
+            {
+              "source": "author",
+              "value": "early universe"
+            }
+          ]
+        },
+        {
+          "inspire_id": "3148095",
+          "inspire_url": "https://inspirehep.net/literature/3148095",
+          "titles": [
+            {
+              "source": "IOP",
+              "title": "Spontaneous baryogenesis from axions on induced electroweak walls"
+            },
+            {
+              "source": "arXiv",
+              "title": "Spontaneous Baryogenesis from Axions on Induced Electroweak Walls"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO"
+              ],
+              "value": "2604.20762"
+            }
+          ],
+          "dois": [
+            {
+              "source": "IOP",
+              "value": "10.1088/1475-7516/2026/09/063"
+            }
+          ],
+          "preprint_date": "2026-04-22",
+          "earliest_date": "2026-04-22",
+          "authors": [
+            "Vanvlasselaer, Miguel",
+            "Yin, Wen"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "09",
+              "artid": "063",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1212538"
+              },
+              "page_start": "063",
+              "journal_title": "JCAP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "baryon asymmetry"
+            },
+            {
+              "source": "author",
+              "value": "Cosmic strings"
+            },
+            {
+              "source": "author",
+              "value": "domain walls"
+            },
+            {
+              "source": "author",
+              "value": "monopoles"
+            }
+          ]
+        },
+        {
+          "inspire_id": "3128759",
+          "inspire_url": "https://inspirehep.net/literature/3128759",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Spontaneous Baryogenesis and Primordial Black Hole Dark Matter from Ultra-Slow-Roll Inflation"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "astro-ph.CO",
+                "hep-ph"
+              ],
+              "value": "2603.11177"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-03-11",
+          "earliest_date": "2026-03-11",
+          "authors": [
+            "Balaji, Shyam"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3094745",
+          "inspire_url": "https://inspirehep.net/literature/3094745",
+          "titles": [
+            {
+              "source": "Elsevier B.V.",
+              "title": "Comment on \u201cSpontaneous baryosynthesis with large initial phase\u201d"
+            },
+            {
+              "source": "CrossRef",
+              "title": "Comment on \u201cSpontaneous baryosynthesis with large initial phase\u201d"
+            },
+            {
+              "source": "arXiv",
+              "title": "Comment on \"Spontaneous baryosynthesis with large initial phase\""
+            },
+            {
+              "source": "arXiv",
+              "title": "Comment on \"Spontaneous baryosynthesis with large initial phase''"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2512.18516"
+            }
+          ],
+          "dois": [
+            {
+              "material": "publication",
+              "source": "Elsevier B.V.",
+              "value": "10.1016/j.nuclphysb.2026.117524"
+            },
+            {
+              "source": "CrossRef",
+              "value": "10.1016/j.nuclphysb.2026.117524"
+            }
+          ],
+          "preprint_date": "2025-12-20",
+          "earliest_date": "2025-12-20",
+          "authors": [
+            "Cline, James M."
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "1029",
+              "artid": "117524",
+              "material": "publication",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1613964"
+              },
+              "journal_title": "Nucl.Phys.B"
+            },
+            {
+              "journal_volume": "1029",
+              "artid": "117524",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1613964"
+              },
+              "journal_title": "Nucl.Phys.B"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "Elsevier B.V.",
+              "value": "Particle Cosmology"
+            },
+            {
+              "source": "Elsevier B.V.",
+              "value": "Baryogenesis"
+            }
+          ]
+        },
+        {
+          "inspire_id": "3092531",
+          "inspire_url": "https://inspirehep.net/literature/3092531",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Spontaneous baryosynthesis with large initial phase"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "hep-th"
+              ],
+              "value": "2512.11011"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2025-12-11",
+          "earliest_date": "2025-12-11",
+          "authors": [
+            "Krasnov, Maxim",
+            "Khlopov, Maxim",
+            "Aydemir, Ufuk"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3087623",
+          "inspire_url": "https://inspirehep.net/literature/3087623",
+          "titles": [
+            {
+              "source": "IOP",
+              "title": "Vector-field spontaneous baryogenesis with Lorentz invariance violation"
+            },
+            {
+              "source": "arXiv",
+              "title": "Vector-field spontaneous baryogenesis with Lorentz invariance violation"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "gr-qc"
+              ],
+              "value": "2511.23378"
+            }
+          ],
+          "dois": [
+            {
+              "source": "IOP",
+              "value": "10.1088/1475-7516/2026/08/073"
+            }
+          ],
+          "preprint_date": "2025-11-28",
+          "earliest_date": "2025-11-28",
+          "authors": [
+            "Dubbini, Mattia",
+            "Luongo, Orlando",
+            "Quaranta, Aniello"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "08",
+              "artid": "073",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1212538"
+              },
+              "page_start": "073",
+              "journal_title": "JCAP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "baryon asymmetry"
+            },
+            {
+              "source": "author",
+              "value": "inflation"
+            },
+            {
+              "source": "author",
+              "value": "particle physics - cosmology connection"
+            },
+            {
+              "source": "author",
+              "value": "quantum cosmology"
+            }
+          ]
+        },
+        {
+          "inspire_id": "2941360",
+          "inspire_url": "https://inspirehep.net/literature/2941360",
+          "titles": [
+            {
+              "source": "Elsevier B.V.",
+              "title": "Impact of a complex scalar spectator field on baryon asymmetry within spontaneous baryogenesis"
+            },
+            {
+              "source": "arXiv",
+              "title": "Impact of a complex scalar spectator field on baryon asymmetry within spontaneous baryogenesis"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "gr-qc",
+                "astro-ph.CO",
+                "hep-th"
+              ],
+              "value": "2507.01112"
+            }
+          ],
+          "dois": [
+            {
+              "material": "publication",
+              "source": "Elsevier B.V.",
+              "value": "10.1016/j.dark.2025.102187"
+            }
+          ],
+          "preprint_date": "2025-07-01",
+          "earliest_date": "2025-07-01",
+          "authors": [
+            "Dubbini, Mattia",
+            "Luongo, Orlando",
+            "Muccino, Marco"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "51",
+              "artid": "102187",
+              "material": "publication",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1211607"
+              },
+              "journal_title": "Phys.Dark Univ."
+            }
+          ],
+          "keywords": [
+            {
+              "source": "Elsevier B.V.",
+              "value": "Baryogenesis"
+            },
+            {
+              "source": "Elsevier B.V.",
+              "value": "Baryon asymmetry"
+            },
+            {
+              "source": "Elsevier B.V.",
+              "value": "Spectator fields"
+            }
+          ]
+        },
+        {
+          "inspire_id": "2918643",
+          "inspire_url": "https://inspirehep.net/literature/2918643",
+          "titles": [
+            {
+              "source": "APS",
+              "title": "Consequences of nonminimal coupling for mass mixing in spontaneous baryogenesis"
+            },
+            {
+              "source": "arXiv",
+              "title": "Consequences of non-minimal coupling for mass mixing in spontaneous baryogenesis"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "gr-qc",
+                "astro-ph.CO",
+                "hep-th"
+              ],
+              "value": "2505.03644"
+            }
+          ],
+          "dois": [
+            {
+              "material": "publication",
+              "source": "APS",
+              "value": "10.1103/gwhy-v4q3"
+            }
+          ],
+          "preprint_date": "2025-05-06",
+          "earliest_date": "2025-05-06",
+          "authors": [
+            "Dubbini, Mattia",
+            "Luongo, Orlando",
+            "Muccino, Marco"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "113",
+              "artid": "043523",
+              "material": "publication",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1613970"
+              },
+              "journal_issue": "4",
+              "journal_title": "Phys.Rev.D"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "2916956",
+          "inspire_url": "https://inspirehep.net/literature/2916956",
+          "titles": [
+            {
+              "source": "Elsevier B.V.",
+              "title": "Baryon asymmetry from higher-order matter contributions in gravity"
+            },
+            {
+              "source": "arXiv",
+              "title": "Baryon asymmetry from higher-order matter contributions in gravity"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "gr-qc",
+                "hep-ph"
+              ],
+              "value": "2504.21504"
+            }
+          ],
+          "dois": [
+            {
+              "material": "publication",
+              "source": "Elsevier B.V.",
+              "value": "10.1016/j.physletb.2025.139521"
+            },
+            {
+              "material": "publication",
+              "source": "arXiv",
+              "value": "10.1016/j.physletb.2025.139521"
+            }
+          ],
+          "preprint_date": "2025-04-30",
+          "earliest_date": "2025-04-30",
+          "authors": [
+            "Pereira, David S.",
+            "Lobo, Francisco S.N.",
+            "Mimoso, Jos\u00e9 P."
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "866",
+              "pubinfo_freetext": "Physics Letters B 866 (2025) 139521",
+              "artid": "139521",
+              "material": "publication",
+              "year": 2025,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1613966"
+              },
+              "journal_title": "Phys.Lett.B"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "Elsevier B.V.",
+              "value": "Baryogenesis"
+            },
+            {
+              "source": "Elsevier B.V.",
+              "value": "Modified gravity"
+            },
+            {
+              "source": "Elsevier B.V.",
+              "value": "Early universe cosmology"
+            },
+            {
+              "source": "Elsevier B.V.",
+              "value": "High energy"
+            }
+          ]
+        },
+        {
+          "inspire_id": "2911626",
+          "inspire_url": "https://inspirehep.net/literature/2911626",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Spontaneous baryogenesis with large misalignment"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "hep-th"
+              ],
+              "value": "2504.08868"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2025-04-11",
+          "earliest_date": "2025-04-11",
+          "authors": [
+            "Krasnov, Maxim",
+            "Aydemir, Ufuk",
+            "Khlopov, Maxim"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "2879685",
+          "inspire_url": "https://inspirehep.net/literature/2879685",
+          "titles": [
+            {
+              "source": "Springer",
+              "title": "Flipped rotating axion non-minimally coupled to gravity: baryogenesis and dark matter"
+            },
+            {
+              "source": "arXiv",
+              "title": "Flipped Rotating Axion Non-minimally Coupled to Gravity: Baryogenesis and Dark Matter"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "gr-qc",
+                "hep-th"
+              ],
+              "value": "2502.08720"
+            }
+          ],
+          "dois": [
+            {
+              "source": "Springer",
+              "value": "10.1140/epjc/s10052-025-14586-z"
+            }
+          ],
+          "preprint_date": "2025-02-12",
+          "earliest_date": "2025-02-12",
+          "authors": [
+            "Chen, Chao",
+            "Jyoti Das, Suruj",
+            "Dimopoulos, Konstantinos",
+            "Ghoshal, Anish"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "85",
+              "artid": "898",
+              "year": 2025,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1613946"
+              },
+              "page_start": "898",
+              "journal_issue": "8",
+              "journal_title": "Eur.Phys.J.C"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "2864355",
+          "inspire_url": "https://inspirehep.net/literature/2864355",
+          "titles": [
+            {
+              "source": "SISSA",
+              "title": "DW-genesis:generating the baryon number from domain walls"
+            },
+            {
+              "source": "arXiv",
+              "title": "DW-genesis: generating the baryon number from domain walls"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2501.00491"
+            }
+          ],
+          "dois": [
+            {
+              "source": "SISSA",
+              "value": "10.22323/1.481.0012"
+            }
+          ],
+          "preprint_date": "2024-12-31",
+          "earliest_date": "2024-12-31",
+          "authors": [
+            "Vanvlasselaer, Miguel"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "DISCRETE2024",
+              "artid": "012",
+              "year": 2025,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213080"
+              },
+              "page_start": "012",
+              "journal_title": "PoS"
+            },
+            {
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/2813723"
+              },
+              "cnum": "C24-12-02.3"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "2850224",
+          "inspire_url": "https://inspirehep.net/literature/2850224",
+          "titles": [
+            {
+              "source": "Springer",
+              "title": "DW-genesis: baryon number from domain wall network collapse"
+            },
+            {
+              "source": "arXiv",
+              "title": "DW-genesis: baryon number from domain wall network collapse"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2411.13494"
+            }
+          ],
+          "dois": [
+            {
+              "source": "Springer",
+              "value": "10.1007/JHEP03(2025)199"
+            }
+          ],
+          "preprint_date": "2024-11-20",
+          "earliest_date": "2024-11-20",
+          "authors": [
+            "Mariotti, Alberto",
+            "Nagels, Xander",
+            "Rase, A\u00e4ron",
+            "Vanvlasselaer, Miguel"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "03",
+              "artid": "199",
+              "year": 2025,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213103"
+              },
+              "page_start": "199",
+              "journal_title": "JHEP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "Axions and ALPs"
+            },
+            {
+              "source": "author",
+              "value": "Baryo-and Leptogenesis"
+            },
+            {
+              "source": "author",
+              "value": "Baryon/Lepton Number Violation"
+            },
+            {
+              "source": "author",
+              "value": "Phase Transitions in the Early Universe"
+            }
+          ]
+        }
+      ],
+      "verification_scope": "Search-service metadata and abstracts only, not full-paper verification; relevance assessed from title and abstract."
+    },
+    {
+      "kind": "inspire_search_metadata",
+      "label": "clockwork_deconstruction",
+      "query": "date 2024->2026 and (clockwork or deconstruction)",
+      "url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+%28clockwork+or+deconstruction%29&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "http_status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+%28clockwork+or+deconstruction%29&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "total": 83,
+      "returned_count": 15,
+      "hits": [
+        {
+          "inspire_id": "3209953",
+          "inspire_url": "https://inspirehep.net/literature/3209953",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Schur elimination of brane-localised Higgs mass spectra, and the criteria for the $\u03b5\\to0$/$N\\to\\infty$ non-commutativity"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "hep-th"
+              ],
+              "value": "2609.39910"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-09-30",
+          "earliest_date": "2026-09-30",
+          "authors": [
+            "Barcel\u00f3, Roberto",
+            "Mitra, Subhadip"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3202419",
+          "inspire_url": "https://inspirehep.net/literature/3202419",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Broad p-Wave Sommerfeld Resonances From Dimensional Deconstruction"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "hep-th"
+              ],
+              "value": "2609.11305"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-09-10",
+          "earliest_date": "2026-09-10",
+          "authors": [
+            "Yoshimatsu, Nobuki"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3198492",
+          "inspire_url": "https://inspirehep.net/literature/3198492",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Neutrino masses and mixing angles in the Plan B Model"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2609.00907"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-09-01",
+          "earliest_date": "2026-09-01",
+          "authors": [
+            "Allanach, Ben",
+            "Sarjapur, Prabhoda Chandra"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3197845",
+          "inspire_url": "https://inspirehep.net/literature/3197845",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Reconstructing stochastic gravitational-wave signals from flavour deconstruction with LISA"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "astro-ph.CO",
+                "gr-qc"
+              ],
+              "value": "2608.28785"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-08-28",
+          "earliest_date": "2026-08-28",
+          "authors": [
+            "Fabri, Noemi",
+            "Bertrand-Delgado, Raphael",
+            "Laghi, Danny",
+            "Mayer, Lucio"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3195858",
+          "inspire_url": "https://inspirehep.net/literature/3195858",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Searches for new phenomena in final states with leptons and jets using the ATLAS detector"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ex"
+              ],
+              "value": "2608.24717"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-08-25",
+          "earliest_date": "2026-08-25",
+          "authors": [
+            "Schimmel Brener, Roy"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3196530",
+          "inspire_url": "https://inspirehep.net/literature/3196530",
+          "titles": [
+            {
+              "source": "SISSA",
+              "title": "Flavour-deconstructed neutrinos"
+            }
+          ],
+          "arxiv_eprints": null,
+          "dois": [
+            {
+              "source": "SISSA",
+              "value": "10.22323/1.509.0115"
+            }
+          ],
+          "preprint_date": null,
+          "earliest_date": "2026-08-24",
+          "authors": [
+            "Vicente, Avelino"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "CORFU2025",
+              "artid": "115",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/3152917"
+              },
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213080"
+              },
+              "journal_title": "PoS",
+              "cnum": "C25-04-27.1"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "3191873",
+          "inspire_url": "https://inspirehep.net/literature/3191873",
+          "titles": [
+            {
+              "source": "Nottingham U.",
+              "title": "Theoretical and phenomenological aspects of multi-gravity"
+            }
+          ],
+          "arxiv_eprints": null,
+          "dois": null,
+          "preprint_date": null,
+          "earliest_date": "2026-07-30",
+          "authors": [
+            "Wood, Kieran"
+          ],
+          "publication_info": [
+            {
+              "year": 2026
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "Modified Gravity"
+            },
+            {
+              "source": "author",
+              "value": "Massive Gravity"
+            },
+            {
+              "source": "author",
+              "value": "Cosmology"
+            },
+            {
+              "source": "author",
+              "value": "Black Holes"
+            },
+            {
+              "source": "author",
+              "value": "Extra Dimensions"
+            },
+            {
+              "source": "author",
+              "value": "Dark Matter"
+            },
+            {
+              "source": "author",
+              "value": "Spin-2 Fields"
+            },
+            {
+              "source": "author",
+              "value": "multi-gravity"
+            },
+            {
+              "source": "author",
+              "value": "Q Science::QB Astronomy"
+            }
+          ]
+        },
+        {
+          "inspire_id": "3184282",
+          "inspire_url": "https://inspirehep.net/literature/3184282",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Iterative Gauging is Deconstruction"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-th",
+                "cond-mat.str-el",
+                "quant-ph"
+              ],
+              "value": "2607.26126"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-07-28",
+          "earliest_date": "2026-07-28",
+          "authors": [
+            "Franco, Sebastian",
+            "Rodriguez-Gomez, Diego"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3164813",
+          "inspire_url": "https://inspirehep.net/literature/3164813",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Deconstructing the Extra-Dimensional Axion"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "hep-th"
+              ],
+              "value": "2606.02728"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-06-01",
+          "earliest_date": "2026-06-01",
+          "authors": [
+            "Hor, Shihwen",
+            "Nakai, Yuichiro",
+            "Suzuki, Motoo",
+            "Xu, Junxuan"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3164820",
+          "inspire_url": "https://inspirehep.net/literature/3164820",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Anatomy and Phenomenology of Minimal Flavor Deconstruction in the Lepton Sector"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2606.02709"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-06-01",
+          "earliest_date": "2026-06-01",
+          "authors": [
+            "Masiero, Antonio",
+            "Paradisi, Paride",
+            "Quieroz, Daniel",
+            "Sainaghi, Andrea",
+            "Valori, Nicola",
+            "Vives, Oscar"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3162978",
+          "inspire_url": "https://inspirehep.net/literature/3162978",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Quark-Lepton Color-Flavor Unification"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "hep-th"
+              ],
+              "value": "2605.30413"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-05-28",
+          "earliest_date": "2026-05-28",
+          "authors": [
+            "Delgado, Antonio",
+            "Koren, Seth"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3158104",
+          "inspire_url": "https://inspirehep.net/literature/3158104",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Model-Building Implications from Light Magnetic Monopoles: A Case Study of Flavour Deconstruction"
+            },
+            {
+              "source": "arXiv",
+              "title": "Cosmological History of Flavour Deconstruction Models: Constraints from Monopole Production"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "gr-qc"
+              ],
+              "value": "2605.20332"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-05-19",
+          "earliest_date": "2026-05-19",
+          "authors": [
+            "Pesut, Marko",
+            "Racco, Davide",
+            "Zhao, Yunlong"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3148073",
+          "inspire_url": "https://inspirehep.net/literature/3148073",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Graph-theoretic determination of massless modes in latticized theory-space models"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "hep-th",
+                "math-ph",
+                "math.MP"
+              ],
+              "value": "2604.20138"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-04-22",
+          "earliest_date": "2026-04-22",
+          "authors": [
+            "Patel, Ketan M."
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3137694",
+          "inspire_url": "https://inspirehep.net/literature/3137694",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Flavor-deconstructed neutrinos"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2603.29448"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-03-31",
+          "earliest_date": "2026-03-31",
+          "authors": [
+            "Vicente, Avelino"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3129142",
+          "inspire_url": "https://inspirehep.net/literature/3129142",
+          "titles": [
+            {
+              "source": "IOP",
+              "title": "Not so minimal warm inflation"
+            },
+            {
+              "source": "arXiv",
+              "title": "Not So Minimal Warm Inflation"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "gr-qc",
+                "hep-th"
+              ],
+              "value": "2603.12856"
+            }
+          ],
+          "dois": [
+            {
+              "source": "IOP",
+              "value": "10.1088/1475-7516/2026/08/027"
+            },
+            {
+              "material": "publication",
+              "source": "arXiv",
+              "value": "10.1088/1475-7516/2026/08/027"
+            }
+          ],
+          "preprint_date": "2026-03-13",
+          "earliest_date": "2026-03-13",
+          "authors": [
+            "Bastero-Gil, Mar",
+            "Garc\u00eda Osorio, Pedro",
+            "Torres Manso, Ant\u00f3nio"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "08",
+              "artid": "027",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1212538"
+              },
+              "page_start": "027",
+              "journal_title": "JCAP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "inflation"
+            },
+            {
+              "source": "author",
+              "value": "particle physics - cosmology connection"
+            },
+            {
+              "source": "author",
+              "value": "physics of the early universe"
+            }
+          ]
+        }
+      ],
+      "verification_scope": "Search-service metadata and abstracts only, not full-paper verification; relevance assessed from title and abstract."
+    },
+    {
+      "kind": "inspire_search_metadata",
+      "label": "kinetic_matching",
+      "query": "date 2024->2026 and (\"kinetic misalignment\" or \"chemical potential\") and baryogenesis",
+      "url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+%28%22kinetic+misalignment%22+or+%22chemical+potential%22%29+and+baryogenesis&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "http_status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+%28%22kinetic+misalignment%22+or+%22chemical+potential%22%29+and+baryogenesis&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "total": 30,
+      "returned_count": 15,
+      "hits": [
+        {
+          "inspire_id": "3196857",
+          "inspire_url": "https://inspirehep.net/literature/3196857",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "$\\mu$DM: a new mechanism for the baryon-dark matter coincidence"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "hep-ex"
+              ],
+              "value": "2608.26709"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-08-27",
+          "earliest_date": "2026-08-27",
+          "authors": [
+            "Yin, Wen"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3190925",
+          "inspire_url": "https://inspirehep.net/literature/3190925",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Spontaneous Scoto-leptogenesis"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO"
+              ],
+              "value": "2608.12497"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-08-12",
+          "earliest_date": "2026-08-12",
+          "authors": [
+            "Datta, Arghyajit",
+            "Lee, Hyun Min",
+            "Song, Jun-Ho"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3188886",
+          "inspire_url": "https://inspirehep.net/literature/3188886",
+          "titles": [
+            {
+              "source": "Elsevier Inc.",
+              "title": "Thermodynamic baryogenesis from the covariant fluid expansion"
+            }
+          ],
+          "arxiv_eprints": null,
+          "dois": [
+            {
+              "material": "publication",
+              "source": "Elsevier Inc.",
+              "value": "10.1016/j.aop.2026.170674"
+            }
+          ],
+          "preprint_date": null,
+          "earliest_date": "2026-07-30",
+          "authors": [
+            "Nayanaka, T."
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "494",
+              "artid": "170674",
+              "material": "publication",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1214855"
+              },
+              "journal_title": "Annals Phys."
+            }
+          ],
+          "keywords": [
+            {
+              "source": "Elsevier Inc.",
+              "value": "Baryogenesis"
+            },
+            {
+              "source": "Elsevier Inc.",
+              "value": "CP-violation"
+            },
+            {
+              "source": "Elsevier Inc.",
+              "value": "Thermal effective field theory"
+            },
+            {
+              "source": "Elsevier Inc.",
+              "value": "Schwinger\u2013Keldysh formalism"
+            },
+            {
+              "source": "Elsevier Inc.",
+              "value": "Washout inversion"
+            },
+            {
+              "source": "Elsevier Inc.",
+              "value": "Geometric thermodynamics"
+            },
+            {
+              "source": "Elsevier Inc.",
+              "value": " asymmetry"
+            }
+          ]
+        },
+        {
+          "inspire_id": "3180765",
+          "inspire_url": "https://inspirehep.net/literature/3180765",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Right-Handed Neutrino Production by an Axion-like Inflaton: Implications for Leptogenesis"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO"
+              ],
+              "value": "2607.13592"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-07-15",
+          "earliest_date": "2026-07-15",
+          "authors": [
+            "Deng, Weiyi",
+            "Han, Chengcheng",
+            "Yin, Wuzhou",
+            "Ju, Tong"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3150589",
+          "inspire_url": "https://inspirehep.net/literature/3150589",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Electroweak Baryogenesis from Collapsing Domain Walls"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2604.27376"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-04-30",
+          "earliest_date": "2026-04-30",
+          "authors": [
+            "Bai, Yang",
+            "Lyu, Kun-Feng",
+            "Zhao, Yue"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3148095",
+          "inspire_url": "https://inspirehep.net/literature/3148095",
+          "titles": [
+            {
+              "source": "IOP",
+              "title": "Spontaneous baryogenesis from axions on induced electroweak walls"
+            },
+            {
+              "source": "arXiv",
+              "title": "Spontaneous Baryogenesis from Axions on Induced Electroweak Walls"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO"
+              ],
+              "value": "2604.20762"
+            }
+          ],
+          "dois": [
+            {
+              "source": "IOP",
+              "value": "10.1088/1475-7516/2026/09/063"
+            }
+          ],
+          "preprint_date": "2026-04-22",
+          "earliest_date": "2026-04-22",
+          "authors": [
+            "Vanvlasselaer, Miguel",
+            "Yin, Wen"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "09",
+              "artid": "063",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1212538"
+              },
+              "page_start": "063",
+              "journal_title": "JCAP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "baryon asymmetry"
+            },
+            {
+              "source": "author",
+              "value": "Cosmic strings"
+            },
+            {
+              "source": "author",
+              "value": "domain walls"
+            },
+            {
+              "source": "author",
+              "value": "monopoles"
+            }
+          ]
+        },
+        {
+          "inspire_id": "3144144",
+          "inspire_url": "https://inspirehep.net/literature/3144144",
+          "titles": [
+            {
+              "source": "Springer",
+              "title": "Bounds from D/H on baryogenesis models"
+            },
+            {
+              "source": "arXiv",
+              "title": "Bounds from D/H on baryogenesis models"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2604.11203"
+            }
+          ],
+          "dois": [
+            {
+              "source": "Springer",
+              "value": "10.1007/JHEP09(2026)081"
+            }
+          ],
+          "preprint_date": "2026-04-13",
+          "earliest_date": "2026-04-13",
+          "authors": [
+            "Azatov, Aleksandr",
+            "Missoni, Bruno"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "09",
+              "artid": "081",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213103"
+              },
+              "page_start": "081",
+              "journal_title": "JHEP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "Baryo- and Leptogenesis"
+            },
+            {
+              "source": "author",
+              "value": "Phase Transitions in the Early Universe"
+            }
+          ]
+        },
+        {
+          "inspire_id": "3132904",
+          "inspire_url": "https://inspirehep.net/literature/3132904",
+          "titles": [
+            {
+              "source": "Springer",
+              "title": "Inverse electroweak baryogenesis"
+            },
+            {
+              "source": "arXiv",
+              "title": "Inverse Electroweak Baryogenesis"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO"
+              ],
+              "value": "2603.20414"
+            }
+          ],
+          "dois": [
+            {
+              "source": "Springer",
+              "value": "10.1007/JHEP09(2026)184"
+            }
+          ],
+          "preprint_date": "2026-03-20",
+          "earliest_date": "2026-03-20",
+          "authors": [
+            "Azzola, Jacopo",
+            "Matsedonskyi, Oleksii",
+            "Weiler, Andreas"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "09",
+              "artid": "184",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213103"
+              },
+              "page_start": "184",
+              "journal_title": "JHEP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "Baryo-and Leptogenesis"
+            },
+            {
+              "source": "author",
+              "value": "Phase Transitions in the Early Universe"
+            },
+            {
+              "source": "author",
+              "value": "Early Universe Particle Physics"
+            }
+          ]
+        },
+        {
+          "inspire_id": "3128802",
+          "inspire_url": "https://inspirehep.net/literature/3128802",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Gravitational baryogenesis beyond the spectator approximation"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "gr-qc",
+                "hep-th"
+              ],
+              "value": "2603.11837"
+            }
+          ],
+          "dois": [
+            {
+              "material": "publication",
+              "source": "arXiv",
+              "value": "10.1016/j.physletb.2026.140471"
+            }
+          ],
+          "preprint_date": "2026-03-12",
+          "earliest_date": "2026-03-12",
+          "authors": [
+            "Pereira, David S.",
+            "Fernandes, Beatriz A.",
+            "Mimoso, Jos\u00e9 Pedro"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "877",
+              "pubinfo_freetext": "Phys. Lett. B 877 (2026) 140471",
+              "artid": "140471",
+              "material": "publication",
+              "year": 2026,
+              "journal_title": "Phys.Lett.B"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "3131330",
+          "inspire_url": "https://inspirehep.net/literature/3131330",
+          "titles": [
+            {
+              "source": "Wiley",
+              "title": "Geometric Baryogenesis With Chiral\u2010Time Equivalence"
+            },
+            {
+              "source": "submitter",
+              "title": "Geometric Baryogenesis With Chiral\u2010Time Equivalence"
+            },
+            {
+              "source": "arXiv",
+              "title": "Geometric Baryogenesis with Chiral-Time Equivalence"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2604.03973"
+            }
+          ],
+          "dois": [
+            {
+              "source": "Wiley",
+              "value": "10.1002/prop.70088"
+            },
+            {
+              "value": "10.1002/prop.70088"
+            },
+            {
+              "material": "publication",
+              "source": "arXiv",
+              "value": "10.1002/prop.70088"
+            }
+          ],
+          "preprint_date": "2026-04-05",
+          "earliest_date": "2026-03-01",
+          "authors": [
+            "Mir, Sameer Ahmad",
+            "Shabir, Arshid",
+            "Tiwari, Swatantra Kumar",
+            "Faizal, Mir"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "74",
+              "artid": "e70088",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1214746"
+              },
+              "journal_issue": "3",
+              "journal_title": "Fortsch.Phys."
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "3109240",
+          "inspire_url": "https://inspirehep.net/literature/3109240",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Gravitational Baryogenesis from Entropy Production and Parity Violation: A Unified Framework"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "gr-qc"
+              ],
+              "value": "2601.11690"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-01-16",
+          "earliest_date": "2026-01-16",
+          "authors": [
+            "Mandel, Yakov"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3103125",
+          "inspire_url": "https://inspirehep.net/literature/3103125",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Baryogenesis from the Thermodynamic Arrow of Time: a Transfer-Function Bound and an Entropy-Clock Mechanism"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2601.06302"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2026-01-09",
+          "earliest_date": "2026-01-09",
+          "authors": [
+            "Mandel, Yakov"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3095847",
+          "inspire_url": "https://inspirehep.net/literature/3095847",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Towards precise baryogenesis in the 2HDM$+a$"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2512.22081"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2025-12-26",
+          "earliest_date": "2025-12-26",
+          "authors": [
+            "Gent, T.",
+            "Huber, S.",
+            "Mimasu, K.",
+            "No, J.M."
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3093997",
+          "inspire_url": "https://inspirehep.net/literature/3093997",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Chiral magnetic effect amplified baryogenesis at first-order phase transitions"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "hep-th"
+              ],
+              "value": "2512.16537"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2025-12-18",
+          "earliest_date": "2025-12-18",
+          "authors": [
+            "Liu, Hui",
+            "Bian, Ligong"
+          ],
+          "publication_info": null,
+          "keywords": null
+        },
+        {
+          "inspire_id": "3085073",
+          "inspire_url": "https://inspirehep.net/literature/3085073",
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Axiverse Baryogenesis"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2511.15794"
+            }
+          ],
+          "dois": null,
+          "preprint_date": "2025-11-19",
+          "earliest_date": "2025-11-19",
+          "authors": [
+            "Asadi, Pouya",
+            "Cyncynates, David",
+            "Gori, Stefania"
+          ],
+          "publication_info": null,
+          "keywords": null
+        }
+      ],
+      "verification_scope": "Search-service metadata and abstracts only, not full-paper verification; relevance assessed from title and abstract."
+    },
+    {
+      "kind": "inspire_search_metadata",
+      "label": "clockwork_axion_targeted",
+      "query": "date 2024->2026 and clockwork and (axion or baryogenesis)",
+      "url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+clockwork+and+%28axion+or+baryogenesis%29&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "http_status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+clockwork+and+%28axion+or+baryogenesis%29&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "total": 0,
+      "returned_count": 0,
+      "hits": [],
+      "verification_scope": "Search-service metadata and abstracts only, not full-paper verification; relevance assessed from title and abstract."
+    },
+    {
+      "kind": "inspire_search_metadata",
+      "label": "kinetic_matching_targeted",
+      "query": "date 2024->2026 and \"spontaneous baryogenesis\" and (kinetic or Boltzmann or basis or \"chemical potential\")",
+      "url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+%22spontaneous+baryogenesis%22+and+%28kinetic+or+Boltzmann+or+basis+or+%22chemical+potential%22%29&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "http_status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=date+2024-%3E2026+and+%22spontaneous+baryogenesis%22+and+%28kinetic+or+Boltzmann+or+basis+or+%22chemical+potential%22%29&size=15&sort=mostrecent&fields=titles%2Carxiv_eprints%2Cdois%2Cpreprint_date%2Cearliest_date%2Cauthors%2Cabstracts%2Cpublication_info%2Cdocument_type%2Ckeywords",
+      "total": 6,
+      "returned_count": 6,
+      "hits": [
+        {
+          "inspire_id": "3177454",
+          "inspire_url": "https://inspirehep.net/literature/3177454",
+          "titles": [
+            {
+              "source": "SISSA",
+              "title": "The flipped rotating axion: Baryogenesis and Dark Matter"
+            },
+            {
+              "source": "arXiv",
+              "title": "Flipped rotating axion: Baryogenesis and Dark Matter"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "gr-qc",
+                "hep-th"
+              ],
+              "value": "2607.03085"
+            }
+          ],
+          "dois": [
+            {
+              "source": "SISSA",
+              "value": "10.22323/1.509.0068"
+            }
+          ],
+          "preprint_date": "2026-07-03",
+          "earliest_date": "2026-07-03",
+          "authors": [
+            "Dimopoulos, Konstantinos"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "CORFU2025",
+              "artid": "068",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/3152917"
+              },
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213080"
+              },
+              "page_start": "068",
+              "journal_title": "PoS",
+              "cnum": "C25-04-27.1"
+            },
+            {
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/3152917"
+              },
+              "cnum": "C25-04-27.1"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "3148095",
+          "inspire_url": "https://inspirehep.net/literature/3148095",
+          "titles": [
+            {
+              "source": "IOP",
+              "title": "Spontaneous baryogenesis from axions on induced electroweak walls"
+            },
+            {
+              "source": "arXiv",
+              "title": "Spontaneous Baryogenesis from Axions on Induced Electroweak Walls"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO"
+              ],
+              "value": "2604.20762"
+            }
+          ],
+          "dois": [
+            {
+              "source": "IOP",
+              "value": "10.1088/1475-7516/2026/09/063"
+            }
+          ],
+          "preprint_date": "2026-04-22",
+          "earliest_date": "2026-04-22",
+          "authors": [
+            "Vanvlasselaer, Miguel",
+            "Yin, Wen"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "09",
+              "artid": "063",
+              "year": 2026,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1212538"
+              },
+              "page_start": "063",
+              "journal_title": "JCAP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "baryon asymmetry"
+            },
+            {
+              "source": "author",
+              "value": "Cosmic strings"
+            },
+            {
+              "source": "author",
+              "value": "domain walls"
+            },
+            {
+              "source": "author",
+              "value": "monopoles"
+            }
+          ]
+        },
+        {
+          "inspire_id": "2879685",
+          "inspire_url": "https://inspirehep.net/literature/2879685",
+          "titles": [
+            {
+              "source": "Springer",
+              "title": "Flipped rotating axion non-minimally coupled to gravity: baryogenesis and dark matter"
+            },
+            {
+              "source": "arXiv",
+              "title": "Flipped Rotating Axion Non-minimally Coupled to Gravity: Baryogenesis and Dark Matter"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph",
+                "astro-ph.CO",
+                "gr-qc",
+                "hep-th"
+              ],
+              "value": "2502.08720"
+            }
+          ],
+          "dois": [
+            {
+              "source": "Springer",
+              "value": "10.1140/epjc/s10052-025-14586-z"
+            }
+          ],
+          "preprint_date": "2025-02-12",
+          "earliest_date": "2025-02-12",
+          "authors": [
+            "Chen, Chao",
+            "Jyoti Das, Suruj",
+            "Dimopoulos, Konstantinos",
+            "Ghoshal, Anish"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "85",
+              "artid": "898",
+              "year": 2025,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1613946"
+              },
+              "page_start": "898",
+              "journal_issue": "8",
+              "journal_title": "Eur.Phys.J.C"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "2864355",
+          "inspire_url": "https://inspirehep.net/literature/2864355",
+          "titles": [
+            {
+              "source": "SISSA",
+              "title": "DW-genesis:generating the baryon number from domain walls"
+            },
+            {
+              "source": "arXiv",
+              "title": "DW-genesis: generating the baryon number from domain walls"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2501.00491"
+            }
+          ],
+          "dois": [
+            {
+              "source": "SISSA",
+              "value": "10.22323/1.481.0012"
+            }
+          ],
+          "preprint_date": "2024-12-31",
+          "earliest_date": "2024-12-31",
+          "authors": [
+            "Vanvlasselaer, Miguel"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "DISCRETE2024",
+              "artid": "012",
+              "year": 2025,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213080"
+              },
+              "page_start": "012",
+              "journal_title": "PoS"
+            },
+            {
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/2813723"
+              },
+              "cnum": "C24-12-02.3"
+            }
+          ],
+          "keywords": null
+        },
+        {
+          "inspire_id": "2850224",
+          "inspire_url": "https://inspirehep.net/literature/2850224",
+          "titles": [
+            {
+              "source": "Springer",
+              "title": "DW-genesis: baryon number from domain wall network collapse"
+            },
+            {
+              "source": "arXiv",
+              "title": "DW-genesis: baryon number from domain wall network collapse"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2411.13494"
+            }
+          ],
+          "dois": [
+            {
+              "source": "Springer",
+              "value": "10.1007/JHEP03(2025)199"
+            }
+          ],
+          "preprint_date": "2024-11-20",
+          "earliest_date": "2024-11-20",
+          "authors": [
+            "Mariotti, Alberto",
+            "Nagels, Xander",
+            "Rase, A\u00e4ron",
+            "Vanvlasselaer, Miguel"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "03",
+              "artid": "199",
+              "year": 2025,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213103"
+              },
+              "page_start": "199",
+              "journal_title": "JHEP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "Axions and ALPs"
+            },
+            {
+              "source": "author",
+              "value": "Baryo-and Leptogenesis"
+            },
+            {
+              "source": "author",
+              "value": "Baryon/Lepton Number Violation"
+            },
+            {
+              "source": "author",
+              "value": "Phase Transitions in the Early Universe"
+            }
+          ]
+        },
+        {
+          "inspire_id": "2794845",
+          "inspire_url": "https://inspirehep.net/literature/2794845",
+          "titles": [
+            {
+              "source": "Springer",
+              "title": "Baryogenesis via QCD preheating with nonadiabatic baryon chemical potential"
+            },
+            {
+              "source": "arXiv",
+              "title": "Baryogenesis via QCD preheating with nonadiabatic baryon chemical potential"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ph"
+              ],
+              "value": "2406.03261"
+            }
+          ],
+          "dois": [
+            {
+              "source": "Springer",
+              "value": "10.1007/JHEP08(2024)032"
+            }
+          ],
+          "preprint_date": "2024-06-05",
+          "earliest_date": "2024-06-05",
+          "authors": [
+            "Wang, Jimin",
+            "Wang, Xin-Ru",
+            "Matsuzaki, Shinya"
+          ],
+          "publication_info": [
+            {
+              "journal_volume": "08",
+              "artid": "032",
+              "year": 2024,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213103"
+              },
+              "page_start": "032",
+              "journal_title": "JHEP"
+            }
+          ],
+          "keywords": [
+            {
+              "source": "author",
+              "value": "Baryo-and Leptogenesis"
+            },
+            {
+              "source": "author",
+              "value": "Early Universe Particle Physics"
+            }
+          ]
+        }
+      ],
+      "verification_scope": "Search-service metadata and abstracts only, not full-paper verification; relevance assessed from title and abstract."
+    }
+  ],
+  "transport": "Python urllib default TLS verification; exact allowed-host requests and redirects only.",
+  "csv_checks": [
+    {
+      "arxiv_id": "2504.03506",
+      "csv_title": "Baryogenesis from cosmological CP breaking",
+      "verified_title": "Baryogenesis from cosmological CP breaking",
+      "title_matches_exactly": true,
+      "identifier_correct": true,
+      "submitted_date": "2025/04/04",
+      "latest_date": "2025/10/02",
+      "claim_verification": "abstract-level only"
+    },
+    {
+      "arxiv_id": "2606.02728",
+      "csv_title": "Deconstructing the Extra-Dimensional Axion",
+      "verified_title": "Deconstructing the Extra-Dimensional Axion",
+      "title_matches_exactly": true,
+      "identifier_correct": true,
+      "submitted_date": "2026/06/01",
+      "latest_date": "2026/06/01",
+      "claim_verification": "abstract-level only"
+    },
+    {
+      "arxiv_id": "2604.08700",
+      "csv_title": "Axion Quality in Warped Extra Dimensions",
+      "verified_title": "Axion Quality in Warped Extra-Dimension",
+      "title_matches_exactly": false,
+      "identifier_correct": true,
+      "submitted_date": "2026/04/09",
+      "latest_date": "2026/05/28",
+      "claim_verification": "abstract-level only"
+    }
+  ],
+  "search_count": 5,
+  "limitations": [
+    "Five bounded INSPIRE searches, maximum 15 most-recent hits each; broad searches are truncated.",
+    "Search records/abstracts are discovery metadata, not full-paper verification or evidence that this repository model is correct.",
+    "No incorrect arXiv identifiers found among the three requested records; one exact-title mismatch found.",
+    "Zero-result targeted clockwork query does not prove literature absence."
+  ],
+  "redistribution_note": "Verbatim abstracts and article text removed from the saved metadata; summaries are written independently in the review note."
+}

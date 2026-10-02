@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "review_date_local": "2026-10-01",
+  "local_timezone": "America/Los_Angeles",
+  "compiled_at_utc": "2026-10-02T04:12:17.602209+00:00",
+  "scope": "Five targeted full-text primary papers, including an additional September 2026 flavor comparator requested after the initial four-paper pass; one other existing citation metadata-only; five bounded INSPIRE searches stored separately. No exhaustive novelty claim.",
+  "network_policy": "HTTPS with default certificate verification. Only authorized hosts used.",
+  "sources": [
+    {
+      "arxiv_id": "1404.3565",
+      "version_reviewed_or_metadata_current": "v1",
+      "title": "The Sphaleron Rate in the Minimal Standard Model",
+      "authors": [
+        "D'Onofrio, Michela",
+        "Rummukainen, Kari",
+        "Tranberg, Anders"
+      ],
+      "date_first_submitted": "2014/04/14",
+      "latest_date": "2014/04/14",
+      "arxiv_url": "https://arxiv.org/abs/1404.3565",
+      "version_url": "https://arxiv.org/abs/1404.3565v1",
+      "doi": "10.1103/PhysRevLett.113.141602",
+      "evidence_depth": "targeted_full_text",
+      "anchors_inspected": [
+        "Eqs. (3), (7)-(9)",
+        "freeze-out discussion"
+      ],
+      "pdf_receipt": {
+        "id": "1404.3565",
+        "url": "https://arxiv.org/pdf/1404.3565",
+        "retrieved_utc": "2026-10-02T04:02:38.288723+00:00",
+        "review_scope": "full-text targeted section review; PDF kept only in temporary workspace",
+        "status": 200,
+        "bytes": 143813,
+        "sha256": "268b11917470e2d53be3f9d7b08bbd9ce816d1defa7ce64b225fc8bba902a159",
+        "content_type": "application/pdf",
+        "final_url": "https://arxiv.org/pdf/1404.3565",
+        "text_extraction": {
+          "tool": "pdftotext -layout",
+          "exit_status": 0,
+          "text_retained_only_in_temporary_workspace": true
+        }
+      }
+    },
+    {
+      "arxiv_id": "1605.00670",
+      "version_reviewed_or_metadata_current": "v2",
+      "title": "Cosmological Aspects of Spontaneous Baryogenesis",
+      "authors": [
+        "De Simone, Andrea",
+        "Kobayashi, Takeshi"
+      ],
+      "date_first_submitted": "2016/05/02",
+      "latest_date": "2016/08/25",
+      "arxiv_url": "https://arxiv.org/abs/1605.00670",
+      "version_url": "https://arxiv.org/abs/1605.00670v2",
+      "doi": "10.1088/1475-7516/2016/08/052",
+      "evidence_depth": "targeted_full_text",
+      "anchors_inspected": [
+        "Sections 2-5",
+        "Eqs. (2.1), (2.9)-(2.14), (3.1)-(3.5), (3.11)-(3.12)",
+        "Appendix A"
+      ],
+      "pdf_receipt": {
+        "id": "1605.00670",
+        "url": "https://arxiv.org/pdf/1605.00670",
+        "retrieved_utc": "2026-10-02T04:02:38.290046+00:00",
+        "review_scope": "full-text targeted section review; PDF kept only in temporary workspace",
+        "status": 200,
+        "bytes": 1822508,
+        "sha256": "75aa156fbabe857a2706ae8fc084c9dfa3fbc322b4096d8f51ee38ef93cf4447",
+        "content_type": "application/pdf",
+        "final_url": "https://arxiv.org/pdf/1605.00670",
+        "text_extraction": {
+          "tool": "pdftotext -layout",
+          "exit_status": 0,
+          "text_retained_only_in_temporary_workspace": true
+        }
+      }
+    },
+    {
+      "arxiv_id": "2504.03506",
+      "version_reviewed_or_metadata_current": "v2",
+      "title": "Baryogenesis from cosmological CP breaking",
+      "authors": [
+        "Duch, Mateusz",
+        "Strumia, Alessandro",
+        "Titov, Arsenii"
+      ],
+      "date_first_submitted": "2025/04/04",
+      "latest_date": "2025/10/02",
+      "arxiv_url": "https://arxiv.org/abs/2504.03506",
+      "version_url": "https://arxiv.org/abs/2504.03506v2",
+      "doi": null,
+      "evidence_depth": "targeted_full_text",
+      "anchors_inspected": [
+        "Sections 2, 3.1-3.4, 4, 4.1",
+        "Eqs. (1)-(4), (19)-(27), (36)-(43)"
+      ],
+      "pdf_receipt": {
+        "id": "2504.03506",
+        "url": "https://arxiv.org/pdf/2504.03506",
+        "retrieved_utc": "2026-10-02T04:02:38.290730+00:00",
+        "review_scope": "full-text targeted section review; PDF kept only in temporary workspace",
+        "status": 200,
+        "bytes": 919696,
+        "sha256": "cacd3fa91af852c1c8559df9b78d10d6e992953b4ebee5396ab421daecddf245",
+        "content_type": "application/pdf",
+        "final_url": "https://arxiv.org/pdf/2504.03506",
+        "text_extraction": {
+          "tool": "pdftotext -layout",
+          "exit_status": 0,
+          "text_retained_only_in_temporary_workspace": true
+        }
+      }
+    },
+    {
+      "arxiv_id": "2606.02728",
+      "version_reviewed_or_metadata_current": "v1",
+      "title": "Deconstructing the Extra-Dimensional Axion",
+      "authors": [
+        "Hor, Shihwen",
+        "Nakai, Yuichiro",
+        "Suzuki, Motoo",
+        "Xu, Junxuan"
+      ],
+      "date_first_submitted": "2026/06/01",
+      "latest_date": "2026/06/01",
+      "arxiv_url": "https://arxiv.org/abs/2606.02728",
+      "version_url": "https://arxiv.org/abs/2606.02728v1",
+      "doi": null,
+      "evidence_depth": "targeted_full_text",
+      "anchors_inspected": [
+        "Introduction",
+        "Section 3.1, Sections 4, 5.1-5.2, conclusions",
+        "Eqs. (5.40)-(5.42), footnote 8"
+      ],
+      "pdf_receipt": {
+        "id": "2606.02728",
+        "url": "https://arxiv.org/pdf/2606.02728",
+        "retrieved_utc": "2026-10-02T04:04:53.647273+00:00",
+        "review_scope": "full-text targeted section review; PDF retained only in temporary workspace",
+        "status": 200,
+        "bytes": 700985,
+        "sha256": "164c8ddd99e67f5fc5e0c7f1c7909856c62344afafffe332f8418cb0d9b0aa81",
+        "content_type": "application/pdf",
+        "final_url": "https://arxiv.org/pdf/2606.02728",
+        "text_extraction": {
+          "tool": "pdftotext -layout",
+          "exit_status": 0,
+          "text_retained_only_in_temporary_workspace": true
+        }
+      }
+    },
+    {
+      "arxiv_id": "2604.08700",
+      "version_reviewed_or_metadata_current": "v2",
+      "title": "Axion Quality in Warped Extra-Dimension",
+      "authors": [
+        "Choi, Kiwoon",
+        "Lee, Chang Hyeon",
+        "Shin, Chang Sub"
+      ],
+      "date_first_submitted": "2026/04/09",
+      "latest_date": "2026/05/28",
+      "arxiv_url": "https://arxiv.org/abs/2604.08700",
+      "version_url": "https://arxiv.org/abs/2604.08700v2",
+      "doi": null,
+      "evidence_depth": "authoritative_landing_metadata_and_abstract_only",
+      "anchors_inspected": [],
+      "pdf_receipt": null
+    },
+    {
+      "arxiv_id": "2609.05605",
+      "version_reviewed_or_metadata_current": "v1",
+      "title": "Minimal spontaneous baryogenesis from flavor",
+      "authors": [
+        "Mojahed, Martin A.",
+        "Stanzione, Alfredo"
+      ],
+      "date_first_submitted": "2026/09/04",
+      "latest_date": "2026/09/04",
+      "arxiv_url": "https://arxiv.org/abs/2609.05605",
+      "version_url": "https://arxiv.org/abs/2609.05605v1",
+      "doi": null,
+      "evidence_depth": "targeted_full_text",
+      "anchors_inspected": [
+        "Sections 2.1-2.3, 3-3.2, 4-4.1",
+        "Eqs. (2.1)-(2.17), (3.1)-(3.14), Tables 1-2",
+        "Footnotes 5, 7-8, 11; stated Appendix A EFT consistency requirements"
+      ],
+      "pdf_receipt": {
+        "id": "2609.05605",
+        "url": "https://arxiv.org/pdf/2609.05605",
+        "retrieved_utc": "2026-10-02T04:10:06.192932+00:00",
+        "status": 200,
+        "bytes": 1515715,
+        "sha256": "dc21fc227c30d51055591b105202cb5642f733cc8a50d8f2e7d13c409398e1a7",
+        "content_type": "application/pdf",
+        "final_url": "https://arxiv.org/pdf/2609.05605",
+        "review_scope": "targeted full-text comparison authorized after four-paper initial pass; PDF temporary only",
+        "text_extraction": {
+          "tool": "pdftotext -layout",
+          "exit_status": 0,
+          "text_retained_only_in_temporary_workspace": true,
+          "diagnostic": "Nonfatal font-type mismatch warning; targeted equations, table entries and footnotes were readable in extracted text."
+        }
+      }
+    }
+  ],
+  "bibliographic_corrections": [
+    {
+      "arxiv_id": "2604.08700",
+      "existing_csv_title": "Axion Quality in Warped Extra Dimensions",
+      "verified_title": "Axion Quality in Warped Extra-Dimension",
+      "identifier_correct": true
+    },
+    {
+      "arxiv_id": "1605.00670",
+      "verified_title": "Cosmological Aspects of Spontaneous Baryogenesis",
+      "note": "Added primary comparator; not in the inspected source CSV."
+    }
+  ],
+  "redistribution": "No full papers, extracted paper text or verbatim abstracts are included."
+}

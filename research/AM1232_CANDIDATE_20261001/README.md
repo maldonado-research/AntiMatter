@@ -66,6 +66,10 @@ pair production alone cannot produce a net matter asymmetry. These diagnostics
 predict neither the sign nor the final observed baryon abundance.
 
 The scientific baseline and its public sources are preserved in
-[AM1231](../AM1231/). No new literature was retrieved for this checkpoint because
-the current runtime rejected external literature requests. No priority or
-novelty claim is made. Existing AntiMatter CC BY 4.0 terms apply.
+[AM1231](../AM1231/). The numerical audits preceded a
+[primary-literature addendum](literature/LITERATURE_REVIEW_20261001.md): five
+full papers and five bounded INSPIRE searches were checked after runtime access
+became available. The addendum identifies operator/anomaly matching, chemical
+potential, sphaleron and topology requirements; it changes no registered
+numerical result. No priority or novelty claim is made. Existing AntiMatter
+CC BY 4.0 terms apply.

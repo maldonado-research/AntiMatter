@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1404.3565",
+    "url": "https://arxiv.org/pdf/1404.3565",
+    "retrieved_utc": "2026-10-02T04:02:38.288723+00:00",
+    "review_scope": "full-text targeted section review; PDF kept only in temporary workspace",
+    "status": 200,
+    "bytes": 143813,
+    "sha256": "268b11917470e2d53be3f9d7b08bbd9ce816d1defa7ce64b225fc8bba902a159",
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/1404.3565",
+    "text_extraction": {
+      "tool": "pdftotext -layout",
+      "exit_status": 0,
+      "text_retained_only_in_temporary_workspace": true
+    }
+  },
+  {
+    "id": "1605.00670",
+    "url": "https://arxiv.org/pdf/1605.00670",
+    "retrieved_utc": "2026-10-02T04:02:38.290046+00:00",
+    "review_scope": "full-text targeted section review; PDF kept only in temporary workspace",
+    "status": 200,
+    "bytes": 1822508,
+    "sha256": "75aa156fbabe857a2706ae8fc084c9dfa3fbc322b4096d8f51ee38ef93cf4447",
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/1605.00670",
+    "text_extraction": {
+      "tool": "pdftotext -layout",
+      "exit_status": 0,
+      "text_retained_only_in_temporary_workspace": true
+    }
+  },
+  {
+    "id": "2504.03506",
+    "url": "https://arxiv.org/pdf/2504.03506",
+    "retrieved_utc": "2026-10-02T04:02:38.290730+00:00",
+    "review_scope": "full-text targeted section review; PDF kept only in temporary workspace",
+    "status": 200,
+    "bytes": 919696,
+    "sha256": "cacd3fa91af852c1c8559df9b78d10d6e992953b4ebee5396ab421daecddf245",
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2504.03506",
+    "text_extraction": {
+      "tool": "pdftotext -layout",
+      "exit_status": 0,
+      "text_retained_only_in_temporary_workspace": true
+    }
+  },
+  {
+    "id": "2606.02728",
+    "url": "https://arxiv.org/pdf/2606.02728",
+    "retrieved_utc": "2026-10-02T04:04:53.647273+00:00",
+    "review_scope": "full-text targeted section review; PDF retained only in temporary workspace",
+    "status": 200,
+    "bytes": 700985,
+    "sha256": "164c8ddd99e67f5fc5e0c7f1c7909856c62344afafffe332f8418cb0d9b0aa81",
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2606.02728",
+    "text_extraction": {
+      "tool": "pdftotext -layout",
+      "exit_status": 0,
+      "text_retained_only_in_temporary_workspace": true
+    }
+  },
+  {
+    "id": "2609.05605",
+    "url": "https://arxiv.org/pdf/2609.05605",
+    "retrieved_utc": "2026-10-02T04:10:06.192932+00:00",
+    "status": 200,
+    "bytes": 1515715,
+    "sha256": "dc21fc227c30d51055591b105202cb5642f733cc8a50d8f2e7d13c409398e1a7",
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2609.05605",
+    "review_scope": "targeted full-text comparison authorized after four-paper initial pass; PDF temporary only",
+    "text_extraction": {
+      "tool": "pdftotext -layout",
+      "exit_status": 0,
+      "text_retained_only_in_temporary_workspace": true,
+      "diagnostic": "Nonfatal font-type mismatch warning; targeted equations, table entries and footnotes were readable in extracted text."
+    }
+  }
+]

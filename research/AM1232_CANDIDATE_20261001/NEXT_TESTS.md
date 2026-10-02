@@ -24,6 +24,9 @@ hold fixed, rather than tune the finite scans until they pass a desired gate.
 
 Recover and inspect the older private transport work for technical ideas before
 reimplementing it, but independently validate its assumptions against the current
-branch. Keep raw private files private. Check current primary literature and
-experimental constraints when network access becomes available. A source-only
-trajectory or necessary winding bound is not a substitute for those steps.
+branch. Keep raw private files private. Use the new primary-literature addendum
+when specifying these operators and transport equations. The September 2026 flavor comparator shows that flavor
+textures alone need not fix the weak anomaly or physical source. Match the
+complete source vector and conserved-charge null spaces before choosing an
+efficiency. Recheck current experimental constraints for a constructed model.
+A source-only trajectory or necessary winding bound is not a substitute for those steps.
