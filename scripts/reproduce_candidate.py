@@ -16,6 +16,22 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def json_differences(before, after, path=''):
+    if type(before) is not type(after):
+        return [{'path': path, 'expected': before, 'observed': after}]
+    if isinstance(before, dict):
+        result = []
+        for key in sorted(before.keys() | after.keys()):
+            result += json_differences(before.get(key), after.get(key), path + '/' + key)
+        return result
+    if isinstance(before, list):
+        if len(before) != len(after):
+            return [{'path': path, 'expected_length': len(before), 'observed_length': len(after)}]
+        return [item for i, pair in enumerate(zip(before, after))
+                for item in json_differences(*pair, path + '/' + str(i))]
+    return [] if before == after else [{'path': path, 'expected': before, 'observed': after}]
+
+
 def check_ledger(root, expected_count):
     entries = []
     for line in (root / 'SHA256SUMS.txt').read_text().splitlines():
@@ -118,7 +134,8 @@ def main():
                     'passed': content_equal, 'ignored_metadata_fields': ignored,
                 }
                 if not content_equal:
-                    raise RuntimeError(f'Producer output changed: {relative}')
+                    detail = json.dumps(json_differences(before, after)[:8]) if name == 'results.json' else ''
+                    raise RuntimeError(f'Producer output changed: {relative}\n{detail}')
         for name, relative in {
             'wilson_comparison': 'wilson-metric-independent/comparison-results.json',
             'source_comparison': 'source-duration-independent/comparison_results.json',
