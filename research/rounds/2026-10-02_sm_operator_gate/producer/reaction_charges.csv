@@ -1,0 +1,8 @@
+reaction,Delta_B,Delta_L,Delta_B_plus_L,Delta_Y,Delta_Delta_e,Delta_Delta_mu,Delta_Delta_tau,intrinsic_affinity_over_kappa,effective_affinity_over_kappa
+up_Yukawa,0,0,0,0,0,0,0,0,0
+down_Yukawa,0,0,0,0,0,0,0,0,0
+electron_Yukawa,0,0,0,0,0,0,0,0,0
+muon_Yukawa,0,0,0,0,0,0,0,0,0
+tau_Yukawa,0,0,0,0,0,0,0,0,0
+strong_sphaleron_full_3_generations,0,0,0,0,0,0,0,0,0
+weak_sphaleron_full_3_generations,3,3,6,0,0,0,0,6,0

@@ -10,7 +10,7 @@
   "protocol": "docs/research-routine/ROUND_PROTOCOL.md",
   "official_release": "v1.23.1",
   "current_candidate": "research/AM1232_CANDIDATE_20261001",
-  "latest_completed_round": "research/rounds/2026-10-01_transport_gate",
+  "latest_completed_round": "research/rounds/2026-10-02_sm_operator_gate",
   "queue": [
     {
       "priority": 1,
@@ -22,7 +22,9 @@
     {
       "priority": 2,
       "question": "Construct and match the candidate's physical operator, charge assignments, CP data and full thermal source vector",
-      "status": "open"
+      "status": "conditional_benchmark_completed_wilson_matching_open",
+      "evidence": "research/rounds/2026-10-02_sm_operator_gate/README.md",
+      "scientific_scope": "Assumed derivative B+L EFT with exact ideal-SM susceptibilities; physical Wilson coefficient, CP data and thermal crossover remain open"
     },
     {
       "priority": 3,
@@ -46,8 +48,9 @@
     "status": "prepared_not_activated_default_branch_merge_required",
     "ai_research": false,
     "hosted_validation_status": "passed",
-    "hosted_validation_url": "https://github.com/maldonado-research/AntiMatter/actions/runs/36972300414",
-    "hosted_validated_commit": "de73cc9e3124ddb2a6d365311a55b8222c1a986f"
+    "hosted_validation_url": "https://github.com/maldonado-research/AntiMatter/actions/runs/36972897806",
+    "hosted_validated_commit": "999fe91b615d6d9caabc4a67ca4a22242206e0f6",
+    "hosted_validation_scope": "Previous baseline/candidate/transport and 20 one-round mock controls; newest operator/continuous checks pending hosted run"
   },
   "publication": {
     "research_pr": "https://github.com/maldonado-research/AntiMatter/pull/1",
@@ -57,7 +60,7 @@
     "zenodo_status": "candidate_prepared_not_uploaded_missing_secure_deposit_credential"
   },
   "requested_ai_trigger": "after_completed_validated_committed_round",
-  "external_runner_template": "scripts/run_ai_round.sh",
+  "external_runner_template": "scripts/run_ai_continuously.sh",
   "external_runner_validation": {
     "shell_syntax": "passed",
     "mocked_scenarios": 20,
@@ -65,5 +68,17 @@
     "authenticated_execution": "not_tested",
     "persistent_host_execution": "not_tested",
     "receipt": "docs/research-routine/RUNNER_VALIDATION.json"
+  },
+  "continuous_runner_validation": {
+    "deployment": "docs/research-routine/deployment/DEPLOYMENT.md",
+    "mocked_scenarios": 12,
+    "independent_probes": 7,
+    "status": "passed_mock_only",
+    "authenticated_execution": "not_tested",
+    "service_installed": false,
+    "service_enabled": false,
+    "persistent_host_execution": "not_tested",
+    "initial_host_validation_rounds": 2,
+    "failure_policy": "stop_and_diagnose_no_automatic_retry"
   }
 }

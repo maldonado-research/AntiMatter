@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-02T07:49:21.001691+00:00",
+  "kind": "public_operator_round_reproduction",
+  "commands": [
+    {
+      "script": "producer/sm_charge_diagnostic.py",
+      "exit_code": 0
+    },
+    {
+      "script": "producer/conditional_sensitivity.py",
+      "exit_code": 0
+    },
+    {
+      "script": "independent/sm_charge_response.py",
+      "exit_code": 0
+    },
+    {
+      "script": "independent/conditional_normalization_sensitivity.py",
+      "exit_code": 0
+    },
+    {
+      "script": "independent/compare_frozen_producer.py",
+      "exit_code": 0
+    },
+    {
+      "script": "inventory/verify_inventory.py",
+      "exit_code": 0
+    },
+    {
+      "script": "wall_literature/compare_susceptibilities.py",
+      "exit_code": 0
+    },
+    {
+      "script": "reviewer/review_checks.py",
+      "exit_code": 0
+    }
+  ],
+  "scientific_scope": "Conditional ideal-SM comparator; no physical baryon-yield claim",
+  "ai_research_performed": false,
+  "publication_performed": false,
+  "byte_comparisons": {
+    "producer/results.json": true,
+    "producer/species_response.csv": true,
+    "producer/reaction_charges.csv": true,
+    "producer/conserved_density_basis.csv": true,
+    "producer/tests.csv": true,
+    "producer/conditional_sensitivity.json": true,
+    "producer/conditional_sensitivity.csv": true,
+    "producer/PROVENANCE.json": true,
+    "independent/matrices.json": true,
+    "independent/receipt.json": true,
+    "independent/sensitivity_receipt.json": true,
+    "independent/comparison_receipt.json": true,
+    "inventory/EXACT_INVENTORY_CHECKS.json": true,
+    "wall_literature/SUSCEPTIBILITY_COMPARISON.json": true,
+    "reviewer/REVIEW_RECEIPT.json": true
+  },
+  "round_checksums": 59,
+  "public_context_checks": 3,
+  "git_commit": "999fe91b615d6d9caabc4a67ca4a22242206e0f6",
+  "control_counts": {
+    "producer": 48,
+    "conditional": 36,
+    "independent": 24,
+    "comparison": 11,
+    "reviewer": 35
+  },
+  "ended_utc": "2026-10-02T07:49:26.511150+00:00",
+  "archival_note": "Local eight-command replay before adding this receipt and completed metadata; final ledger independently checked and hosted replay validates final ledger"
+}

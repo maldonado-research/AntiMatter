@@ -1,0 +1,8 @@
+{
+  "scope": "Only the non-test conditional-source annotation is rewritten in public site-phase terminology after the primary24-control run. Registered reaction/control tests1through11 and implementation are unchanged. The current primaryreceipt is then regenerated for current-file hash consistency.",
+  "initial_controls_sha256": "741da1f5f13653cb005ab8b9e75541d3d3387d538e15da969575c9d5f3e985ad",
+  "initial_code_sha256": "6ffd613763509c2c3cf6e6a49dab1e605b2fc804dc170c85a1777fcc8c2f0fe6",
+  "initial_receipt_sha256": "5bf9a49166634c74a96e182db831eb81cef09bfe1a34acc6044f83e4e0b2f940",
+  "initial_matrices_sha256": "1db673a00c6f6c2daedee0b3b02de79a13fc5b1fb180e21e5537156220a13bbf",
+  "initial_control_count": 24
+}

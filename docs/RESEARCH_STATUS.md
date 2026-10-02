@@ -20,3 +20,20 @@ Read [the v1.23.1 calculation](../research/AM1231/v1.23.1/v1.23.1_efficiency_ene
 ## Version boundary
 
 The September 30, 2026 GitHub publication mirrors the September 5, 2026 Zenodo v1.23.1 release. Proposed v1.24 investigations remain future work. Any subsequent change to the scientific calculations should receive a distinct version with its own assumptions, data, checksums, and citation record.
+
+## Proposed October 2026 research rounds
+
+The draft [transport gate](../research/rounds/2026-10-01_transport_gate/README.md)
+checks signed response, conserved charges and washout in an illustrative network.
+The subsequent [SM operator gate](../research/rounds/2026-10-02_sm_operator_gate/README.md)
+derives an exact ideal symmetric-SM response to an assumed derivative B+L
+operator with two separate methods and copied-script verification. It also
+reviews a concrete 2026 scalar/Higgs wall mechanism as a possible next branch.
+These are conditional public-input diagnostics: Wilson-specific matching, CP,
+crossover rates, an autonomous energy reservoir and a surviving cosmological
+yield remain open. The official release is still v1.23.1.
+
+A [completion-driven research routine](research-routine/ROUND_PROTOCOL.md) and
+[external Linux service template](research-routine/deployment/DEPLOYMENT.md) are
+prepared. Runner controls passed with mocked invocations. No continuous AI
+service is active, and external authenticated model/host execution remains untested.

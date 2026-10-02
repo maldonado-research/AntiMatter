@@ -9,6 +9,10 @@ on:
       - scripts/reproduction_policy.py
       - scripts/run_ai_round.sh
       - scripts/check_ai_runner.py
+      - scripts/run_ai_continuously.sh
+      - scripts/check_continuous_runner.py
+      - scripts/reproduce_operator_round.py
+      - docs/research-routine/deployment/**
       - .github/workflows/research-checks.yml
   schedule:
     - cron: '17 */4 * * *'
@@ -35,10 +39,12 @@ jobs:
         env:
           PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
         run: |
-          python -m pip install --disable-pip-version-check -r research/AM1231/requirements-replay.txt
+          python -m pip install --disable-pip-version-check -r research/AM1231/requirements-replay.txt -r research/rounds/2026-10-02_sm_operator_gate/requirements-operator.txt
           python -m pip check
       - name: Mocked research-runner checkpoint controls
         run: python scripts/check_ai_runner.py
+      - name: Mocked continuous research-runner controls
+        run: python scripts/check_continuous_runner.py
       - name: Reproduce in a disposable copy
         env:
           PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
@@ -60,6 +66,8 @@ jobs:
             python independent/independent_check.py --producer-dir "$PWD/producer"
             python independent/compare_results.py --producer-dir "$PWD/producer" --repo-root "$antimatter_repo_root"
           } > "$RUNNER_TEMP/antimatter-transport-check.log" 2>&1
+      - name: Standard Model operator comparator
+        run: python scripts/reproduce_operator_round.py --output "$RUNNER_TEMP/antimatter-operator-checks"
       - name: Keep public verification receipts
         if: always()
         uses: actions/upload-artifact@v4
@@ -69,5 +77,7 @@ jobs:
             ${{ runner.temp }}/antimatter-checks/receipt.json
             ${{ runner.temp }}/antimatter-checks/step-*.log
             ${{ runner.temp }}/antimatter-transport-check.log
+            ${{ runner.temp }}/antimatter-operator-checks/receipt.json
+            ${{ runner.temp }}/antimatter-operator-checks/step-*.log
           if-no-files-found: warn
           retention-days: 14

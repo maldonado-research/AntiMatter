@@ -12,6 +12,12 @@ The first completed round is
 It supplies conserved-charge and signed-response controls for an illustrative
 network. The physical candidate source and reaction content remain open.
 
+The latest completed round is
+[`2026-10-02_sm_operator_gate`](../../research/rounds/2026-10-02_sm_operator_gate/README.md).
+Two implementations agree on the ideal symmetric-SM charge response to an
+assumed derivative B+L operator. This supplies a conditional operator comparator;
+Wilson-specific matching, physical CP data and a final cosmological yield remain open.
+
 ## Each research round
 
 1. Read `routine.json`, the latest completed round and the current Git/PR state.
@@ -71,8 +77,16 @@ After validating authentication, the requested model/effort and that first round
 a persistent host can run successive rounds with:
 
 ```bash
-while bash scripts/run_ai_round.sh /absolute/AntiMatter /absolute/private-run-state; do :; done
+ANTIMATTER_MAX_ROUNDS=2 bash scripts/run_ai_continuously.sh /absolute/AntiMatter /absolute/private-run-state
 ```
+
+Use two real completed rounds for initial host validation. After reviewing their
+history, `ANTIMATTER_MAX_ROUNDS=0` permits repeated bounded rounds. The
+[Linux service deployment guide](deployment/DEPLOYMENT.md) supplies an explicit
+user-service template. It was mock-tested with 12 scenarios and seven independent
+probes, but no service was installed or enabled. `Restart=no` stops automatic
+process-failure retries; an enabled unit may run again after host/user-manager
+restart, so disable it while diagnosing a failure.
 
 The wrapper stops on a concurrent owner, nonzero CLI exit, timeout, missing new
 round, non-passing receipt, incorrect predecessor, uncommitted work, history
@@ -145,3 +159,10 @@ not as a pretend active lock in a committed JSON file.
 Scientific release v1.23.1 and the v1.23.2 candidate remain distinct. A passing
 reproduction job says that the calculation is reproducible; it does not establish
 the source/operator, a physical CP mechanism, a final baryon yield or novelty.
+
+The operator round adds separate SymPy 1.14.0 and mpmath 1.3.0 pins in
+`research/rounds/2026-10-02_sm_operator_gate/requirements-operator.txt`. Run
+`python scripts/reproduce_operator_round.py` with Python 3.12.14. It checks the
+round ledger, eight replay commands, 15 byte comparisons and the registered
+control counts in a disposable copy. No private raw archive or AI event logs
+enter its hosted artifacts.

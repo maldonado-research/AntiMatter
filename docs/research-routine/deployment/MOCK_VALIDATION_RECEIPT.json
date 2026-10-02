@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "method": "Temporary Linux fixtures using a mock scripts/run_ai_round.sh",
+  "actual_model_invocations": 0,
+  "external_host_validated": false,
+  "service_installed_or_started": false,
+  "scope": "Loop orchestration, exit propagation, bounded repetition, permissions, and lock exclusion",
+  "limits": "Mock success does not validate authentication, model availability, checkpoint science, publication, or 24/7 operation"
+}

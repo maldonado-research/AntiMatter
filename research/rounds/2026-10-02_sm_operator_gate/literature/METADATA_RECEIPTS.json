@@ -1,0 +1,578 @@
+{
+  "retrieved_utc": "2026-10-02T07:16:44.080743+00:00",
+  "scope": "Three bounded INSPIRE queries, at most ten metadata records each; previous selected full-text review is separately recorded",
+  "queries": [
+    {
+      "label": "classic_conversion",
+      "query": "doi:10.1103/PhysRevD.42.3344",
+      "url": "https://inspirehep.net/api/literature?q=doi%3A10.1103%2FPhysRevD.42.3344&size=10&sort=mostrecent&fields=titles%2Cauthors%2Cdois%2Carxiv_eprints%2Cpreprint_date%2Cearliest_date%2Cpublication_info",
+      "review_depth": "bibliographic metadata only; no full-text inference",
+      "http_status": 200,
+      "response_sha256": "420d2e21953d174c7e4e175b6aa53be6a7ea56a6edde8f81b7c0f11d889d4617",
+      "reported_total": 1,
+      "records": [
+        {
+          "inspire_id": "296759",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Harvey, Jeffrey A."
+              },
+              {
+                "full_name": "Turner, Michael S."
+              }
+            ],
+            "publication_info": [
+              {
+                "journal_volume": "42",
+                "page_end": "3349",
+                "year": 1990,
+                "page_start": "3344",
+                "journal_title": "Phys.Rev.D"
+              }
+            ],
+            "control_number": 296759,
+            "dois": [
+              {
+                "value": "10.1103/PhysRevD.42.3344"
+              }
+            ],
+            "preprint_date": "1990-03",
+            "titles": [
+              {
+                "title": "Cosmological Baryon and Lepton Number in the Presence of Electroweak Fermion Number Violation"
+              }
+            ],
+            "earliest_date": "1990-03"
+          }
+        }
+      ]
+    },
+    {
+      "label": "recent_sources",
+      "query": "date 2026 and \"spontaneous baryogenesis\"",
+      "url": "https://inspirehep.net/api/literature?q=date+2026+and+%22spontaneous+baryogenesis%22&size=10&sort=mostrecent&fields=titles%2Cauthors%2Cdois%2Carxiv_eprints%2Cpreprint_date%2Cearliest_date%2Cpublication_info",
+      "review_depth": "bibliographic metadata only; no full-text inference",
+      "http_status": 200,
+      "response_sha256": "553d4447099aadff6a5c8e0dae3377bb22f91fe38d5749a23ea58a6e9718de1f",
+      "reported_total": 9,
+      "records": [
+        {
+          "inspire_id": "3200784",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Mojahed, Martin A."
+              },
+              {
+                "full_name": "Stanzione, Alfredo"
+              }
+            ],
+            "control_number": 3200784,
+            "preprint_date": "2026-09-04",
+            "titles": [
+              {
+                "source": "arXiv",
+                "title": "Minimal spontaneous baryogenesis from flavor"
+              }
+            ],
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "hep-ph"
+                ],
+                "value": "2609.05605"
+              }
+            ],
+            "earliest_date": "2026-09-04"
+          }
+        },
+        {
+          "inspire_id": "3177454",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Dimopoulos, Konstantinos"
+              }
+            ],
+            "publication_info": [
+              {
+                "journal_volume": "CORFU2025",
+                "artid": "068",
+                "conference_record": {
+                  "$ref": "https://inspirehep.net/api/conferences/3152917"
+                },
+                "year": 2026,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1213080"
+                },
+                "page_start": "068",
+                "journal_title": "PoS",
+                "cnum": "C25-04-27.1"
+              },
+              {
+                "conference_record": {
+                  "$ref": "https://inspirehep.net/api/conferences/3152917"
+                },
+                "cnum": "C25-04-27.1"
+              }
+            ],
+            "control_number": 3177454,
+            "dois": [
+              {
+                "source": "SISSA",
+                "value": "10.22323/1.509.0068"
+              }
+            ],
+            "preprint_date": "2026-07-03",
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "hep-ph",
+                  "astro-ph.CO",
+                  "gr-qc",
+                  "hep-th"
+                ],
+                "value": "2607.03085"
+              }
+            ],
+            "titles": [
+              {
+                "source": "SISSA",
+                "title": "The flipped rotating axion: Baryogenesis and Dark Matter"
+              },
+              {
+                "source": "arXiv",
+                "title": "Flipped rotating axion: Baryogenesis and Dark Matter"
+              }
+            ],
+            "earliest_date": "2026-07-03"
+          }
+        },
+        {
+          "inspire_id": "3156698",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Dubbini, Mattia"
+              }
+            ],
+            "publication_info": [
+              {
+                "journal_volume": "41",
+                "artid": "2646008",
+                "conference_record": {
+                  "$ref": "https://inspirehep.net/api/conferences/2894764"
+                },
+                "year": 2026,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1613973"
+                },
+                "journal_issue": "24n25",
+                "journal_title": "Int.J.Mod.Phys.A",
+                "cnum": "C25-09-01.4"
+              }
+            ],
+            "control_number": 3156698,
+            "dois": [
+              {
+                "source": "WSP",
+                "value": "10.1142/s0217751x26460085"
+              },
+              {
+                "material": "publication",
+                "source": "arXiv",
+                "value": "10.1142/S0217751X26460085"
+              }
+            ],
+            "preprint_date": "2026-05-15",
+            "titles": [
+              {
+                "source": "WSP",
+                "title": "Impact of spectator fields and nonminimal couplings in spontaneous baryogenesis"
+              },
+              {
+                "source": "arXiv",
+                "title": "Impact of spectator fields and non-minimal couplings in spontaneous baryogenesis"
+              }
+            ],
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "hep-ph",
+                  "gr-qc"
+                ],
+                "value": "2605.16212"
+              }
+            ],
+            "earliest_date": "2026-05-15"
+          }
+        },
+        {
+          "inspire_id": "3148095",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Vanvlasselaer, Miguel"
+              },
+              {
+                "full_name": "Yin, Wen"
+              }
+            ],
+            "publication_info": [
+              {
+                "journal_volume": "09",
+                "artid": "063",
+                "year": 2026,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1212538"
+                },
+                "page_start": "063",
+                "journal_title": "JCAP"
+              }
+            ],
+            "control_number": 3148095,
+            "dois": [
+              {
+                "source": "IOP",
+                "value": "10.1088/1475-7516/2026/09/063"
+              }
+            ],
+            "preprint_date": "2026-04-22",
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "hep-ph",
+                  "astro-ph.CO"
+                ],
+                "value": "2604.20762"
+              }
+            ],
+            "titles": [
+              {
+                "source": "IOP",
+                "title": "Spontaneous baryogenesis from axions on induced electroweak walls"
+              },
+              {
+                "source": "arXiv",
+                "title": "Spontaneous Baryogenesis from Axions on Induced Electroweak Walls"
+              }
+            ],
+            "earliest_date": "2026-04-22"
+          }
+        },
+        {
+          "inspire_id": "3128759",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Balaji, Shyam"
+              }
+            ],
+            "control_number": 3128759,
+            "preprint_date": "2026-03-11",
+            "titles": [
+              {
+                "source": "arXiv",
+                "title": "Spontaneous Baryogenesis and Primordial Black Hole Dark Matter from Ultra-Slow-Roll Inflation"
+              }
+            ],
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "astro-ph.CO",
+                  "hep-ph"
+                ],
+                "value": "2603.11177"
+              }
+            ],
+            "earliest_date": "2026-03-11"
+          }
+        },
+        {
+          "inspire_id": "3094745",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Cline, James M."
+              }
+            ],
+            "publication_info": [
+              {
+                "journal_volume": "1029",
+                "artid": "117524",
+                "material": "publication",
+                "year": 2026,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1613964"
+                },
+                "journal_title": "Nucl.Phys.B"
+              },
+              {
+                "journal_volume": "1029",
+                "artid": "117524",
+                "year": 2026,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1613964"
+                },
+                "journal_title": "Nucl.Phys.B"
+              }
+            ],
+            "control_number": 3094745,
+            "dois": [
+              {
+                "material": "publication",
+                "source": "Elsevier B.V.",
+                "value": "10.1016/j.nuclphysb.2026.117524"
+              },
+              {
+                "source": "CrossRef",
+                "value": "10.1016/j.nuclphysb.2026.117524"
+              }
+            ],
+            "preprint_date": "2025-12-20",
+            "titles": [
+              {
+                "source": "Elsevier B.V.",
+                "title": "Comment on \u201cSpontaneous baryosynthesis with large initial phase\u201d"
+              },
+              {
+                "source": "CrossRef",
+                "title": "Comment on \u201cSpontaneous baryosynthesis with large initial phase\u201d"
+              },
+              {
+                "source": "arXiv",
+                "title": "Comment on \"Spontaneous baryosynthesis with large initial phase\""
+              },
+              {
+                "source": "arXiv",
+                "title": "Comment on \"Spontaneous baryosynthesis with large initial phase''"
+              }
+            ],
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "hep-ph"
+                ],
+                "value": "2512.18516"
+              }
+            ],
+            "earliest_date": "2025-12-20"
+          }
+        },
+        {
+          "inspire_id": "3087623",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Dubbini, Mattia"
+              },
+              {
+                "full_name": "Luongo, Orlando"
+              },
+              {
+                "full_name": "Quaranta, Aniello"
+              }
+            ],
+            "publication_info": [
+              {
+                "journal_volume": "08",
+                "artid": "073",
+                "year": 2026,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1212538"
+                },
+                "page_start": "073",
+                "journal_title": "JCAP"
+              }
+            ],
+            "control_number": 3087623,
+            "dois": [
+              {
+                "source": "IOP",
+                "value": "10.1088/1475-7516/2026/08/073"
+              }
+            ],
+            "preprint_date": "2025-11-28",
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "hep-ph",
+                  "astro-ph.CO",
+                  "gr-qc"
+                ],
+                "value": "2511.23378"
+              }
+            ],
+            "titles": [
+              {
+                "source": "IOP",
+                "title": "Vector-field spontaneous baryogenesis with Lorentz invariance violation"
+              },
+              {
+                "source": "arXiv",
+                "title": "Vector-field spontaneous baryogenesis with Lorentz invariance violation"
+              }
+            ],
+            "earliest_date": "2025-11-28"
+          }
+        },
+        {
+          "inspire_id": "2941360",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Dubbini, Mattia"
+              },
+              {
+                "full_name": "Luongo, Orlando"
+              },
+              {
+                "full_name": "Muccino, Marco"
+              }
+            ],
+            "publication_info": [
+              {
+                "journal_volume": "51",
+                "artid": "102187",
+                "material": "publication",
+                "year": 2026,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1211607"
+                },
+                "journal_title": "Phys.Dark Univ."
+              }
+            ],
+            "control_number": 2941360,
+            "dois": [
+              {
+                "material": "publication",
+                "source": "Elsevier B.V.",
+                "value": "10.1016/j.dark.2025.102187"
+              }
+            ],
+            "preprint_date": "2025-07-01",
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "gr-qc",
+                  "astro-ph.CO",
+                  "hep-th"
+                ],
+                "value": "2507.01112"
+              }
+            ],
+            "titles": [
+              {
+                "source": "Elsevier B.V.",
+                "title": "Impact of a complex scalar spectator field on baryon asymmetry within spontaneous baryogenesis"
+              },
+              {
+                "source": "arXiv",
+                "title": "Impact of a complex scalar spectator field on baryon asymmetry within spontaneous baryogenesis"
+              }
+            ],
+            "earliest_date": "2025-07-01"
+          }
+        },
+        {
+          "inspire_id": "2918643",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Dubbini, Mattia"
+              },
+              {
+                "full_name": "Luongo, Orlando"
+              },
+              {
+                "full_name": "Muccino, Marco"
+              }
+            ],
+            "publication_info": [
+              {
+                "journal_volume": "113",
+                "artid": "043523",
+                "material": "publication",
+                "year": 2026,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1613970"
+                },
+                "journal_issue": "4",
+                "journal_title": "Phys.Rev.D"
+              }
+            ],
+            "control_number": 2918643,
+            "dois": [
+              {
+                "material": "publication",
+                "source": "APS",
+                "value": "10.1103/gwhy-v4q3"
+              }
+            ],
+            "preprint_date": "2025-05-06",
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "gr-qc",
+                  "astro-ph.CO",
+                  "hep-th"
+                ],
+                "value": "2505.03644"
+              }
+            ],
+            "titles": [
+              {
+                "source": "APS",
+                "title": "Consequences of nonminimal coupling for mass mixing in spontaneous baryogenesis"
+              },
+              {
+                "source": "arXiv",
+                "title": "Consequences of non-minimal coupling for mass mixing in spontaneous baryogenesis"
+              }
+            ],
+            "earliest_date": "2025-05-06"
+          }
+        }
+      ]
+    },
+    {
+      "label": "recent_wilson",
+      "query": "date 2026 and (\"Wilson line\" or clockwork) and baryogenesis",
+      "url": "https://inspirehep.net/api/literature?q=date+2026+and+%28%22Wilson+line%22+or+clockwork%29+and+baryogenesis&size=10&sort=mostrecent&fields=titles%2Cauthors%2Cdois%2Carxiv_eprints%2Cpreprint_date%2Cearliest_date%2Cpublication_info",
+      "review_depth": "bibliographic metadata only; no full-text inference",
+      "http_status": 200,
+      "response_sha256": "4021bdc3842c31f07f969db16855cdfd097179256c1f3decbc4bc537d377ec6a",
+      "reported_total": 1,
+      "records": [
+        {
+          "inspire_id": "3195858",
+          "metadata": {
+            "authors": [
+              {
+                "full_name": "Schimmel Brener, Roy"
+              }
+            ],
+            "control_number": 3195858,
+            "preprint_date": "2026-08-25",
+            "titles": [
+              {
+                "source": "arXiv",
+                "title": "Searches for new phenomena in final states with leptons and jets using the ATLAS detector"
+              }
+            ],
+            "arxiv_eprints": [
+              {
+                "categories": [
+                  "hep-ex"
+                ],
+                "value": "2608.24717"
+              }
+            ],
+            "earliest_date": "2026-08-25"
+          }
+        }
+      ]
+    }
+  ]
+}

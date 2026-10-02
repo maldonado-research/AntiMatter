@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "study_type": "post-run portability replay only",
+  "check_count": 13,
+  "checks": [
+    {
+      "name": "sensitivity_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "seven_sensitivity_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "source_path_repo_relative",
+      "passed": true
+    },
+    {
+      "name": "primary_controls_results_and_original_provenance_unchanged",
+      "passed": true
+    },
+    {
+      "name": "declared_dependency_versions_match_replay",
+      "passed": true
+    },
+    {
+      "name": "explicit_env_temporary_context_pass",
+      "passed": true
+    },
+    {
+      "name": "temporary_explicit_receipt_identical",
+      "passed": true
+    },
+    {
+      "name": "verified_script_ancestor_context_pass",
+      "passed": true
+    },
+    {
+      "name": "temporary_ancestor_receipt_identical",
+      "passed": true
+    },
+    {
+      "name": "verified_cwd_ancestor_context_pass",
+      "passed": true
+    },
+    {
+      "name": "temporary_cwd_receipt_identical",
+      "passed": true
+    },
+    {
+      "name": "missing_explicit_context_rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong_public_source_hash_rejected",
+      "passed": true
+    }
+  ],
+  "declared_analysis_dependencies": {
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "replay_dependency_versions": {
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "replay_code_sha256": "dcd8799dbb9c36ce867d8baac0ee48f378db83c208c7f89a9b9412afb03a7998",
+  "portable_sensitivity_code_sha256": "7f568b448c2de825626257f6f9518ddd2ffe6d9130eb1c2a26d4c728ab218444",
+  "portable_sensitivity_receipt_sha256": "e975a7b21c3276da5f21ec6cb9a8b14c79665d52b7fe8a373721984c57a1f7b1",
+  "pre_portability_provenance_sha256": "98fb7ffc54f8beffb312533b60bb35fb9f0c6376d7e89789a8f95e73cb84b85b",
+  "source_sha256": "4a2bfece249ef634986256b45b75fc8ab89a147d16673972e5565aeca24fe3a9",
+  "temporary_contexts": "temporary copies only; removed after replay",
+  "limitation": "No primary scientific computation, source assumption, or sensitivity value changed."
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "round_id": "2026-10-02_sm_operator_gate",
+  "date_utc": "2026-10-02",
+  "timezone": "Etc/UTC",
+  "status": "completed",
+  "context_commit": "999fe91b615d6d9caabc4a67ca4a22242206e0f6",
+  "predecessor": "research/rounds/2026-10-01_transport_gate",
+  "agent_delegation_settings": {
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning_effort": "ultra",
+    "scope": "Configured through delegation tools; a prompt does not switch the root model"
+  },
+  "scientific_status": "Conventional conditional EFT and equilibrium diagnostic; Wilson UV, physical CP and cosmological yield remain open",
+  "public_context_hashes": [
+    {
+      "path": "research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py",
+      "sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c"
+    },
+    {
+      "path": "research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.py",
+      "sha256": "4a2bfece249ef634986256b45b75fc8ab89a147d16673972e5565aeca24fe3a9"
+    },
+    {
+      "path": "research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.csv",
+      "sha256": "471158906c3a707cbb5b48148a422cc6e9b896ac80197e42a760c02d1997172a"
+    }
+  ],
+  "validation_receipt": "PINNED_REPLAY.json",
+  "validation": {
+    "producer_primary": 48,
+    "producer_conditional": 36,
+    "independent_primary": 24,
+    "independent_conditional": 7,
+    "direct_comparisons": 11,
+    "inventory": 13,
+    "reviewer": 35,
+    "independent_portability": 13
+  },
+  "independence_limit": "Independent implementation/code was separate; producer first execution followed independent coefficient message, so execution was not fully blinded",
+  "publication_state": "Prepared for existing draft research PR; not merged, deployed or archived as a new DOI",
+  "privacy_scope": "Only allowlisted freshly authored public-input work; private inventory/history/raw archive and third-party paper material excluded",
+  "next_question": "Match one Wilson-specific physical source/operator and CP content, and reconcile conserved-charge susceptibilities and kinetic conventions across the electroweak crossover before self-consistent finite-rate cosmology",
+  "checksum_entries": 60
+}

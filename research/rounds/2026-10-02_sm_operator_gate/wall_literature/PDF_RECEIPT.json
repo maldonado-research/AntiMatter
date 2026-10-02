@@ -1,0 +1,40 @@
+{
+  "source_url": "https://arxiv.org/pdf/2604.20762",
+  "final_url": "https://arxiv.org/pdf/2604.20762",
+  "retrieved_utc": "2026-10-02T07:19:02.606342+00:00",
+  "byte_length": 2074416,
+  "sha256": "55c4e37de2289f3148830d18827ec6a57dd4e8ddf6ae64593f3b918b20942ca3",
+  "http_headers": {
+    "last-modified": "Thu, 23 Apr 2026 01:14:00 GMT",
+    "content-disposition": "inline; filename=\"2604.20762v1.pdf\"",
+    "content-type": "application/pdf",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "x-cloud-trace-context": "0adf06948f1daa3565417115252fca65",
+    "etag": "\"sha256:a05dd6ab649da8c2d13c2cebf54f8a7d6981f889b0356fd1a9d7a634d4d88f92\"",
+    "link": "<https://arxiv.org/pdf/2604.20762>; rel='canonical'",
+    "server": "envoy",
+    "access-control-allow-origin": "*",
+    "accept-ranges": "bytes",
+    "age": "287868",
+    "date": "Fri, 02 Oct 2026 07:19:02 GMT",
+    "x-served-by": "cache-lga-kjfk8660021-LGA, cache-lga-kjfk8660021-LGA, cache-lga-kjfk8660058-LGA, cache-bur-kbur8200098-BUR",
+    "x-cache": "MISS, HIT, MISS",
+    "x-timer": "S1790925542.115545,VS0,VE64",
+    "content-length": "2074416",
+    "x-envoy-upstream-service-time": "151",
+    "connection": "close"
+  },
+  "raw_pdf_local_path": "/tmp/antimatter-wall-2604.20762/2604.20762.pdf",
+  "raw_third_party_text_publication": false,
+  "arxiv_version": "2604.20762v1",
+  "arxiv_version_date": "2026-04-22",
+  "version_pinned_url": "https://arxiv.org/pdf/2604.20762v1",
+  "version_pinned_pdf_sha256": "55c4e37de2289f3148830d18827ec6a57dd4e8ddf6ae64593f3b918b20942ca3",
+  "version_pinned_matches_retrieved_pdf": true,
+  "pdf_pages": 31,
+  "extraction": {
+    "tool": "pdftotext -layout",
+    "raw_text_path": "/tmp/antimatter-wall-2604.20762/2604.20762.txt",
+    "raw_text_sha256": "0c5c4ce2a24ffabd124e01ccb9d75e15e778eb37a2287eff6977191178bdfd33"
+  }
+}

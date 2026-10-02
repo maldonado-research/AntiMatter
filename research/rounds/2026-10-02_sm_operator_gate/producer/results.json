@@ -1,0 +1,572 @@
+{
+  "B_minus_L_conversion": [
+    "28/79",
+    "28/79",
+    "28/79"
+  ],
+  "benchmark": "conventional external derivative B+L interaction; symmetric unbroken SM",
+  "c_status": "unspecified by Wilson replacement; c=1 is a toy normalization",
+  "charge_rows": {
+    "B": [
+      "1/3",
+      "1/3",
+      "1/3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "B_plus_L": [
+      "1/3",
+      "1/3",
+      "1/3",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0"
+    ],
+    "Delta_e": [
+      "1/9",
+      "1/9",
+      "1/9",
+      "-1",
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "0"
+    ],
+    "Delta_mu": [
+      "1/9",
+      "1/9",
+      "1/9",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0"
+    ],
+    "Delta_tau": [
+      "1/9",
+      "1/9",
+      "1/9",
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "-1",
+      "0"
+    ],
+    "L": [
+      "0",
+      "0",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0"
+    ],
+    "Y": [
+      "1/6",
+      "2/3",
+      "-1/3",
+      "-1/2",
+      "-1/2",
+      "-1/2",
+      "-1",
+      "-1",
+      "-1",
+      "1/2"
+    ]
+  },
+  "conserved_gram_matrix_A_S_AT": [
+    [
+      "11",
+      "8/3",
+      "8/3",
+      "8/3"
+    ],
+    [
+      "8/3",
+      "31/9",
+      "4/9",
+      "4/9"
+    ],
+    [
+      "8/3",
+      "4/9",
+      "31/9",
+      "4/9"
+    ],
+    [
+      "8/3",
+      "4/9",
+      "4/9",
+      "31/9"
+    ]
+  ],
+  "flavor_difference_control": {
+    "mu": [
+      "0",
+      "0",
+      "0",
+      "-1/3",
+      "1/3",
+      "0",
+      "-1/3",
+      "1/3",
+      "0",
+      "0"
+    ],
+    "scaled_B": "0",
+    "scaled_Delta": [
+      "1",
+      "-1",
+      "0"
+    ],
+    "scaled_Le": "-1",
+    "scaled_Lmu": "1"
+  },
+  "not_a_model_yield": true,
+  "small_mu_zero_Delta": "max_i |mu_i|/T = 50/79 |kappa|/T << 1",
+  "source_normalization": "L_int=c (partial_mu theta0) J_(B+L)^mu; kappa=c dot(theta0); H_int=-kappa Q_(B+L)",
+  "species": [
+    "q",
+    "u",
+    "d",
+    "l_e",
+    "l_mu",
+    "l_tau",
+    "e_e",
+    "e_mu",
+    "e_tau",
+    "H"
+  ],
+  "susceptibility_diagonal_in_T2_over_6": [
+    "18",
+    "9",
+    "9",
+    "2",
+    "2",
+    "2",
+    "1",
+    "1",
+    "1",
+    "4"
+  ],
+  "test_count": 48,
+  "tests": [
+    {
+      "detail": {
+        "rank": 4
+      },
+      "passed": true,
+      "test": "conserved_matrix_rank"
+    },
+    {
+      "detail": {
+        "rank": 6
+      },
+      "passed": true,
+      "test": "reaction_matrix_rank"
+    },
+    {
+      "detail": [
+        "28/79",
+        "28/79",
+        "28/79"
+      ],
+      "passed": true,
+      "test": "standard_B_minus_L_conversion"
+    },
+    {
+      "detail": "mu vanishes",
+      "passed": true,
+      "test": "zero_drive_zero_charge"
+    },
+    {
+      "detail": "Y and all Delta_i unchanged",
+      "passed": true,
+      "test": "drive_fixed_conserved_charges"
+    },
+    {
+      "detail": {
+        "B": "432/79",
+        "L": "432/79"
+      },
+      "passed": true,
+      "test": "B_and_L_equal_for_zero_Delta"
+    },
+    {
+      "detail": {
+        "B": "0",
+        "B_plus_L": "0",
+        "Delta_e": "0",
+        "Delta_mu": "0",
+        "Delta_tau": "0",
+        "L": "0",
+        "Y": "0"
+      },
+      "passed": true,
+      "test": "up_Yukawa_conserved_charges"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "up_Yukawa_effective_affinity"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "up_Yukawa_intrinsic_source_compatibility"
+    },
+    {
+      "detail": {
+        "B": "0",
+        "B_plus_L": "0",
+        "Delta_e": "0",
+        "Delta_mu": "0",
+        "Delta_tau": "0",
+        "L": "0",
+        "Y": "0"
+      },
+      "passed": true,
+      "test": "down_Yukawa_conserved_charges"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "down_Yukawa_effective_affinity"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "down_Yukawa_intrinsic_source_compatibility"
+    },
+    {
+      "detail": {
+        "B": "0",
+        "B_plus_L": "0",
+        "Delta_e": "0",
+        "Delta_mu": "0",
+        "Delta_tau": "0",
+        "L": "0",
+        "Y": "0"
+      },
+      "passed": true,
+      "test": "electron_Yukawa_conserved_charges"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "electron_Yukawa_effective_affinity"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "electron_Yukawa_intrinsic_source_compatibility"
+    },
+    {
+      "detail": {
+        "B": "0",
+        "B_plus_L": "0",
+        "Delta_e": "0",
+        "Delta_mu": "0",
+        "Delta_tau": "0",
+        "L": "0",
+        "Y": "0"
+      },
+      "passed": true,
+      "test": "muon_Yukawa_conserved_charges"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "muon_Yukawa_effective_affinity"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "muon_Yukawa_intrinsic_source_compatibility"
+    },
+    {
+      "detail": {
+        "B": "0",
+        "B_plus_L": "0",
+        "Delta_e": "0",
+        "Delta_mu": "0",
+        "Delta_tau": "0",
+        "L": "0",
+        "Y": "0"
+      },
+      "passed": true,
+      "test": "tau_Yukawa_conserved_charges"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "tau_Yukawa_effective_affinity"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "tau_Yukawa_intrinsic_source_compatibility"
+    },
+    {
+      "detail": {
+        "B": "0",
+        "B_plus_L": "0",
+        "Delta_e": "0",
+        "Delta_mu": "0",
+        "Delta_tau": "0",
+        "L": "0",
+        "Y": "0"
+      },
+      "passed": true,
+      "test": "strong_sphaleron_full_3_generations_conserved_charges"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "strong_sphaleron_full_3_generations_effective_affinity"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "strong_sphaleron_full_3_generations_intrinsic_source_compatibility"
+    },
+    {
+      "detail": {
+        "B": "3",
+        "B_plus_L": "6",
+        "Delta_e": "0",
+        "Delta_mu": "0",
+        "Delta_tau": "0",
+        "L": "3",
+        "Y": "0"
+      },
+      "passed": true,
+      "test": "weak_sphaleron_full_3_generations_conserved_charges"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "weak_sphaleron_full_3_generations_effective_affinity"
+    },
+    {
+      "detail": "6",
+      "passed": true,
+      "test": "weak_sphaleron_full_3_generations_intrinsic_source_compatibility"
+    },
+    {
+      "detail": "Delta B = 3, Delta L = 3, Delta(B+L) = 6",
+      "passed": true,
+      "test": "weak_sphaleron_exact_charge"
+    },
+    {
+      "detail": "projection identically zero at fixed conserved charge",
+      "passed": true,
+      "test": "hypercharge_source_invisible"
+    },
+    {
+      "detail": "projection identically zero at fixed conserved charge",
+      "passed": true,
+      "test": "Delta_e_source_invisible"
+    },
+    {
+      "detail": "projection identically zero at fixed conserved charge",
+      "passed": true,
+      "test": "Delta_mu_source_invisible"
+    },
+    {
+      "detail": "projection identically zero at fixed conserved charge",
+      "passed": true,
+      "test": "Delta_tau_source_invisible"
+    },
+    {
+      "detail": "B-L is conserved",
+      "passed": true,
+      "test": "B_L_sources_equivalent"
+    },
+    {
+      "detail": "linear projection",
+      "passed": true,
+      "test": "B_plus_L_source_twice_B"
+    },
+    {
+      "detail": "L_i-L_j is conserved",
+      "passed": true,
+      "test": "flavor_source_0_1_invisible"
+    },
+    {
+      "detail": "L_i-L_j is conserved",
+      "passed": true,
+      "test": "flavor_source_0_2_invisible"
+    },
+    {
+      "detail": "L_i-L_j is conserved",
+      "passed": true,
+      "test": "flavor_source_1_2_invisible"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "flavor_difference_total_B_zero"
+    },
+    {
+      "detail": [
+        "0",
+        "0",
+        "0",
+        "-1/3",
+        "1/3",
+        "0",
+        "-1/3",
+        "1/3",
+        "0",
+        "0"
+      ],
+      "passed": true,
+      "test": "flavor_difference_is_nontrivial"
+    },
+    {
+      "detail": "0",
+      "passed": true,
+      "test": "flavor_difference_Y_zero"
+    },
+    {
+      "detail": "459496/192049",
+      "passed": true,
+      "test": "general_B_response"
+    },
+    {
+      "detail": [
+        "0",
+        "2/7",
+        "-3/11",
+        "5/13"
+      ],
+      "passed": true,
+      "test": "general_conserved_values"
+    },
+    {
+      "detail": "all seven reactions",
+      "passed": true,
+      "test": "general_reaction_equilibrium"
+    },
+    {
+      "detail": "P^2 = P",
+      "passed": true,
+      "test": "projection_idempotent"
+    },
+    {
+      "detail": "S P = P^T S",
+      "passed": true,
+      "test": "susceptibility_reciprocity"
+    },
+    {
+      "detail": "nonzero conserved-density solutions",
+      "passed": true,
+      "test": "no_drive_equilibrium_for_Delta_basis"
+    },
+    {
+      "detail": "3/25",
+      "passed": true,
+      "test": "strict_KKT_minimum_allowed_perturbation"
+    },
+    {
+      "detail": "Q -> Q + conserved charge changes only a fixed constant",
+      "passed": true,
+      "test": "general_conserved_source_shift"
+    }
+  ],
+  "units": {
+    "c": "dimensionless",
+    "delta_i": "6 n_Delta_i/T^2 (energy)",
+    "kappa": "energy",
+    "mu_i": "intrinsic chemical potential (energy)",
+    "theta0": "dimensionless"
+  },
+  "zero_Delta_B_plus_L_drive": {
+    "B_over_kappa_T2": "72/79",
+    "B_over_kappa_T2_over_6": "432/79",
+    "B_plus_L_over_kappa_T2": "144/79",
+    "L_over_kappa_T2_over_6": "432/79",
+    "max_abs_mu_over_kappa": "50/79",
+    "mu_over_kappa": [
+      "36/79",
+      "42/79",
+      "30/79",
+      "50/79",
+      "50/79",
+      "50/79",
+      "44/79",
+      "44/79",
+      "44/79",
+      "6/79"
+    ],
+    "scaled_density_over_kappa": [
+      "648/79",
+      "378/79",
+      "270/79",
+      "100/79",
+      "100/79",
+      "100/79",
+      "44/79",
+      "44/79",
+      "44/79",
+      "24/79"
+    ]
+  },
+  "zero_drive_Delta_basis_mu": [
+    [
+      "7/237",
+      "-5/237",
+      "19/237",
+      "-221/711",
+      "16/711",
+      "16/711",
+      "-185/711",
+      "52/711",
+      "52/711",
+      "-4/79"
+    ],
+    [
+      "7/237",
+      "-5/237",
+      "19/237",
+      "16/711",
+      "-221/711",
+      "16/711",
+      "52/711",
+      "-185/711",
+      "52/711",
+      "-4/79"
+    ],
+    [
+      "7/237",
+      "-5/237",
+      "19/237",
+      "16/711",
+      "16/711",
+      "-221/711",
+      "52/711",
+      "52/711",
+      "-185/711",
+      "-4/79"
+    ]
+  ]
+}

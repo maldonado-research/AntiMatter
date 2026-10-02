@@ -1,0 +1,29 @@
+{
+  "scope": "Post-run portability amendment only: repository context discovery, repository-relative receipt sourcepath, and declared exact analysis dependency metadata. Primary solver, primarycontrols, matrices, and numerical sensitivity formulas remain unchanged.",
+  "pre_portability_sha256": {
+    "conditional_normalization_sensitivity.py": "b89d069484cb7e4e42fce71042663b21cb930d3779f8a931be556eac32906bc4",
+    "sensitivity_receipt.json": "e580d19eaf43bcdccc9a9233df5c452c88e0227bcc90441cf5f3fad09569d482",
+    "provenance_note.json": "75e9b3e51142528964ede2ec538683cb0e434b91839c945ca5c2d4a038394557",
+    "CONTROLS.md": "1088872e258cee37d35de83c5ea57012e35002b13ee031768efae41e3bf72ca2",
+    "SENSITIVITY_CONTROLS.md": "d18c9656f36429ab3340c9fadced17ebb93848fd6c3c802418a03aa0e19fb212",
+    "sm_charge_response.py": "6ffd613763509c2c3cf6e6a49dab1e605b2fc804dc170c85a1777fcc8c2f0fe6",
+    "receipt.json": "a47c640ff60b6b967964c894de98fdb797f63b83d0ea169ee3c8da966116013a",
+    "matrices.json": "1db673a00c6f6c2daedee0b3b02de79a13fc5b1fb180e21e5537156220a13bbf"
+  },
+  "pre_portability_sensitivity_values": {
+    "ideal_response_C_exact": "6480/(33733*pi**2)",
+    "ideal_response_C": "0.019463471081799684550924581910859843",
+    "legacy_response_C": "39/2000",
+    "C_ideal_over_C_legacy": "0.99812672214357356671408112363383813",
+    "fractional_response_shift": "-0.0018732778564264332859188763661618728",
+    "old_continuous_one_A_threshold": "48.936522726843938272706521687646617",
+    "new_continuous_one_A_threshold": "49.028366480107884364398705717335968",
+    "old_required_eta_at_n49": "0.99870454544579465862666370791115546",
+    "new_required_eta_at_n49": "1.0005789077573037625387490962721626",
+    "old_minimum_n_at_eta1": 49,
+    "new_minimum_n_at_eta1": 50,
+    "conditional_new_kinetic_over_A_at_n49_eta1": "1.0011581506487989915495272205458226",
+    "conditional_new_kinetic_over_A_at_n50_eta1": "0.96151228788310655148416594261220800"
+  },
+  "frozen_public_source_sha256": "4a2bfece249ef634986256b45b75fc8ab89a147d16673972e5565aeca24fe3a9"
+}
