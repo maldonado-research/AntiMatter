@@ -60,10 +60,19 @@ after = json.loads((repo / "docs/research-routine/routine.json").read_text())
 latest = after.get("latest_completed_round")
 if not isinstance(latest, str) or latest == before.get("latest_completed_round"):
     raise SystemExit("No new completed round: stop for checkpoint review")
-round_root = (repo / latest).resolve()
+latest_path = pathlib.Path(latest)
+if latest_path.is_absolute() or latest_path.parts[:2] != ("research", "rounds") or ".." in latest_path.parts:
+    raise SystemExit("Round pointer must be a portable relative path under research/rounds")
+round_path = repo / latest_path
+round_root = round_path.resolve()
+if round_path != round_root:
+    raise SystemExit("Round pointer must not traverse symlinks")
 if not round_root.is_relative_to((repo / "research/rounds").resolve()):
     raise SystemExit("Completed round must be inside research/rounds")
-record = json.loads((round_root / "ROUND.json").read_text())
+record_path = round_root / "ROUND.json"
+if record_path.is_symlink() or not record_path.is_file():
+    raise SystemExit("Round record must be a regular file inside the round")
+record = json.loads(record_path.read_text())
 if record.get("status") != "completed" or not record.get("next_question", "").strip():
     raise SystemExit("Round is incomplete or lacks a next question")
 if record.get("predecessor") != before.get("latest_completed_round"):
@@ -71,8 +80,12 @@ if record.get("predecessor") != before.get("latest_completed_round"):
 receipt_name = record.get("validation_receipt")
 if not isinstance(receipt_name, str):
     raise SystemExit("Round must name its validation receipt")
-receipt_path = (round_root / receipt_name).resolve()
-if not receipt_path.is_relative_to(round_root):
+receipt_relative = pathlib.Path(receipt_name)
+if receipt_relative.is_absolute() or ".." in receipt_relative.parts:
+    raise SystemExit("Validation receipt must use a portable relative path inside the round")
+receipt_file = round_root / receipt_relative
+receipt_path = receipt_file.resolve()
+if receipt_file != receipt_path or not receipt_path.is_file() or not receipt_path.is_relative_to(round_root):
     raise SystemExit("Validation receipt must stay inside the round")
 receipt = json.loads(receipt_path.read_text())
 if receipt.get("status") != "passed" and receipt.get("passed") is not True:
@@ -83,8 +96,11 @@ for item in [round_root / "ROUND.json", receipt_path, repo / "docs/research-rout
     subprocess.run(["git", "-C", str(repo), "ls-files", "--error-unmatch", str(item.relative_to(repo))],
                    check=True, stdout=subprocess.DEVNULL)
 commit = subprocess.check_output(["git", "-C", str(repo), "rev-parse", "HEAD"], text=True).strip()
-if commit == (run / "baseline-commit.txt").read_text().strip():
+baseline = (run / "baseline-commit.txt").read_text().strip()
+if commit == baseline:
     raise SystemExit("No new committed checkpoint")
+if subprocess.run(["git", "-C", str(repo), "merge-base", "--is-ancestor", baseline, commit]).returncode:
+    raise SystemExit("New checkpoint must descend from the invocation baseline")
 summary = {"status": "completed_checkpoint_verified", "round": latest,
            "validation_receipt": receipt_name,
            "commit": commit}

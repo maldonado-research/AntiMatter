@@ -45,7 +45,9 @@
     "cron_utc": "17 */4 * * *",
     "status": "prepared_not_activated_default_branch_merge_required",
     "ai_research": false,
-    "hosted_validation_status": "in_progress_after_portability_fix"
+    "hosted_validation_status": "passed",
+    "hosted_validation_url": "https://github.com/maldonado-research/AntiMatter/actions/runs/36972300414",
+    "hosted_validated_commit": "de73cc9e3124ddb2a6d365311a55b8222c1a986f"
   },
   "publication": {
     "research_pr": "https://github.com/maldonado-research/AntiMatter/pull/1",
@@ -55,5 +57,13 @@
     "zenodo_status": "candidate_prepared_not_uploaded_missing_secure_deposit_credential"
   },
   "requested_ai_trigger": "after_completed_validated_committed_round",
-  "external_runner_template": "scripts/run_ai_round.sh"
+  "external_runner_template": "scripts/run_ai_round.sh",
+  "external_runner_validation": {
+    "shell_syntax": "passed",
+    "mocked_scenarios": 20,
+    "mocked_checkpoint_controls": "passed",
+    "authenticated_execution": "not_tested",
+    "persistent_host_execution": "not_tested",
+    "receipt": "docs/research-routine/RUNNER_VALIDATION.json"
+  }
 }
