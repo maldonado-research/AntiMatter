@@ -50,6 +50,29 @@ invocation and a subsequent scheduled invocation before claiming unattended
 operation. Choosing a runner, connecting it, and validating that history remain
 outside the capabilities verified in this cloud chat.
 
+`scripts/run_ai_round.sh` is a concrete external Linux runner template. Its
+shell syntax and the installed Codex CLI interface were checked; authenticated
+model execution, model-ID mapping, and persistence on an external host have
+not been tested. It requires Codex, `flock`, `timeout`, a clean checkout, an
+already authenticated runner and a persistent state directory outside the
+public checkout. Set the non-secret `ANTIMATTER_CODEX_MODEL` to the runner's
+verified identifier for GPT-6.1 Sol. The template requests Ultra effort, permits
+one active invocation, limits it to 60 minutes, and preserves private logs with
+restricted permissions. It installs no cron or service and was not launched.
+Do not publish its logs; private references may appear in model events.
+
+After a successful manual invocation on the persistent host, its scheduler can
+call this script every four hours. An example invocation is:
+
+```bash
+bash scripts/run_ai_round.sh /absolute/AntiMatter /absolute/private-run-state
+```
+
+Unavailable model/effort, unusable authentication, dirty work or timeout must be
+diagnosed before enabling repeated execution. Do not silently change the model
+or override another round. The scheduler must read the completed scientific
+record; a zero CLI exit alone is not a result or publication receipt.
+
 The included GitHub Actions workflow is **numerical checks only**: manual and
 relevant PR triggers, plus `17 */4 * * *` UTC, around six runs per day. GitHub
 schedules are approximate and can be delayed. The cron becomes eligible only
