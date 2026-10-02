@@ -1,0 +1,90 @@
+# Repeated Antimatter research rounds
+
+This repository supplies a research prompt, persistent queue and numerical
+reproduction workflow. It does not launch a continuous AI researcher.
+No recurring AI scheduler was callable in the originating cloud session.
+The Codex CLI was present and its non-interactive interface was inspected;
+a persistent external host, valid authentication and the requested model mapping
+have not been validated. No AI schedule is active.
+
+## Each research round
+
+1. Read `routine.json`, the latest completed round and the current Git/PR state.
+   Record the baseline full commit SHA. If a prior round is marked running,
+   inspect its checkpoint and owner before continuing; do not overlap writers.
+2. Choose one ranked question and a bounded deliverable. Record the assumptions,
+   input hashes, intended method and controls before a fresh numerical scan.
+   Use a new round directory; preserve earlier results and negative findings.
+3. Execute, diagnose failures, and independently verify important claims. Record
+   numerical checks separately from physical validity and external peer review.
+4. Write a result note, code, inputs/provenance, evidence and next test. Check
+   privacy and claims before pushing a new public draft or updating a draft PR.
+5. Advance the queue and commit the durable record only after evidence review.
+   Report blocked, failed and completed outcomes distinctly. A human-reviewed
+   merge and authenticated archival publication remain separate events.
+
+Future rounds should use the model preference in `routine.json`: GPT-6.1 Sol
+with Ultra reasoning effort. A prompt does not change the active model; the
+launcher must select it and confirm availability. Use the existing isolated
+checkouts; do not create a Git worktree unless Ricardo explicitly requests one.
+
+## Scheduling
+
+The proposed external AI cadence is every four hours, one bounded round per
+invocation, with one active writer. A completion-triggered next round is possible
+only if an external scheduler supports it. Each round must checkpoint and return;
+an indefinite chat turn or background process in an ephemeral cloud task is not
+a durable scheduler. The queue and prompt can be resumed manually in any future
+authorized session. No research round should recursively launch itself.
+
+To activate actual AI rounds, a persistent Codex task runner must be connected to
+this repository, supplied with usable authentication and configured to invoke
+ROUND_PROMPT.md using the requested model/effort. Set its concurrency to one and
+its bounded runtime to 60 minutes. Its job history must verify a first completed
+invocation and a subsequent scheduled invocation before claiming unattended
+operation. Choosing a runner, connecting it, and validating that history remain
+outside the capabilities verified in this cloud chat.
+
+The included GitHub Actions workflow is **numerical checks only**: manual and
+relevant PR triggers, plus `17 */4 * * *` UTC, around six runs per day. GitHub
+schedules are approximate and can be delayed. The cron becomes eligible only
+after the workflow reaches the default branch and Actions are enabled. An open
+draft PR does not activate it. GitHub can disable inactive repository schedules;
+check job history rather than assuming uninterrupted 24/7 service.
+
+## Numerical check runner
+
+Install the exact dependencies in `research/AM1231/requirements-replay.txt`, then:
+
+```bash
+python scripts/reproduce_candidate.py
+```
+
+Use the pinned virtual environment in cloud tasks. The script verifies the 48
+baseline and 40 candidate ledger entries, copies only the public candidate to a
+new temporary directory, executes its seven reproduction steps, compares five
+deterministic producer files and writes receipts/logs. It does not modify release
+files, scan the private archive, call AI, search literature, push commits, deploy
+the website or publish to Zenodo. The workflow has read-only repository permission
+and uses no research/publication credentials. Logs and receipts contain public
+calculation evidence; private reference files never enter the artifact upload.
+
+Checksum failure, a failed calculation/comparison, changed producer output or a
+timeout is a failed run. Do not alter preserved outputs to make it pass. The
+first GitHub-hosted execution has not been verified merely by a local replay.
+
+## Durable round record
+
+Each `research/rounds/<round_id>/` contains a result note, reproducible code,
+locally recorded pre-run plan when applicable, result receipt and SHA256SUMS.txt.
+The note states the baseline and requested/verified model configuration, the
+question, explicit assumptions, input provenance, conclusions and limitations.
+Use public source links; private raw references remain in their authorized
+archive. Each new record names its predecessor and next question. Immutable
+receipts preserve negative or blocked outcomes; `routine.json` points to the
+latest completed record. Scheduler ownership/leases live in the external runner,
+not as a pretend active lock in a committed JSON file.
+
+Scientific release v1.23.1 and the v1.23.2 candidate remain distinct. A passing
+reproduction job says that the calculation is reproducible; it does not establish
+the source/operator, a physical CP mechanism, a final baryon yield or novelty.

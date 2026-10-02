@@ -1,0 +1,52 @@
+name: Antimatter numerical checks
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - research/**
+      - scripts/reproduce_candidate.py
+      - .github/workflows/research-checks.yml
+  schedule:
+    - cron: '17 */4 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: antimatter-checks-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
+      XDG_CACHE_HOME: ${{ runner.temp }}/antimatter-cache
+      MPLCONFIGDIR: ${{ runner.temp }}/antimatter-matplotlib
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+          cache: pip
+          cache-dependency-path: research/AM1231/requirements-replay.txt
+      - name: Install pinned dependencies
+        run: |
+          python -m pip install --disable-pip-version-check -r research/AM1231/requirements-replay.txt
+          python -m pip check
+      - name: Reproduce in a disposable copy
+        run: python scripts/reproduce_candidate.py --output "$RUNNER_TEMP/antimatter-checks"
+      - name: Keep public verification receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: antimatter-checks-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/antimatter-checks/receipt.json
+            ${{ runner.temp }}/antimatter-checks/step-*.log
+          if-no-files-found: warn
+          retention-days: 14
