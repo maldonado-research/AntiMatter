@@ -41,5 +41,6 @@
   },
   "next_question": "Construct one action-derived physical source, particle/reaction content and thermal source vector; no arbitrary response efficiency can replace this match",
   "publication_state": "Prepared for existing GitHub draft PR; no merged release, site deployment or new DOI",
-  "privacy_scope": "Only fresh public-input comparator work; no private raw references or personal documents"
+  "privacy_scope": "Only fresh public-input comparator work; no private raw references or personal documents",
+  "validation_receipt": "PINNED_REPLAY.json"
 }

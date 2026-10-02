@@ -35,9 +35,10 @@ checkouts; do not create a Git worktree unless Ricardo explicitly requests one.
 
 ## Scheduling
 
-The proposed external AI cadence is every four hours, one bounded round per
-invocation, with one active writer. A completion-triggered next round is possible
-only if an external scheduler supports it. Each round must checkpoint and return;
+The requested external AI routine is completion-driven: start the next bounded
+round after a completed, validated, committed checkpoint, with one active writer.
+Failed, blocked, timed-out or incomplete rounds stop the chain for diagnosis.
+Each round must checkpoint and return;
 an indefinite chat turn or background process in an ephemeral cloud task is not
 a durable scheduler. The queue and prompt can be resumed manually in any future
 authorized session. No research round should recursively launch itself.
@@ -61,12 +62,25 @@ one active invocation, limits it to 60 minutes, and preserves private logs with
 restricted permissions. It installs no cron or service and was not launched.
 Do not publish its logs; private references may appear in model events.
 
-After a successful manual invocation on the persistent host, its scheduler can
-call this script every four hours. An example invocation is:
+First validate one manual invocation on the persistent host:
 
 ```bash
 bash scripts/run_ai_round.sh /absolute/AntiMatter /absolute/private-run-state
 ```
+
+After validating authentication, the requested model/effort and that first round,
+a persistent host can run successive rounds with:
+
+```bash
+while bash scripts/run_ai_round.sh /absolute/AntiMatter /absolute/private-run-state; do :; done
+```
+
+The wrapper stops on a concurrent owner, nonzero CLI exit, timeout, missing new
+round, non-passing receipt, incorrect predecessor or uncommitted work. It checks
+structural evidence and recorded validation; scientific review and remote
+publication receipts still require the round's own checks. This loop has not been
+launched in the cloud chat and does not survive a host shutdown without a real
+service manager.
 
 Unavailable model/effort, unusable authentication, dirty work or timeout must be
 diagnosed before enabling repeated execution. Do not silently change the model
@@ -91,11 +105,12 @@ python scripts/reproduce_candidate.py
 Use the pinned virtual environment in cloud tasks. The script verifies the 48
 baseline and 40 candidate ledger entries, copies only the public candidate to a
 new temporary directory, executes its seven reproduction steps, compares five
-deterministic producer files and writes receipts/logs. [Portable comparisons](PORTABLE_REPRODUCTION.md) distinguish byte equality
+producer files and writes receipts/logs. [Portable comparisons](PORTABLE_REPRODUCTION.md) distinguish byte equality
 from exact structured scientific data and explicitly bounded diagnostic
-observations. Only the interpreter path and listed diagnostics can vary; each
-must satisfy its original registered criterion after all independent comparisons
-pass. Unexpected differences fail, and every difference is retained in the
+observations. Only explicitly listed metadata, spectral/endpoint values and diagnostics can
+vary under the documented gates, after all original independent comparisons
+pass. The documentation identifies new archival portability gates separately
+from the original registered criteria. Unexpected differences fail, and every difference is retained in the
 receipt. Preserved files are never rewritten.
 It does not modify release
 files, scan the private archive, call AI, search literature, push commits, deploy
@@ -118,7 +133,9 @@ locally recorded pre-run plan when applicable, result receipt and SHA256SUMS.txt
 The note states the baseline and requested/verified model configuration, the
 question, explicit assumptions, input provenance, conclusions and limitations.
 Use public source links; private raw references remain in their authorized
-archive. Each new record names its predecessor and next question. Immutable
+archive. Each new ROUND.json names its predecessor, status, next_question and
+validation_receipt (a path inside the round, whose JSON has status="passed" or
+passed=true). Immutable
 receipts preserve negative or blocked outcomes; `routine.json` points to the
 latest completed record. Scheduler ownership/leases live in the external runner,
 not as a pretend active lock in a committed JSON file.

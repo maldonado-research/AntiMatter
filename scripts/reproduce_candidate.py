@@ -6,6 +6,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -105,9 +106,10 @@ def main():
                 report['producer_content_checks'][relative] = comparison
                 if not comparison['passed']:
                     rejected = comparison['scientific_or_unapproved_differences']
-                    patterns = sorted({item['path'] for item in rejected})
-                    detail = json.dumps({'rejected_paths': patterns,
-                                         'first_differences': rejected[:8]})
+                    patterns = sorted({re.sub(r'/\d+(?=/|$)', '/[]', item['path'])
+                                       for item in rejected})
+                    detail = json.dumps({'first_differences': rejected[:8],
+                                         'rejected_path_patterns': patterns})
                     raise RuntimeError(f'Producer output changed: {relative}\n{detail}')
         for name, relative in {
             'wilson_comparison': 'wilson-metric-independent/comparison-results.json',

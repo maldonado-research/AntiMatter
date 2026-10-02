@@ -1,6 +1,6 @@
 # Portable archival comparisons
 
-`scripts/reproduction_policy.py` implements the explicit `wilson-portability-v2`
+`scripts/reproduction_policy.py` implements the explicit `candidate-portability-v3`
 policy. It compares fresh output to the preserved candidate without editing
 either artifact. Byte equality is reported separately from acceptance. Every
 content difference is retained in the receipt, with its category and gate.
@@ -46,9 +46,9 @@ differences were confined to these floating fields and the previously listed
 diagnostics/installation path. This motivated v2; the archived inputs, data
 and registration have not been rewritten.
 
-All other contents remain exact: inputs and hashes, registered families,
+All other Wilson contents remain exact: inputs and hashes, registered families,
 Decimal root and period strings, other metric values and spectral changes,
-counts, conventions, versions, source-duration data, CSV columns and
+counts, conventions, versions, CSV columns and
 row ordering. Missing/extra fields, nonfinite observations, changed control
 bounds or unexpected differences fail. No general floating-point tolerance
 is applied outside the named fields. A newly observed difference outside this
@@ -61,3 +61,51 @@ numerical portability under recorded gates, not scientific advancement.
 A passing portable
 comparison indicates agreement under this policy, not byte-identical files,
 physical validity, novelty or external peer review.
+
+## Source-duration semantic comparison
+
+V3 adds a **new portable archival comparator** after observing hardware-dependent
+adaptive ODE steps, ledger diagnostics and endpoint rounding. It reuses the
+original registered controls and independent proper-time endpoint criteria;
+it is not a newly preregistered verification or a change to preserved data.
+All original producer and proper-time comparisons must still succeed.
+
+Root parameters, source/code/registration hashes, exact software versions,
+scope, dates, status, all 11 named check booleans and all duration bounds remain
+exact. The ordered 30 initial temperature/phase/expansion/energy records remain
+exact. Missing or additional root, row, control or summary fields fail.
+
+Each archived/fresh row compares exactly the original eight endpoint measures:
+absolute phase, momentum, signed site-0 velocity, total scalar fraction and
+Hubble ratio; absolute kinetic and potential differences divided by the frozen
+amplitude; and relative conditional winding-times-efficiency difference. Every
+measure must be strictly below `1e-7`, the original independent comparator's
+criterion. The receipt includes all 30 sets of endpoint differences.
+
+Explicit derived fields may vary consistently with those endpoints and the
+original energy/radiation ledgers: phase and canonical velocities, total scalar
+energy, radiation density, kinetic fraction, integrated Hubble loss and final
+ledger residual. Velocity, Hubble and conditional winding expressions are
+recomputed from their same-document inputs. Energy/fraction/ledger consistency
+uses the original `1e-7` natural-scale criteria and radiation consistency uses
+the original `1e-8` criterion. These derived checks add consistency requirements
+to the new archival comparator; they do not widen any original tolerance.
+
+Only the explicitly listed solver/error/extremum/count diagnostics may vary:
+scalar absolute/relative ledger errors, radiation ledger/analytic errors,
+maximum energy ratio, four sampled minima, tight/loose evaluation counts,
+two-tolerance endpoint difference and loose scalar-ledger error. Values must
+be finite, evaluation counts positive integers, and all original energy,
+positivity, ledger, radiation, two-tolerance, stationary, reflection and Bessel
+controls are re-evaluated. The Bessel scalar-ledger relative error remains a
+reported nonnegative diagnostic with no invented acceptance bound.
+
+Summary extrema must exactly match their generated rows. The largest-sample
+record must exactly mirror the generated maximum-energy row and retain the
+same initial temperature/phase as the archive. It remains a sampled maximum.
+
+Both source CSVs must retain their exact columns and row order, with every
+cell exactly matching its corresponding JSON representation. Trajectory cells
+may vary only for the named endpoint/derived/diagnostic fields. Duration-bound
+CSV and JSON contents remain exact. All accepted numerical differences are
+recorded; passing this semantic comparison does not imply byte equality.

@@ -3,8 +3,7 @@
   "project": "Antimatter",
   "requested_model": "gpt-6.1-sol",
   "requested_reasoning_effort": "ultra",
-  "ai_schedule_status": "not_active_scheduler_unavailable",
-  "proposed_ai_cadence_hours": 4,
+  "ai_schedule_status": "not_active_persistent_authenticated_runner_required",
   "max_concurrent_research_rounds": 1,
   "proposed_round_runtime_minutes": 60,
   "prompt": "docs/research-routine/ROUND_PROMPT.md",
@@ -54,5 +53,7 @@
     "review_status": "open_drafts_author_review_pending",
     "zenodo_concept_doi": "10.5281/zenodo.18193771",
     "zenodo_status": "candidate_prepared_not_uploaded_missing_secure_deposit_credential"
-  }
+  },
+  "requested_ai_trigger": "after_completed_validated_committed_round",
+  "external_runner_template": "scripts/run_ai_round.sh"
 }

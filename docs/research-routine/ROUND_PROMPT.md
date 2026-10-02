@@ -42,7 +42,10 @@ send emails or third-party messages without separate authorization.
 
 Conclude with a durable round record: exact question, assumptions and inputs,
 methods, tests and results, independent checks, limitations, publication state,
-and a ranked next test. Update the queue only after its evidence is checked.
+and a ranked next test. ROUND.json must name status, predecessor, next_question
+and validation_receipt; the receipt records passed validation. Update the queue
+only after its evidence is checked. Finish with committed, preserved work for
+the external runner checkpoint guard.
 If blocked, record the exact missing prerequisite; do not fabricate a result or
 retry indefinitely. The external scheduler decides whether and when another
 round starts. This task must not launch copies of itself.
