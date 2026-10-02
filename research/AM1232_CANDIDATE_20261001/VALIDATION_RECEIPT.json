@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-01",
+  "timezone": "America/Los_Angeles",
+  "scope": "Current-instance computational reproduction, not physical or peer-review validation",
+  "passed": true,
+  "commands": [
+    {
+      "script": "wilson-metric/audit.py",
+      "exit_code": 0
+    },
+    {
+      "script": "wilson-metric-independent/independent.py",
+      "exit_code": 0
+    },
+    {
+      "script": "wilson-metric-independent/compare.py",
+      "exit_code": 0
+    },
+    {
+      "script": "source-duration/audit.py",
+      "exit_code": 0
+    },
+    {
+      "script": "source-duration-independent/independent_time_check.py",
+      "exit_code": 0
+    },
+    {
+      "script": "source-duration-independent/independent_duration_check.py",
+      "exit_code": 0
+    },
+    {
+      "script": "source-duration-independent/compare_outputs.py",
+      "exit_code": 0
+    }
+  ],
+  "producer_byte_identical": {
+    "wilson-metric/results.json": true,
+    "wilson-metric/results.csv": true,
+    "source-duration/results.json": true,
+    "source-duration/trajectories.csv": true,
+    "source-duration/duration_bounds.csv": true
+  },
+  "pinned_environment": "Python 3.12.14; NumPy 2.5.2; SciPy 1.17.1",
+  "protected_baseline_unchanged": true
+}

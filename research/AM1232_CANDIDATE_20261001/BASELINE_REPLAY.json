@@ -1,0 +1,50 @@
+{
+  "manifest_rows_passed": 30,
+  "original": {
+    "crc_pass": true,
+    "ledger_passes": 31,
+    "matches_loose_files": true,
+    "members": 32
+  },
+  "outer_checksums_passed": 5,
+  "package_checksums_passed": 48,
+  "package_root": "/workspace/AntiMatter/research/AM1231",
+  "parent": {
+    "crc_pass": true,
+    "ledger_passes": 31,
+    "members": 32
+  },
+  "passed": true,
+  "phone_archive": {
+    "crc_pass": true,
+    "members": 16
+  },
+  "replay_archive": {
+    "crc_pass": true,
+    "ledger_passes": 31,
+    "matches_loose_files": true,
+    "members": 32
+  },
+  "replay_root": "/workspace/AntiMatter/research/AM1231/replay/task.3YslMH",
+  "v1.23": {
+    "byte_identical": 26,
+    "documented_rendering_differences": [
+      "v1.23_SHA256.txt",
+      "v1.23_baryogenesis_energy_gate.png",
+      "v1.23_bundle_manifest.csv",
+      "v1.23_misalignment_constraint.png",
+      "v1.23_source_period_obstruction.png",
+      "v1.23_wilson_harmonic_purity.png"
+    ],
+    "members": 32,
+    "scientific_csv_count": 21,
+    "scientific_csv_exact_count": 21,
+    "summary_json_byte_identical": true,
+    "summary_value_differences": {},
+    "unexpected_differences": []
+  },
+  "v1.23.1": {
+    "csv_byte_identical": true,
+    "markdown_byte_identical": true
+  }
+}
