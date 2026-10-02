@@ -48,6 +48,7 @@ def main():
         'started_utc': datetime.now(timezone.utc).isoformat(),
         'scientific_status': 'conditional diagnostics; no baryogenesis demonstration',
         'python': sys.version, 'commands': [], 'producer_byte_identical': {},
+        'producer_content_checks': {},
         'ai_research_performed': False, 'publication_performed': False,
     }
     receipt = output / 'receipt.json'
@@ -99,7 +100,24 @@ def main():
                 relative = f'{folder}/{name}'
                 equal = (candidate / relative).read_bytes() == (copy / relative).read_bytes()
                 report['producer_byte_identical'][relative] = equal
-                if not equal:
+                content_equal = equal
+                ignored = []
+                if not equal and name == 'results.json':
+                    before = json.loads((candidate / relative).read_text())
+                    after = json.loads((copy / relative).read_text())
+                    # The interpreter's installation path is provenance, not a
+                    # numerical output. Keep all versions, inputs, hashes,
+                    # controls and scientific values exact.
+                    for document in [before, after]:
+                        if 'python_executable' in document.get('runtime', {}):
+                            document['runtime']['python_executable'] = '<interpreter path>'
+                    ignored = ['runtime.python_executable']
+                    content_equal = (json.dumps(before, sort_keys=True) ==
+                                     json.dumps(after, sort_keys=True))
+                report['producer_content_checks'][relative] = {
+                    'passed': content_equal, 'ignored_metadata_fields': ignored,
+                }
+                if not content_equal:
                     raise RuntimeError(f'Producer output changed: {relative}')
         for name, relative in {
             'wilson_comparison': 'wilson-metric-independent/comparison-results.json',

@@ -63,7 +63,12 @@ python scripts/reproduce_candidate.py
 Use the pinned virtual environment in cloud tasks. The script verifies the 48
 baseline and 40 candidate ledger entries, copies only the public candidate to a
 new temporary directory, executes its seven reproduction steps, compares five
-deterministic producer files and writes receipts/logs. It does not modify release
+deterministic producer files and writes receipts/logs. CSV bytes remain exact;
+JSON comparisons ignore only `runtime.python_executable`, whose installation
+path necessarily differs on hosted runners. Versions, inputs, code/registration
+hashes, controls and numerical values remain exact. Receipts separately report
+byte equality and content equality; preserved files are never rewritten.
+It does not modify release
 files, scan the private archive, call AI, search literature, push commits, deploy
 the website or publish to Zenodo. The workflow has read-only repository permission
 and uses no research/publication credentials. Logs and receipts contain public
