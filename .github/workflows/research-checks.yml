@@ -21,10 +21,6 @@ jobs:
   reproduce:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    env:
-      PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
-      XDG_CACHE_HOME: ${{ runner.temp }}/antimatter-cache
-      MPLCONFIGDIR: ${{ runner.temp }}/antimatter-matplotlib
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,10 +31,16 @@ jobs:
           cache: pip
           cache-dependency-path: research/AM1231/requirements-replay.txt
       - name: Install pinned dependencies
+        env:
+          PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
         run: |
           python -m pip install --disable-pip-version-check -r research/AM1231/requirements-replay.txt
           python -m pip check
       - name: Reproduce in a disposable copy
+        env:
+          PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
+          XDG_CACHE_HOME: ${{ runner.temp }}/antimatter-cache
+          MPLCONFIGDIR: ${{ runner.temp }}/antimatter-matplotlib
         run: python scripts/reproduce_candidate.py --output "$RUNNER_TEMP/antimatter-checks"
       - name: Keep public verification receipts
         if: always()
