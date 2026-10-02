@@ -28,8 +28,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12.14'
-          cache: pip
-          cache-dependency-path: research/AM1231/requirements-replay.txt
       - name: Install pinned dependencies
         env:
           PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
