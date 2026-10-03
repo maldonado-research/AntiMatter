@@ -48,16 +48,16 @@
     "status": "prepared_not_activated_default_branch_merge_required",
     "ai_research": false,
     "hosted_validation_status": "passed",
-    "hosted_validation_url": "https://github.com/maldonado-research/AntiMatter/actions/runs/36972897806",
-    "hosted_validated_commit": "999fe91b615d6d9caabc4a67ca4a22242206e0f6",
-    "hosted_validation_scope": "Previous baseline/candidate/transport and 20 one-round mock controls; newest operator/continuous checks pending hosted run"
+    "hosted_validation_url": "https://github.com/maldonado-research/AntiMatter/actions/runs/36980840141",
+    "hosted_validated_commit": "c315647e8f6a8da99755fc388747602b97b38fb5",
+    "hosted_validation_scope": "Baseline/candidate/transport/operator reproduction and 20 single-round plus 12 continuous-loop mocked controls passed; verify later commits in GitHub job history"
   },
   "publication": {
     "research_pr": "https://github.com/maldonado-research/AntiMatter/pull/1",
     "website_pr": "https://github.com/maldonado-research/maldonado-research.github.io/pull/3",
     "review_status": "open_drafts_author_review_pending",
     "zenodo_concept_doi": "10.5281/zenodo.18193771",
-    "zenodo_status": "candidate_prepared_not_uploaded_missing_secure_deposit_credential"
+    "zenodo_status": "authenticated_access_available_publication_preparation_in_progress"
   },
   "requested_ai_trigger": "after_completed_validated_committed_round",
   "external_runner_template": "scripts/run_ai_continuously.sh",

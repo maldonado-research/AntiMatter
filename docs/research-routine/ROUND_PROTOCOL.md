@@ -77,11 +77,11 @@ After validating authentication, the requested model/effort and that first round
 a persistent host can run successive rounds with:
 
 ```bash
-ANTIMATTER_MAX_ROUNDS=2 bash scripts/run_ai_continuously.sh /absolute/AntiMatter /absolute/private-run-state
+MAX_ROUNDS=2 bash scripts/run_ai_continuously.sh /absolute/AntiMatter /absolute/private-run-state
 ```
 
 Use two real completed rounds for initial host validation. After reviewing their
-history, `ANTIMATTER_MAX_ROUNDS=0` permits repeated bounded rounds. The
+history, `MAX_ROUNDS=0` permits repeated bounded rounds. The
 [Linux service deployment guide](deployment/DEPLOYMENT.md) supplies an explicit
 user-service template. It was mock-tested with 12 scenarios and seven independent
 probes, but no service was installed or enabled. `Restart=no` stops automatic
