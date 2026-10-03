@@ -1,0 +1,50 @@
+{
+  "titles": [
+    {
+      "source": "IOP",
+      "title": "Spontaneous baryogenesis from axions on induced electroweak walls"
+    },
+    {
+      "source": "arXiv",
+      "title": "Spontaneous Baryogenesis from Axions on Induced Electroweak Walls"
+    }
+  ],
+  "authors": [
+    {
+      "full_name": "Vanvlasselaer, Miguel"
+    },
+    {
+      "full_name": "Yin, Wen"
+    }
+  ],
+  "arxiv_eprints": [
+    {
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "value": "2604.20762"
+    }
+  ],
+  "dois": [
+    {
+      "source": "IOP",
+      "value": "10.1088/1475-7516/2026/09/063"
+    }
+  ],
+  "publication_info": [
+    {
+      "journal_volume": "09",
+      "artid": "063",
+      "year": 2026,
+      "journal_record": {
+        "$ref": "https://inspirehep.net/api/journals/1212538"
+      },
+      "page_start": "063",
+      "journal_title": "JCAP"
+    }
+  ],
+  "preprint_date": "2026-04-22",
+  "inspire_id": "3148095",
+  "inspire_record_url": "https://inspirehep.net/literature/3148095"
+}

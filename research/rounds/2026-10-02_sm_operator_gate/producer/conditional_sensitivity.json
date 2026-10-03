@@ -1,0 +1,290 @@
+{
+  "c_sph_ideal": "0.01946347108179968455092458191",
+  "c_sph_ideal_exact": "6480/(33733*pi^2) for g_star_s=106.75",
+  "c_sph_inherited": "0.0195",
+  "conditional_EFT_normalization": {
+    "coefficient_assumption": "our conditional choice c=n_det D_d motivated by public yield ansatz; no public operator/UV matching derivation",
+    "ideal_unit_efficiency_kappa_over_T_per_Dd": "52.44126269719934609386604672",
+    "ideal_unit_efficiency_max_mu_over_T_per_Dd": "33.19067259316414309738357387",
+    "inherited_unit_efficiency_kappa_over_T_per_Dd": "52.34302564102564180842725294",
+    "inherited_unit_efficiency_max_mu_over_T_per_Dd": "33.12849724115546949900459047",
+    "physical_kappa_over_T": "2*pi*n_det*D_d*(dot_tau1/T)"
+  },
+  "continuous_threshold_rescaling_inherited_over_ideal": "1.001876793612341515221960765",
+  "fixed_c1_toy_at_inherited_phase_speed": {
+    "kappa_over_T": "3.271439102564102613026703309",
+    "linear_response_consistent": false,
+    "max_mu_over_T": "2.070531077572216843687786904"
+  },
+  "fixed_c_n_det_toy_at_inherited_phase_speed": {
+    "I_F": 1,
+    "kappa_over_T": "52.34302564102564180842725294",
+    "linear_response_consistent": false,
+    "max_mu_over_T": "33.12849724115546949900459047",
+    "n_det": 16
+  },
+  "ideal_minus_inherited_percent": "-0.1873277856426433285918876366",
+  "ideal_over_inherited": "0.9981267221435735667140811236",
+  "n49_passes_at_eta1_conditional_ideal": false,
+  "n49_single_height_required_eta_conditional_ideal": "1.000578907757303762538749096",
+  "n49_single_height_required_eta_inherited": "0.9987045454457946586266637079",
+  "precision_boundary": "75 decimal arithmetic digits are computational precision; public input decimals and physical assumptions carry no such accuracy",
+  "rows": [
+    {
+      "budget": "one_A",
+      "conditional_energy_fraction_at_minimum": "0.9615122878831065514841659426",
+      "conditional_ideal_continuous_n": "49.02836648010788436439870572",
+      "conditional_ideal_integer_minimum": 50,
+      "eta_relative_efficiency": "1",
+      "original_continuous_n": "48.93652272684393827270652169",
+      "original_integer_minimum": 49
+    },
+    {
+      "budget": "two_A",
+      "conditional_energy_fraction_at_minimum": "0.9811349876358230117185366761",
+      "conditional_ideal_continuous_n": "34.66829040858350703791166517",
+      "conditional_ideal_integer_minimum": 35,
+      "eta_relative_efficiency": "1",
+      "original_continuous_n": "34.60334706784094664885460296",
+      "original_integer_minimum": 35
+    },
+    {
+      "budget": "strict_1pct_radiation",
+      "conditional_energy_fraction_at_minimum": "0.9962869806520620799327428425",
+      "conditional_ideal_continuous_n": "118.7788698928132213348997422",
+      "conditional_ideal_integer_minimum": 119,
+      "eta_relative_efficiency": "1",
+      "original_continuous_n": "118.5563640660316579700429247",
+      "original_integer_minimum": 119
+    },
+    {
+      "budget": "one_A",
+      "conditional_energy_fraction_at_minimum": "0.9810348820356152958720191232",
+      "conditional_ideal_continuous_n": "65.37115530681051248586494096",
+      "conditional_ideal_integer_minimum": 66,
+      "eta_relative_efficiency": "0.75",
+      "original_continuous_n": "65.24869696912525103027536225",
+      "original_integer_minimum": 66
+    },
+    {
+      "budget": "two_A",
+      "conditional_energy_fraction_at_minimum": "0.9672675296847306991440731780",
+      "conditional_ideal_continuous_n": "46.22438721144467605054888689",
+      "conditional_ideal_integer_minimum": 47,
+      "eta_relative_efficiency": "0.75",
+      "original_continuous_n": "46.13779609045459553180613728",
+      "original_integer_minimum": 47
+    },
+    {
+      "budget": "strict_1pct_radiation",
+      "conditional_energy_fraction_at_minimum": "0.9921140554752212589289327615",
+      "conditional_ideal_continuous_n": "158.3718265237509617798663229",
+      "conditional_ideal_integer_minimum": 159,
+      "eta_relative_efficiency": "0.75",
+      "original_continuous_n": "158.0751520880422106267238996",
+      "original_integer_minimum": 159
+    },
+    {
+      "budget": "one_A",
+      "conditional_energy_fraction_at_minimum": "0.9810348820356152958720191232",
+      "conditional_ideal_continuous_n": "98.05673296021576872879741143",
+      "conditional_ideal_integer_minimum": 99,
+      "eta_relative_efficiency": "0.5",
+      "original_continuous_n": "97.87304545368787654541304338",
+      "original_integer_minimum": 98
+    },
+    {
+      "budget": "two_A",
+      "conditional_energy_fraction_at_minimum": "0.9811349876358230117185366761",
+      "conditional_ideal_continuous_n": "69.33658081716701407582333034",
+      "conditional_ideal_integer_minimum": 70,
+      "eta_relative_efficiency": "0.5",
+      "original_continuous_n": "69.20669413568189329770920593",
+      "original_integer_minimum": 70
+    },
+    {
+      "budget": "strict_1pct_radiation",
+      "conditional_energy_fraction_at_minimum": "0.9962869806520620799327428425",
+      "conditional_ideal_continuous_n": "237.5577397856264426697994843",
+      "conditional_ideal_integer_minimum": 238,
+      "eta_relative_efficiency": "0.5",
+      "original_continuous_n": "237.1127281320633159400858493",
+      "original_integer_minimum": 238
+    },
+    {
+      "budget": "one_A",
+      "conditional_energy_fraction_at_minimum": "0.9910199055714979015013692109",
+      "conditional_ideal_continuous_n": "196.1134659204315374575948229",
+      "conditional_ideal_integer_minimum": 197,
+      "eta_relative_efficiency": "0.25",
+      "original_continuous_n": "195.7460909073757530908260868",
+      "original_integer_minimum": 196
+    },
+    {
+      "budget": "two_A",
+      "conditional_energy_fraction_at_minimum": "0.9953028185736830924736462322",
+      "conditional_ideal_continuous_n": "138.6731616343340281516466607",
+      "conditional_ideal_integer_minimum": 139,
+      "eta_relative_efficiency": "0.25",
+      "original_continuous_n": "138.4133882713637865954184119",
+      "original_integer_minimum": 139
+    },
+    {
+      "budget": "strict_1pct_radiation",
+      "conditional_energy_fraction_at_minimum": "0.9962869806520620799327428425",
+      "conditional_ideal_continuous_n": "475.1154795712528853395989686",
+      "conditional_ideal_integer_minimum": 476,
+      "eta_relative_efficiency": "0.25",
+      "original_continuous_n": "474.2254562641266318801716987",
+      "original_integer_minimum": 475
+    }
+  ],
+  "status": "formal conditional comparison; ideal symmetric SM not applicable at inherited T*=131.7 GeV",
+  "test_count": 36,
+  "tests": [
+    {
+      "passed": true,
+      "test": "public_csv_baseline_one_A_eta_1.0"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_two_A_eta_1.0"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_strict_1pct_radiation_eta_1.0"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_one_A_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_two_A_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_strict_1pct_radiation_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_one_A_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_two_A_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_strict_1pct_radiation_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_one_A_eta_0.25"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_two_A_eta_0.25"
+    },
+    {
+      "passed": true,
+      "test": "public_csv_baseline_strict_1pct_radiation_eta_0.25"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_one_A_eta_1"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_one_A_eta_1"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_two_A_eta_1"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_two_A_eta_1"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_strict_1pct_radiation_eta_1"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_strict_1pct_radiation_eta_1"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_one_A_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_one_A_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_two_A_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_two_A_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_strict_1pct_radiation_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_strict_1pct_radiation_eta_0.75"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_one_A_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_one_A_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_two_A_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_two_A_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_strict_1pct_radiation_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_strict_1pct_radiation_eta_0.5"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_one_A_eta_0.25"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_one_A_eta_0.25"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_two_A_eta_0.25"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_two_A_eta_0.25"
+    },
+    {
+      "passed": true,
+      "test": "conditional_minimum_strict_1pct_radiation_eta_0.25"
+    },
+    {
+      "passed": true,
+      "test": "conditional_previous_fails_strict_1pct_radiation_eta_0.25"
+    }
+  ]
+}

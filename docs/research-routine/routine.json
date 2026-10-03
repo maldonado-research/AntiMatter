@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "project": "Antimatter",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "ultra",
+  "ai_schedule_status": "not_active_persistent_authenticated_runner_required",
+  "max_concurrent_research_rounds": 1,
+  "proposed_round_runtime_minutes": 60,
+  "prompt": "docs/research-routine/ROUND_PROMPT.md",
+  "protocol": "docs/research-routine/ROUND_PROTOCOL.md",
+  "official_release": "v1.23.1",
+  "current_candidate": "research/AM1232_CANDIDATE_20261001",
+  "latest_completed_round": "research/rounds/2026-10-02_sm_operator_gate",
+  "queue": [
+    {
+      "priority": 1,
+      "question": "Derive a susceptibility-weighted reaction-network response and test conserved-charge, sign-reversal and washout controls",
+      "status": "completed_diagnostic",
+      "scientific_scope": "General illustrative transport diagnostic; candidate operator and rates remain unspecified",
+      "evidence": "research/rounds/2026-10-01_transport_gate/README.md"
+    },
+    {
+      "priority": 2,
+      "question": "Construct and match the candidate's physical operator, charge assignments, CP data and full thermal source vector",
+      "status": "conditional_benchmark_completed_wilson_matching_open",
+      "evidence": "research/rounds/2026-10-02_sm_operator_gate/README.md",
+      "scientific_scope": "Assumed derivative B+L EFT with exact ideal-SM susceptibilities; physical Wilson coefficient, CP data and thermal crossover remain open"
+    },
+    {
+      "priority": 3,
+      "question": "Recompute sphaleron relaxation and freeze-out with model-specific expansion, susceptibilities and thermodynamics",
+      "status": "open_requires_physical_model"
+    },
+    {
+      "priority": 4,
+      "question": "Match compactification topology, Wilson kinetic terms, boundary breaking and allowed potential terms in one construction",
+      "status": "open"
+    },
+    {
+      "priority": 5,
+      "question": "Construct the finite-temperature source/reservoir evolution and solve the final signed abundance with washout",
+      "status": "open_requires_operator_and_rates"
+    }
+  ],
+  "numerical_workflow": {
+    "path": ".github/workflows/research-checks.yml",
+    "cron_utc": "17 */4 * * *",
+    "status": "prepared_not_activated_default_branch_merge_required",
+    "ai_research": false,
+    "hosted_validation_status": "passed",
+    "hosted_validation_url": "https://github.com/maldonado-research/AntiMatter/actions/runs/36980840141",
+    "hosted_validated_commit": "c315647e8f6a8da99755fc388747602b97b38fb5",
+    "hosted_validation_scope": "Baseline/candidate/transport/operator reproduction and 20 single-round plus 12 continuous-loop mocked controls passed; verify later commits in GitHub job history"
+  },
+  "publication": {
+    "research_pr": "https://github.com/maldonado-research/AntiMatter/pull/1",
+    "website_pr": "https://github.com/maldonado-research/maldonado-research.github.io/pull/3",
+    "review_status": "open_drafts_author_review_pending",
+    "zenodo_concept_doi": "10.5281/zenodo.18193771",
+    "zenodo_status": "authenticated_access_available_publication_preparation_in_progress"
+  },
+  "requested_ai_trigger": "after_completed_validated_committed_round",
+  "external_runner_template": "scripts/run_ai_continuously.sh",
+  "external_runner_validation": {
+    "shell_syntax": "passed",
+    "mocked_scenarios": 20,
+    "mocked_checkpoint_controls": "passed",
+    "authenticated_execution": "not_tested",
+    "persistent_host_execution": "not_tested",
+    "receipt": "docs/research-routine/RUNNER_VALIDATION.json"
+  },
+  "continuous_runner_validation": {
+    "deployment": "docs/research-routine/deployment/DEPLOYMENT.md",
+    "mocked_scenarios": 12,
+    "independent_probes": 7,
+    "status": "passed_mock_only",
+    "authenticated_execution": "not_tested",
+    "service_installed": false,
+    "service_enabled": false,
+    "persistent_host_execution": "not_tested",
+    "initial_host_validation_rounds": 2,
+    "failure_policy": "stop_and_diagnose_no_automatic_retry"
+  }
+}

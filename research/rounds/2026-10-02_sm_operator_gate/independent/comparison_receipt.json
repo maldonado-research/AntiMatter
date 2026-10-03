@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "phase": "post-completion cross-comparison",
+  "schema": "strict expected species/order and rational matrix dimensions",
+  "arithmetic": "exact rational SymPy",
+  "checks": [
+    {
+      "name": "susceptibilities_reduce_exactly",
+      "passed": true
+    },
+    {
+      "name": "charge_vectors_lift_exactly",
+      "passed": true
+    },
+    {
+      "name": "conserved_Gram_matrices_identical",
+      "passed": true
+    },
+    {
+      "name": "response_projection_reduces_exactly",
+      "passed": true
+    },
+    {
+      "name": "baryon_lepton_vectors_lift_exactly",
+      "passed": true
+    },
+    {
+      "name": "chemical_potentials_lift_exactly",
+      "passed": true
+    },
+    {
+      "name": "unit_drive_densities_reduce_exactly",
+      "passed": true
+    },
+    {
+      "name": "baryon_coefficients_agree",
+      "passed": true
+    },
+    {
+      "name": "maximum_chemical_potential_agrees",
+      "passed": true
+    },
+    {
+      "name": "no_source_conversion_agrees",
+      "passed": true
+    },
+    {
+      "name": "arbitrary_reduced_source_response_agrees",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "independent_matrices_sha256": "1db673a00c6f6c2daedee0b3b02de79a13fc5b1fb180e21e5537156220a13bbf",
+    "independent_primary_receipt_sha256": "a47c640ff60b6b967964c894de98fdb797f63b83d0ea169ee3c8da966116013a",
+    "producer_results_sha256": "5069a70c418d05031c822f0e33edd6a94ccd3c540edb47502fbfbd43599b9c19",
+    "producer_reported_test_count": 48
+  },
+  "comparison_code_sha256": "4f97f2e1b566c9b475aa958ffdfc33c628caa8c68033169c24c0afe275093dd6",
+  "independence_limit": "Primary16-species calculation did not import producer implementation/output; this comparison intentionally reads both completed outputs. Producer reported learning the coefficient after its codefreeze but before first execution.",
+  "conclusion": "Full16-species and reduced10-species matrices/responses agree exactly under equilibrated quarkflavor mixing, all3fixed leptonDelta, and the shared external-source convention."
+}

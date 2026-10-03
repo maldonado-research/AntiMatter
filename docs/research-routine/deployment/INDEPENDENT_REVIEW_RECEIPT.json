@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "source_sha256": "d0ca7b46ea11a49539e8e4c26c1be8b945c914a0ab9181a053b9d5be39c71a02",
+  "independent_checks": [
+    {
+      "name": "two_bounded_rounds_without_inherited_lock_fd",
+      "passed": true,
+      "actual_exit": 0,
+      "count": "2"
+    },
+    {
+      "name": "private_count_and_lock_modes",
+      "passed": true
+    },
+    {
+      "name": "timeout_status124_after_one_success",
+      "passed": true,
+      "actual_exit": 124
+    },
+    {
+      "name": "active_first_process_excludes_second_loop",
+      "passed": true,
+      "actual_exit": 75
+    },
+    {
+      "name": "first_loop_completes_after_mock_release",
+      "passed": true,
+      "actual_exit": 0
+    },
+    {
+      "name": "systemd_unit_static_verification",
+      "passed": true,
+      "actual_exit": 0,
+      "stderr": "",
+      "service_installed_or_started": false
+    },
+    {
+      "name": "systemd_user_unit_static_verification",
+      "passed": true,
+      "actual_exit": 0,
+      "stderr": "",
+      "service_installed_or_started": false,
+      "note": "Short temporary runtime path avoids unrelated AF_UNIX address length warnings from installed user socket units"
+    }
+  ],
+  "provided_suite": {
+    "tests_run": 12,
+    "failures": 0,
+    "errors": 0
+  },
+  "actual_model_invocations": 0,
+  "service_installed_or_started": false,
+  "external_host_validated": false,
+  "documentation_review": {
+    "restart_behavior_caveat": "An enabled user unit can start again on reboot/user-manager restart despite Restart=no; disable --now during diagnosis if this must be prevented.",
+    "status": "clarification_resolved",
+    "reviewed_sha256": "5a02e885e3cb35eac1c07f19b07a38c25467c5f2378147ce50617e99c4921dc1"
+  }
+}

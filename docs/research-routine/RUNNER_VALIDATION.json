@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "scope": "Mock-only checkpoint and stop-condition verification; not authenticated AI or persistent host validation",
+  "wrapper_sha256": "ea7881641949cb127b4816ce2323f3e90056e1b4efb7d77c703b13e2ce51c073",
+  "test_harness": "scripts/check_ai_runner.py",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "success",
+      "status": "passed",
+      "expected_exit": 0,
+      "observed_exit": 0
+    },
+    {
+      "name": "boolean_receipt",
+      "status": "passed",
+      "expected_exit": 0,
+      "observed_exit": 0
+    },
+    {
+      "name": "cli_failure",
+      "status": "passed",
+      "expected_exit": 23,
+      "observed_exit": 23
+    },
+    {
+      "name": "timeout",
+      "status": "passed",
+      "expected_exit": 124,
+      "observed_exit": 124
+    },
+    {
+      "name": "no_checkpoint",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "failed_receipt",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "dirty_finish",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "untracked_evidence",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "wrong_predecessor",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "receipt_escape",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "round_escape",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "dirty_start",
+      "status": "passed",
+      "expected_exit": 2,
+      "observed_exit": 2
+    },
+    {
+      "name": "lock_collision",
+      "status": "passed",
+      "expected_exit": 75,
+      "observed_exit": 75
+    },
+    {
+      "name": "nested_state",
+      "status": "passed",
+      "expected_exit": 2,
+      "observed_exit": 2
+    },
+    {
+      "name": "history_rewind",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "symlink_round_record",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "ignored_round_alias",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "absolute_round_path",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "ignored_receipt_alias",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    },
+    {
+      "name": "absolute_receipt_path",
+      "status": "passed",
+      "expected_exit": 1,
+      "observed_exit": 1
+    }
+  ],
+  "actual_ai_execution": false,
+  "scheduler_installed": false
+}

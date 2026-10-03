@@ -1,0 +1,782 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact rational/symbolic SymPy",
+  "python_version": "3.12.14",
+  "sympy_version": "1.14.0",
+  "controls_sha256": "1088872e258cee37d35de83c5ea57012e35002b13ee031768efae41e3bf72ca2",
+  "code_sha256": "6ffd613763509c2c3cf6e6a49dab1e605b2fc804dc170c85a1777fcc8c2f0fe6",
+  "matrices_sha256": "1db673a00c6f6c2daedee0b3b02de79a13fc5b1fb180e21e5537156220a13bbf",
+  "check_count": 24,
+  "checks": [
+    {
+      "name": "no_source_28_over_79_equal_flavors",
+      "passed": true,
+      "details": {
+        "B": "28/79",
+        "B_minus_L": "1"
+      }
+    },
+    {
+      "name": "no_source_28_over_79_unequal_flavors",
+      "passed": true,
+      "details": {
+        "Delta_i": [
+          "2/5",
+          "-3/7",
+          "5/11"
+        ],
+        "B": "656/4345"
+      }
+    },
+    {
+      "name": "reaction_kernel",
+      "passed": true,
+      "details": {
+        "reaction_rank": 12,
+        "species_count": 16,
+        "conserved_basis_rank": 4
+      }
+    },
+    {
+      "name": "strong_sphaleron_redundant",
+      "passed": true,
+      "details": {
+        "rank_with_strong_sphaleron": 12,
+        "rank_without_strong_sphaleron": 12
+      }
+    },
+    {
+      "name": "all_constraints_arbitrary_source",
+      "passed": true,
+      "details": {
+        "reaction_residual": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "fixed_charge_residual": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "source_B_plus_L",
+      "passed": true,
+      "details": {
+        "B_normalized": "432/79",
+        "L_normalized": "432/79",
+        "B_dimensional_coefficient_T2_source": "72/79",
+        "density_vector": [
+          "216/79",
+          "126/79",
+          "90/79",
+          "100/79",
+          "44/79",
+          "216/79",
+          "126/79",
+          "90/79",
+          "100/79",
+          "44/79",
+          "216/79",
+          "126/79",
+          "90/79",
+          "100/79",
+          "44/79",
+          "24/79"
+        ],
+        "mu_vector": [
+          "36/79",
+          "42/79",
+          "30/79",
+          "50/79",
+          "44/79",
+          "36/79",
+          "42/79",
+          "30/79",
+          "50/79",
+          "44/79",
+          "36/79",
+          "42/79",
+          "30/79",
+          "50/79",
+          "44/79",
+          "6/79"
+        ]
+      }
+    },
+    {
+      "name": "source_L",
+      "passed": true,
+      "details": {
+        "B_normalized": "216/79",
+        "L_normalized": "216/79",
+        "B_dimensional_coefficient_T2_source": "36/79",
+        "density_vector": [
+          "108/79",
+          "63/79",
+          "45/79",
+          "50/79",
+          "22/79",
+          "108/79",
+          "63/79",
+          "45/79",
+          "50/79",
+          "22/79",
+          "108/79",
+          "63/79",
+          "45/79",
+          "50/79",
+          "22/79",
+          "12/79"
+        ],
+        "mu_vector": [
+          "18/79",
+          "21/79",
+          "15/79",
+          "25/79",
+          "22/79",
+          "18/79",
+          "21/79",
+          "15/79",
+          "25/79",
+          "22/79",
+          "18/79",
+          "21/79",
+          "15/79",
+          "25/79",
+          "22/79",
+          "3/79"
+        ]
+      }
+    },
+    {
+      "name": "source_B",
+      "passed": true,
+      "details": {
+        "B_normalized": "216/79",
+        "L_normalized": "216/79",
+        "B_dimensional_coefficient_T2_source": "36/79",
+        "density_vector": [
+          "108/79",
+          "63/79",
+          "45/79",
+          "50/79",
+          "22/79",
+          "108/79",
+          "63/79",
+          "45/79",
+          "50/79",
+          "22/79",
+          "108/79",
+          "63/79",
+          "45/79",
+          "50/79",
+          "22/79",
+          "12/79"
+        ],
+        "mu_vector": [
+          "18/79",
+          "21/79",
+          "15/79",
+          "25/79",
+          "22/79",
+          "18/79",
+          "21/79",
+          "15/79",
+          "25/79",
+          "22/79",
+          "18/79",
+          "21/79",
+          "15/79",
+          "25/79",
+          "22/79",
+          "3/79"
+        ]
+      }
+    },
+    {
+      "name": "source_B_minus_L",
+      "passed": true,
+      "details": {
+        "B_normalized": "0",
+        "L_normalized": "0",
+        "B_dimensional_coefficient_T2_source": "0",
+        "density_vector": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "mu_vector": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "conserved_source_equivalence_0",
+      "passed": true,
+      "details": {
+        "difference": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "conserved_source_equivalence_1",
+      "passed": true,
+      "details": {
+        "difference": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "conserved_source_equivalence_2",
+      "passed": true,
+      "details": {
+        "difference": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "conserved_source_equivalence_3",
+      "passed": true,
+      "details": {
+        "difference": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "conserved_source_equivalence_4",
+      "passed": true,
+      "details": {
+        "difference": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "response_symmetry_and_charge_annihilation",
+      "passed": true,
+      "details": {
+        "symmetric": true,
+        "P_C_zero": true
+      }
+    },
+    {
+      "name": "response_nonnegative_preregistered_probes",
+      "passed": true,
+      "details": {
+        "quadratic_values": [
+          "449/79",
+          "206/79",
+          "197/79",
+          "565/711",
+          "481/711",
+          "449/79",
+          "206/79",
+          "197/79",
+          "565/711",
+          "481/711",
+          "449/79",
+          "206/79",
+          "197/79",
+          "565/711",
+          "481/711",
+          "264/79",
+          "3825745279351357/242025988089600",
+          "864/79",
+          "0",
+          "91984641083287/13189997620800"
+        ],
+        "probe_count": 20
+      }
+    },
+    {
+      "name": "wrong_Higgs_statistics_detected",
+      "passed": true,
+      "details": {
+        "incorrect_ratio": "52/145",
+        "correct_ratio": "28/79"
+      }
+    },
+    {
+      "name": "remove_sphalerons_conserves_B_and_L",
+      "passed": true,
+      "details": {
+        "rank_without_EW_sphaleron": 11,
+        "B_plus_L_source_density": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "source_sign_reversal",
+      "passed": true,
+      "details": {
+        "residual": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "unfixed_B_minus_L_changes_ensemble",
+      "passed": true,
+      "details": {
+        "grand_canonical_B_minus_L_normalized": "79/11",
+        "B_normalized": "28/11",
+        "closed_fixed_charge_B_minus_L_source_B": "0"
+      }
+    },
+    {
+      "name": "symbolic_general_B_plus_L_result",
+      "passed": true,
+      "details": {
+        "B_normalized": "4*(108*a + 7*d1 + 7*d2 + 7*d3)/79"
+      }
+    },
+    {
+      "name": "left_handed_SM_anomaly_traces",
+      "passed": true,
+      "details": {
+        "B_WW": "1/2",
+        "L_WW": "1/2",
+        "B_YY": "-1/2",
+        "L_YY": "-1/2",
+        "Y_WW": "0",
+        "Y_cubed": "0",
+        "B_minus_L_WW": "0",
+        "B_minus_L_YY": "0"
+      }
+    },
+    {
+      "name": "wrong_right_handed_anomaly_sign_detected",
+      "passed": true,
+      "details": {
+        "B_WW": "1/2",
+        "L_WW": "1/2",
+        "B_YY": "11/18",
+        "L_YY": "3/2",
+        "Y_WW": "0",
+        "Y_cubed": "-4/9",
+        "B_minus_L_WW": "0",
+        "B_minus_L_YY": "-8/9"
+      }
+    },
+    {
+      "name": "EW_source_and_anomaly_sign_consistent",
+      "passed": true,
+      "details": {
+        "Delta_B_plus_L_per_positive_Delta_N_CS": "6",
+        "integrated_by_parts_weak_theta_qW_coefficient": "-6",
+        "EW_reaction_source_contraction": "6"
+      }
+    }
+  ],
+  "interpretation": "Equilibrium consistency checks only; no candidate operator, CP mechanism, scalar backreaction, rate history, or broken-phase prediction established."
+}

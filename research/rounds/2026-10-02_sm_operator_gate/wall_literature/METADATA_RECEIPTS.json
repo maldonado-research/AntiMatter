@@ -1,0 +1,26 @@
+{
+  "arxiv_abs": {
+    "url": "https://arxiv.org/abs/2604.20762",
+    "final_url": "https://arxiv.org/abs/2604.20762",
+    "utc": "2026-10-02T07:20:21.044295+00:00",
+    "sha256": "d5e5f62d1b5254d6cb2c7636dd9e9bbd8c38f35b843880b1354689ad002c7ca3",
+    "bytes": 41670,
+    "retrieval_status": "success"
+  },
+  "inspire": {
+    "url": "https://inspirehep.net/api/literature?q=arxiv%3A2604.20762",
+    "final_url": "https://inspirehep.net/api/literature?q=arxiv%3A2604.20762",
+    "utc": "2026-10-02T07:20:22.064152+00:00",
+    "sha256": "692af087d95abe97a17dc0b2584bcca54a366295c6365e6207c15355c652a569",
+    "bytes": 60828,
+    "retrieval_status": "success"
+  },
+  "version_pinned_pdf": {
+    "url": "https://arxiv.org/pdf/2604.20762v1",
+    "final_url": "https://arxiv.org/pdf/2604.20762v1",
+    "utc": "2026-10-02T07:20:22.705679+00:00",
+    "sha256": "55c4e37de2289f3148830d18827ec6a57dd4e8ddf6ae64593f3b918b20942ca3",
+    "bytes": 2074416,
+    "retrieval_status": "success"
+  }
+}

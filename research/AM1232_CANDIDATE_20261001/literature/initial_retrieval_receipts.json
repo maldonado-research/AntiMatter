@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1404.3565",
+    "url": "https://arxiv.org/abs/1404.3565",
+    "retrieved_utc": "2026-10-02T04:01:51.645007+00:00",
+    "status": 200,
+    "bytes": 43304,
+    "sha256": "61e3f3a93ac732a50c93dbd226a8f81d445374b15f4a564cdafc6e913f911223",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://arxiv.org/abs/1404.3565",
+    "temporary_local_path": "/tmp/antimatter-papers/1404.3565.abs.html"
+  },
+  {
+    "id": "1605.00670",
+    "url": "https://arxiv.org/abs/1605.00670",
+    "retrieved_utc": "2026-10-02T04:01:51.645644+00:00",
+    "status": 200,
+    "bytes": 44016,
+    "sha256": "66c676c7cd3b7dc70f70d99be91497b41acae60282c4ad8363b2c0c4592c0471",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://arxiv.org/abs/1605.00670",
+    "temporary_local_path": "/tmp/antimatter-papers/1605.00670.abs.html"
+  },
+  {
+    "id": "2504.03506",
+    "url": "https://arxiv.org/abs/2504.03506",
+    "retrieved_utc": "2026-10-02T04:01:51.646104+00:00",
+    "status": 200,
+    "bytes": 40998,
+    "sha256": "1b903652f9480d44fa0a2600665336ed02c346dd706de36069b3eb22c6a54b2f",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://arxiv.org/abs/2504.03506",
+    "temporary_local_path": "/tmp/antimatter-papers/2504.03506.abs.html"
+  },
+  {
+    "id": "2609.05605",
+    "url": "https://arxiv.org/abs/2609.05605",
+    "retrieved_utc": "2026-10-02T04:10:05.874079+00:00",
+    "status": 200,
+    "bytes": 42211,
+    "sha256": "0a7d957905807e328b277ea7930e08bbd008a9f61ba2bdf049d130563200132f",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://arxiv.org/abs/2609.05605",
+    "temporary_local_path": "/tmp/antimatter-papers/2609.05605.abs.html"
+  }
+]

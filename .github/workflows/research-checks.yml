@@ -1,0 +1,83 @@
+name: Antimatter numerical checks
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - research/**
+      - scripts/reproduce_candidate.py
+      - scripts/reproduction_policy.py
+      - scripts/run_ai_round.sh
+      - scripts/check_ai_runner.py
+      - scripts/run_ai_continuously.sh
+      - scripts/check_continuous_runner.py
+      - scripts/reproduce_operator_round.py
+      - docs/research-routine/deployment/**
+      - .github/workflows/research-checks.yml
+  schedule:
+    - cron: '17 */4 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: antimatter-checks-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install pinned dependencies
+        env:
+          PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
+        run: |
+          python -m pip install --disable-pip-version-check -r research/AM1231/requirements-replay.txt -r research/rounds/2026-10-02_sm_operator_gate/requirements-operator.txt
+          python -m pip check
+      - name: Mocked research-runner checkpoint controls
+        run: python scripts/check_ai_runner.py
+      - name: Mocked continuous research-runner controls
+        run: python scripts/check_continuous_runner.py
+      - name: Reproduce in a disposable copy
+        env:
+          PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
+          XDG_CACHE_HOME: ${{ runner.temp }}/antimatter-cache
+          MPLCONFIGDIR: ${{ runner.temp }}/antimatter-matplotlib
+        run: python scripts/reproduce_candidate.py --output "$RUNNER_TEMP/antimatter-checks"
+      - name: Transport diagnostic controls
+        env:
+          PIP_CACHE_DIR: ${{ runner.temp }}/antimatter-pip
+        run: |
+          antimatter_repo_root="$PWD"
+          antimatter_transport_work=$(mktemp -d "$RUNNER_TEMP/antimatter-transport.XXXXXX")
+          cp -R research/rounds/2026-10-01_transport_gate "$antimatter_transport_work/round"
+          cd "$antimatter_transport_work/round"
+          {
+            sha256sum --check SHA256SUMS.txt
+            python -m unittest discover -s producer -p test_transport.py -v
+            (cd producer && python run_round.py)
+            python independent/independent_check.py --producer-dir "$PWD/producer"
+            python independent/compare_results.py --producer-dir "$PWD/producer" --repo-root "$antimatter_repo_root"
+          } > "$RUNNER_TEMP/antimatter-transport-check.log" 2>&1
+      - name: Standard Model operator comparator
+        run: python scripts/reproduce_operator_round.py --output "$RUNNER_TEMP/antimatter-operator-checks"
+      - name: Keep public verification receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: antimatter-checks-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/antimatter-checks/receipt.json
+            ${{ runner.temp }}/antimatter-checks/step-*.log
+            ${{ runner.temp }}/antimatter-transport-check.log
+            ${{ runner.temp }}/antimatter-operator-checks/receipt.json
+            ${{ runner.temp }}/antimatter-operator-checks/step-*.log
+          if-no-files-found: warn
+          retention-days: 14

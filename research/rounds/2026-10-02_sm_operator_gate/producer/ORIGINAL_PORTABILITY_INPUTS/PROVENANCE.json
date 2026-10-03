@@ -1,0 +1,67 @@
+{
+  "addendum_sha256": "8d4191160e61241239748ae1e9fbc8ef6f269d01a80699e93c7d7e078abd5835",
+  "coefficient_identification_status": "c=n_det D_d is a fresh conditional EFT normalization assumption; public phenomenological scaffold does not derive it",
+  "independence_timing": "independently written solver; independent result message received before producer execution; not fully blinded execution",
+  "registration_sha256": "9b987fdffa4159628e680d27dc21fd8e295bcf6df6636450e4a6a5b2e3c9062f",
+  "sources": [
+    {
+      "file_sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c",
+      "path": "research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py",
+      "ranges": [
+        {
+          "excerpt_sha256": "75b3e2eb360ee99364bd80c7f9a6e05ee445126458840f59539c001f65797696",
+          "first_line": 63,
+          "last_line": 69
+        },
+        {
+          "excerpt_sha256": "4faa82927b47fc4599af19a447a847a023e205122f414f469611b41921cc7ef1",
+          "first_line": 582,
+          "last_line": 585
+        },
+        {
+          "excerpt_sha256": "0ca0287c7719282cc3a3e52192d63cdd23af8081c792d5a25a47426d47c685f6",
+          "first_line": 1147,
+          "last_line": 1177
+        }
+      ],
+      "repository": "AntiMatter",
+      "status": "public parent artifact; no private manuscript source"
+    },
+    {
+      "file_sha256": "4a2bfece249ef634986256b45b75fc8ab89a147d16673972e5565aeca24fe3a9",
+      "path": "research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.py",
+      "ranges": [
+        {
+          "excerpt_sha256": "26e8bb4b7bc63a8578fe761373696b68f7c4e0ae5849dbae1fe25c77ecb8b818",
+          "first_line": 19,
+          "last_line": 28
+        },
+        {
+          "excerpt_sha256": "b343f926e32d280e4dc28133323e2fcdbde07bfe05c6fc6f7102900fb3e79ee0",
+          "first_line": 65,
+          "last_line": 83
+        },
+        {
+          "excerpt_sha256": "b57acd532fa1690843af2ec0f6ab3ad8bb3e33ed09c103cecf929834965c7a5c",
+          "first_line": 188,
+          "last_line": 204
+        }
+      ],
+      "repository": "AntiMatter",
+      "status": "public parent artifact; no private manuscript source"
+    },
+    {
+      "file_sha256": "471158906c3a707cbb5b48148a422cc6e9b896ac80197e42a760c02d1997172a",
+      "path": "research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.csv",
+      "ranges": [
+        {
+          "excerpt_sha256": "471158906c3a707cbb5b48148a422cc6e9b896ac80197e42a760c02d1997172a",
+          "first_line": 1,
+          "last_line": 5
+        }
+      ],
+      "repository": "AntiMatter",
+      "status": "public parent artifact; no private manuscript source"
+    }
+  ]
+}

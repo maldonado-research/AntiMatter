@@ -1,0 +1,18 @@
+{
+  "comparators": [
+    {
+      "path": "/workspace/AntiMatter/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit_note.md",
+      "sha256": "49ed915a9b33269105fb4ccc50c43f8eb90afdb404c043cf0c0a33ab72904ae4"
+    },
+    {
+      "path": "/workspace/research-progress/antimatter/OPERATOR_ROUND_20261002/producer/DERIVATION.md",
+      "sha256": "69e0357d44af23b5814ba1930447bd675c708612ac9ce1efa7494dfc84311265"
+    },
+    {
+      "path": "/workspace/research-progress/antimatter/OPERATOR_ROUND_20261002/producer/REGISTRATION.md",
+      "sha256": "9b987fdffa4159628e680d27dc21fd8e295bcf6df6636450e4a6a5b2e3c9062f"
+    }
+  ],
+  "retrieved_utc": "2026-10-02T07:21:50.227373+00:00",
+  "scope": "public v1.23 note; newly written operator diagnostic; no private raw research or third-party fulltext publication"
+}

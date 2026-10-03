@@ -1,0 +1,6 @@
+{
+  "one_round_wrapper": "scripts/run_ai_round.sh",
+  "sha256": "ea7881641949cb127b4816ce2323f3e90056e1b4efb7d77c703b13e2ce51c073",
+  "checkout_head_observed": "999fe91b615d6d9caabc4a67ca4a22242206e0f6",
+  "purpose": "Identifies the existing one-round wrapper reused by the deployment loop; does not verify a future external checkout."
+}

@@ -1,0 +1,21 @@
+# Inactive template for a Linux systemd USER service.
+# Replace every /ABSOLUTE_... path and install only after bounded validation.
+[Unit]
+Description=Antimatter completion-driven research rounds
+ConditionPathIsDirectory=/ABSOLUTE_PATH_TO_CHECKOUT
+
+[Service]
+Type=exec
+WorkingDirectory=/ABSOLUTE_PATH_TO_CHECKOUT
+EnvironmentFile=/ABSOLUTE_PRIVATE_CONFIG_DIRECTORY/runner.env
+ExecStart=/usr/bin/bash /ABSOLUTE_PATH_TO_RUNNER_PACKAGE/run_ai_continuously.sh /ABSOLUTE_PATH_TO_CHECKOUT /ABSOLUTE_PRIVATE_STATE_DIRECTORY
+UMask=0077
+LimitCORE=0
+Restart=no
+KillMode=control-group
+TimeoutStopSec=45s
+StandardOutput=append:/ABSOLUTE_PRIVATE_STATE_DIRECTORY/continuous.log
+StandardError=append:/ABSOLUTE_PRIVATE_STATE_DIRECTORY/continuous-stderr.log
+
+[Install]
+WantedBy=default.target

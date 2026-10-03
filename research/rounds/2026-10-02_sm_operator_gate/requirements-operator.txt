@@ -1,0 +1,4 @@
+# Additional exact pins for the independent symbolic implementation.
+# Install alongside research/AM1231/requirements-replay.txt.
+sympy==1.14.0
+mpmath==1.3.0

@@ -1,0 +1,77 @@
+{
+  "verified_at_utc": "2026-10-02T05:15:54.197829+00:00",
+  "scope": "standard dimensionless toy transport comparator; no candidate source or yield; separate automated-agent verification, not external peer review",
+  "independent_controls_executed": 71,
+  "independent_controls_passed": 71,
+  "producer_tests_executed": 9,
+  "producer_tests_passed": 9,
+  "producer_tests_skipped": 0,
+  "producer_test_command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest -v test_transport",
+  "numerical_comparison_count": 11,
+  "all_numerical_comparisons_passed": true,
+  "maximum_numerical_discrepancy": 4.440892098500626e-16,
+  "initial_registration_sha256": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+  "registered_inputs_match_at_initial_review": true,
+  "producer_document_sha256": {
+    "REGISTRATION.md": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+    "AMENDMENTS.md": "a3df19b4873dcbc2b633f66b36da48e17fbf74ac29d409ea0bfff8a95155992b",
+    "DERIVATION.md": "6c07d67ec63306228295dd1c5b1d513daee39561826e63026e061dd8032ae383",
+    "RESULTS.md": "45698626e50aa32d73afba86a7da67e30b98f4cc63101367f10de57de260829f",
+    "transport.py": "cc38a4f5aa519ca9b41b0abdb110970dd9307c2ce357b28a4b8182f3b2e36e2b",
+    "test_transport.py": "6d56848cb0a9267c3d319509f65ef7e1341982e63eddc00c4f4f611b712bc260",
+    "results.json": "4f7bafe6d1a0633d5308967c0a98cd9842a7d02a3efc02cd3d115baaeb24cd86",
+    "signed_trajectory.csv": "cb6cbb01f737c24e90ab048d2d4a9c8babff635b7006869c0326cb4bdfc379b2"
+  },
+  "independent_document_sha256": {
+    "independent_check.py": "0f0e67723895219efe9f6856473fd0ee9b380c4ab15c688f87a46ec908686e88",
+    "compare_results.py": "4c0cc4b1149cd7fd9385fab3e645c422cbc7a160e0345b95ab205772df7458aa",
+    "AUDIT.md": "104a058af585aafc7e79f73938127081261957a1cb28da77c87396c175e00693",
+    "independent_results.json": "3658904433d158c739a60f44c51e9b744098483e474d8c5fbd81f994448951a3",
+    "comparison_results.json": "36b82ad6c5d1eee1fcc27b3e92c1241f5229c19b5abc06f066035d038538c3fa",
+    "validation_failure_checks.json": "82841ec3968f375e6d92553712eab5e54e7aed9ec3cd19221faee66b76b1d65b"
+  },
+  "validation_hardening_verified_at_utc": "2026-10-02T05:22:28.104727+00:00",
+  "immutable_original_registration_receipt_sha256": "2bbd13f5465735b84968d92384b2633972300ad56d8c678eb1258764ff5a0bba",
+  "rerun_provenance_status": {
+    "scope": "required rerun context checks against immutable original session snapshot, separate from original snapshot record",
+    "all_passed": true,
+    "all_provenance_checks_passed": true,
+    "registration_unchanged": true,
+    "registration_receipt_unchanged": true,
+    "required_public_context_input_count": 4,
+    "all_required_inputs_match": true,
+    "trajectory_valid": true,
+    "trajectory_required_rows": 201,
+    "trajectory_required_columns": [
+      "tau",
+      "x_A",
+      "x_B",
+      "x_C",
+      "mu_A_over_T",
+      "mu_B_over_T",
+      "mu_C_over_T",
+      "conserved_charge"
+    ],
+    "maximum_numerical_discrepancy": 4.440892098500626e-16,
+    "validator_behavior_controls_executed": 7,
+    "validator_behavior_controls_passed": 7
+  },
+  "initial_independent_document_sha256": {
+    "independent_check.py": "aed894c831e1d554c1635e0b4d3625fa0483d7d9a2f9572fb881bfc5185e6ef9",
+    "compare_results.py": "9f6d244d3ae38b645ad79502b5b0539222ad6a610be57b8953667fcfbc161273",
+    "AUDIT.md": "2687064d1bad8aae095ccad529072137eb97b3c184aae7f63b35c861f82440cf",
+    "independent_results.json": "3658904433d158c739a60f44c51e9b744098483e474d8c5fbd81f994448951a3",
+    "comparison_results.json": "1861adc1ef1fd6cd1c688df75a3ba6579f7818b0fddc8d21778c006b32fcaec7"
+  },
+  "rerun_producer_document_sha256": {
+    "REGISTRATION.md": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+    "registration_receipt.json": "2bbd13f5465735b84968d92384b2633972300ad56d8c678eb1258764ff5a0bba",
+    "AMENDMENTS.md": "a3df19b4873dcbc2b633f66b36da48e17fbf74ac29d409ea0bfff8a95155992b",
+    "DERIVATION.md": "6c07d67ec63306228295dd1c5b1d513daee39561826e63026e061dd8032ae383",
+    "RESULTS.md": "45698626e50aa32d73afba86a7da67e30b98f4cc63101367f10de57de260829f",
+    "transport.py": "cc38a4f5aa519ca9b41b0abdb110970dd9307c2ce357b28a4b8182f3b2e36e2b",
+    "test_transport.py": "6d56848cb0a9267c3d319509f65ef7e1341982e63eddc00c4f4f611b712bc260",
+    "results.json": "4f7bafe6d1a0633d5308967c0a98cd9842a7d02a3efc02cd3d115baaeb24cd86",
+    "signed_trajectory.csv": "cb6cbb01f737c24e90ab048d2d4a9c8babff635b7006869c0326cb4bdfc379b2"
+  }
+}

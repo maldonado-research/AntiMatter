@@ -1,0 +1,12 @@
+{
+  "coefficient_input": "../producer/DERIVATION.md exact projection output; not independently derived here",
+  "constrained_diagnostic_chi_B_plus_L_over_T_squared": "144/79",
+  "constrained_ensemble": "Hypercharge neutrality and fixed Delta_i=B/3-L_i; equilibrated ideal symmetric SM",
+  "free_ideal_gas_chi_B_plus_L_over_T_squared": "13/6",
+  "paper_anchor": "Eq. (22), printed page 9",
+  "paper_version": "arXiv:2604.20762v1",
+  "projected_to_free_ratio": "864/1027",
+  "projected_to_free_ratio_decimal": 0.8412852969814996,
+  "rate_porting_status": "Not established: anomaly charge and diffusion/relaxation conventions also need matching",
+  "scope": "Exact arithmetic comparator; no new independent projection or wall transport calculation"
+}

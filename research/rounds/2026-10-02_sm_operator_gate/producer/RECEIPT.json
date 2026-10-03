@@ -1,0 +1,53 @@
+{
+  "byte_identical_second_run": true,
+  "dependencies": "Python standard library only; no dependency or repository edits",
+  "first_verification_runs": [
+    {
+      "exit_code": 0,
+      "script": "sm_charge_diagnostic.py",
+      "stdout": "{\"B_over_kappa_T2\": \"72/79\", \"conversion\": \"28/79\", \"max_mu_over_kappa\": \"50/79\", \"tests_passed\": 48}"
+    },
+    {
+      "exit_code": 0,
+      "script": "conditional_sensitivity.py",
+      "stdout": "{\"c_sph_ideal\": \"0.01946347108179968455092458191\", \"eta1_integer_minima\": {\"one_A\": 50, \"strict_1pct_radiation\": 119, \"two_A\": 35}, \"n49_eta_ideal\": \"1.000578907757303762538749096\", \"tests_passed\": 36}"
+    }
+  ],
+  "independence_limit": "independent coefficient message arrived after producer implementation but before producer first execution; not fully blinded execution",
+  "independent_comparison": "separate 16-species solver agrees on exact source coefficient and reduced chemical potentials; structured cross-comparison is retained under independent/",
+  "python": "3.12.14",
+  "recorded_utc": "2026-10-02T07:25:19.306339+00:00",
+  "registered_conditional_controls_passed": 36,
+  "registered_primary_controls_passed": 48,
+  "reproduced_output_sha256": {
+    "PROVENANCE.json": "0b0f347e10f016384a4f4cc99c6a7a716c3c1ad5367c2cee41fa3a24e3ef3ff1",
+    "conditional_sensitivity.csv": "d52c2416941ad64d1650a8c712b6f498030f364f09884333a6008fce4b9f44fb",
+    "conditional_sensitivity.json": "52482224f7aed2271cde5a6a4302a7771d31976ccc319a39469a70a5f1ddff2a",
+    "conserved_density_basis.csv": "fedc2f232ed24523db346e84e5ae5f844bc878cf0a4352a00a5fec5dc80f371b",
+    "reaction_charges.csv": "0ba5797af1f497730f6a0d0c02e6061a5ee9895f27f7b09d883d1c096f041485",
+    "results.json": "5069a70c418d05031c822f0e33edd6a94ccd3c540edb47502fbfbd43599b9c19",
+    "species_response.csv": "ffb05bfad5fdf854e7834c04c4ee0a9fc547d93b56aefd80aa63e9255b7794f2",
+    "tests.csv": "9c0ee523ee1b66b271de455ad8a33d67d7516da563a1de4f7120d753c43de280"
+  },
+  "resolved_initial_attempt": "conditional_sensitivity first run used wrong ancestor index and failed with FileNotFoundError; replaced with public-parent ancestor discovery; all subsequent checks pass",
+  "scientific_limits": [
+    "conventional symmetric-SM equilibrium benchmark with explicitly assumed coefficient",
+    "no Wilson operator or UV matching derivation",
+    "no physical yield at 131.7 GeV or frozen-model coefficient replacement",
+    "small fermionic chemical potentials, Higgs thermal stability, and rapid relaxation required",
+    "no autonomous driver, physical CP-odd invariant, or hypermagnetic transport derived"
+  ],
+  "second_verification_runs": [
+    {
+      "exit_code": 0,
+      "script": "sm_charge_diagnostic.py",
+      "stdout": "{\"B_over_kappa_T2\": \"72/79\", \"conversion\": \"28/79\", \"max_mu_over_kappa\": \"50/79\", \"tests_passed\": 48}"
+    },
+    {
+      "exit_code": 0,
+      "script": "conditional_sensitivity.py",
+      "stdout": "{\"c_sph_ideal\": \"0.01946347108179968455092458191\", \"eta1_integer_minima\": {\"one_A\": 50, \"strict_1pct_radiation\": 119, \"two_A\": 35}, \"n49_eta_ideal\": \"1.000578907757303762538749096\", \"tests_passed\": 36}"
+    }
+  ],
+  "total_controls_passed": 84
+}

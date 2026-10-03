@@ -1,0 +1,39 @@
+{
+  "commands": [
+    [
+      "/workspace/AntiMatter/.venv/bin/python",
+      "/workspace/research-progress/antimatter/wilson-metric/audit.py",
+      "--source-root",
+      "/workspace/AntiMatter/research/AM1231/v1.23",
+      "--output-dir",
+      "/workspace/research-progress/antimatter/wilson-metric"
+    ],
+    [
+      "/workspace/AntiMatter/.venv/bin/python",
+      "/workspace/research-progress/antimatter/wilson-metric/audit.py",
+      "--source-root",
+      "/workspace/AntiMatter/research/AM1231/v1.23",
+      "--output-dir",
+      "/workspace/research-progress/antimatter/wilson-metric/fresh-replay"
+    ]
+  ],
+  "exit_codes": [
+    0,
+    0
+  ],
+  "summaries": [
+    "{\"status\": \"PASS\", \"cases\": 12, \"configurations\": 36, \"checks\": 210, \"failures\": []}",
+    "{\"status\": \"PASS\", \"cases\": 12, \"configurations\": 36, \"checks\": 210, \"failures\": []}"
+  ],
+  "first_run_sha256": {
+    "results.json": "884e8126dad916a5c6b48cfd6fa91b1df180057cb7df80bc4592320347229876",
+    "results.csv": "5b5303be401a72747897fe925bdcfaa776b2d28a6cd945db05c28697291be008"
+  },
+  "fresh_directory_run_sha256": {
+    "results.json": "884e8126dad916a5c6b48cfd6fa91b1df180057cb7df80bc4592320347229876",
+    "results.csv": "5b5303be401a72747897fe925bdcfaa776b2d28a6cd945db05c28697291be008"
+  },
+  "byte_identical": true,
+  "date_local": "2026-10-01",
+  "timezone": "America/Los_Angeles"
+}

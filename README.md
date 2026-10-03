@@ -32,6 +32,10 @@ The progress is a clearer account of what fails, what is conditional, and what m
 | Replay evidence and limitations | [Reproducibility report](research/AM1231/REPRODUCIBILITY.md) |
 | Original archive and required parent | [v1.23 source ZIP](research/AM1231/original/AM123_COMPLETE.zip) · [v1.22 parent ZIP](research/AM1231/parents/AM122_COMPLETE.zip) |
 | Complete and phone-friendly downloads | [GitHub release](https://github.com/maldonado-research/AntiMatter/releases/tag/v1.23.1) · [Zenodo files](https://zenodo.org/records/22400470) |
+| Follow-up candidate diagnostics | [v1.23.2 candidate](research/AM1232_CANDIDATE_20261001/README.md) |
+| Transport diagnostic | [Conserved charges and signed response](research/rounds/2026-10-01_transport_gate/README.md) |
+| Latest operator and charge diagnostic | [Ideal Standard Model response and source matching](research/rounds/2026-10-02_sm_operator_gate/README.md) |
+| Repeated research workflow | [Round protocol and scheduling status](docs/research-routine/ROUND_PROTOCOL.md) |
 | Remaining scientific questions | [Research status and next tests](docs/RESEARCH_STATUS.md) |
 
 ## What the checkpoint establishes
