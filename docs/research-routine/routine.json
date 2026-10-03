@@ -55,9 +55,11 @@
   "publication": {
     "research_pr": "https://github.com/maldonado-research/AntiMatter/pull/1",
     "website_pr": "https://github.com/maldonado-research/maldonado-research.github.io/pull/3",
-    "review_status": "research_updates_reviewed_and_merged_website_update_in_progress",
+    "review_status": "research_updates_and_website_reviewed_and_merged",
     "zenodo_concept_doi": "10.5281/zenodo.18193771",
-    "zenodo_status": "authenticated_existing_family_draft_metadata_transport_blocked_browser_fallback_prepared"
+    "zenodo_status": "authenticated_existing_family_draft_metadata_transport_blocked_browser_fallback_prepared",
+    "website_deployed_commit": "0d46469f87840d66ae5ffa6ae990ab9d48eef080",
+    "prepared_package": "research/AM1232_PUBLICATION_PACKAGE_20261002"
   },
   "requested_ai_trigger": "after_completed_validated_committed_round",
   "external_runner_template": "scripts/run_ai_continuously.sh",

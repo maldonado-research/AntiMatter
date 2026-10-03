@@ -1,0 +1,2327 @@
+{
+  "schema_version": 1,
+  "status": "passed_public_package_integrity",
+  "created_utc": "2026-10-03T00:45:55.744338+00:00",
+  "source_commit": "da472576101a66b1c5c7dc97c01f7124e99076bd",
+  "public_source_files": 201,
+  "source_blobs_exact": "passed",
+  "privacy_allowlist": "passed_exact_201_public_tracked_paths_plus_authored_release_documents",
+  "original_ledgers_and_archives_preserved": true,
+  "ledger_checks": [
+    {
+      "ledger": "source/research/AM1231/SHA256SUMS.txt",
+      "entries": 48,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "AM1231_NOTE.md",
+          "resolved_package_path": "source/research/AM1231/AM1231_NOTE.md"
+        },
+        {
+          "path": "AM1231_NOTE.pdf",
+          "resolved_package_path": "source/research/AM1231/AM1231_NOTE.pdf"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "resolved_package_path": "source/research/AM1231/CHANGELOG.md"
+        },
+        {
+          "path": "IN_MORE_BASIC_TERMS.md",
+          "resolved_package_path": "source/research/AM1231/IN_MORE_BASIC_TERMS.md"
+        },
+        {
+          "path": "PUBLICATION_DESCRIPTION.html",
+          "resolved_package_path": "source/research/AM1231/PUBLICATION_DESCRIPTION.html"
+        },
+        {
+          "path": "README.md",
+          "resolved_package_path": "source/research/AM1231/README.md"
+        },
+        {
+          "path": "REPRODUCIBILITY.md",
+          "resolved_package_path": "source/research/AM1231/REPRODUCIBILITY.md"
+        },
+        {
+          "path": "original/AM123_COMPLETE.zip",
+          "resolved_package_path": "source/research/AM1231/original/AM123_COMPLETE.zip"
+        },
+        {
+          "path": "parents/AM122_COMPLETE.zip",
+          "resolved_package_path": "source/research/AM1231/parents/AM122_COMPLETE.zip"
+        },
+        {
+          "path": "provenance_input_checksums.json",
+          "resolved_package_path": "source/research/AM1231/provenance_input_checksums.json"
+        },
+        {
+          "path": "reproducibility.json",
+          "resolved_package_path": "source/research/AM1231/reproducibility.json"
+        },
+        {
+          "path": "requirements-replay.txt",
+          "resolved_package_path": "source/research/AM1231/requirements-replay.txt"
+        },
+        {
+          "path": "v1.23/v1.23_ONE_PAGE.md",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_ONE_PAGE.md"
+        },
+        {
+          "path": "v1.23/v1.23_README.md",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_README.md"
+        },
+        {
+          "path": "v1.23/v1.23_SHA256.txt",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_SHA256.txt"
+        },
+        {
+          "path": "v1.23/v1.23_WE_DWSB_energy.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_WE_DWSB_energy.csv"
+        },
+        {
+          "path": "v1.23/v1.23_WE_DWSB_site_map.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_WE_DWSB_site_map.csv"
+        },
+        {
+          "path": "v1.23/v1.23_baryogenesis_energy_gate.png",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_baryogenesis_energy_gate.png"
+        },
+        {
+          "path": "v1.23/v1.23_branch_decision.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_branch_decision.csv"
+        },
+        {
+          "path": "v1.23/v1.23_bundle_manifest.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_bundle_manifest.csv"
+        },
+        {
+          "path": "v1.23/v1.23_domain_walls.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_domain_walls.csv"
+        },
+        {
+          "path": "v1.23/v1.23_gates.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_gates.csv"
+        },
+        {
+          "path": "v1.23/v1.23_gauge_kernel.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_gauge_kernel.csv"
+        },
+        {
+          "path": "v1.23/v1.23_harmonic_action_gates.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_harmonic_action_gates.csv"
+        },
+        {
+          "path": "v1.23/v1.23_instanton_action_scan.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_instanton_action_scan.csv"
+        },
+        {
+          "path": "v1.23/v1.23_misalignment.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_misalignment.csv"
+        },
+        {
+          "path": "v1.23/v1.23_misalignment_constraint.png",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_misalignment_constraint.png"
+        },
+        {
+          "path": "v1.23/v1.23_parent_verification.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_parent_verification.csv"
+        },
+        {
+          "path": "v1.23/v1.23_primary_sources.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_primary_sources.csv"
+        },
+        {
+          "path": "v1.23/v1.23_sigma_relic.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_sigma_relic.csv"
+        },
+        {
+          "path": "v1.23/v1.23_source_normalization.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_source_normalization.csv"
+        },
+        {
+          "path": "v1.23/v1.23_source_period_obstruction.png",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_source_period_obstruction.png"
+        },
+        {
+          "path": "v1.23/v1.23_summary.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_summary.csv"
+        },
+        {
+          "path": "v1.23/v1.23_summary.json",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_summary.json"
+        },
+        {
+          "path": "v1.23/v1.23_thermal_potential.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_thermal_potential.csv"
+        },
+        {
+          "path": "v1.23/v1.23_uniform_propagator_audit.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_uniform_propagator_audit.csv"
+        },
+        {
+          "path": "v1.23/v1.23_unwanted_site_action_gaps.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_unwanted_site_action_gaps.csv"
+        },
+        {
+          "path": "v1.23/v1.23_wall_bias.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wall_bias.csv"
+        },
+        {
+          "path": "v1.23/v1.23_wilson_benchmark.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_benchmark.csv"
+        },
+        {
+          "path": "v1.23/v1.23_wilson_harmonic_purity.png",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_harmonic_purity.png"
+        },
+        {
+          "path": "v1.23/v1.23_wilson_hessian.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_hessian.csv"
+        },
+        {
+          "path": "v1.23/v1.23_wilson_hybrid_lock.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_hybrid_lock.csv"
+        },
+        {
+          "path": "v1.23/v1.23_wilson_instanton_cosmology_audit.py",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py"
+        },
+        {
+          "path": "v1.23/v1.23_wilson_instanton_cosmology_audit_note.md",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit_note.md"
+        },
+        {
+          "path": "v1.23.1/v1.23.1_efficiency_energy_frontier.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.csv"
+        },
+        {
+          "path": "v1.23.1/v1.23.1_efficiency_energy_frontier.md",
+          "resolved_package_path": "source/research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.md"
+        },
+        {
+          "path": "v1.23.1/v1.23.1_efficiency_energy_frontier.py",
+          "resolved_package_path": "source/research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.py"
+        },
+        {
+          "path": "verify_release.py",
+          "resolved_package_path": "source/research/AM1231/verify_release.py"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/AM1231/v1.23/v1.23_SHA256.txt",
+      "entries": 31,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "v1.23_ONE_PAGE.md",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_ONE_PAGE.md"
+        },
+        {
+          "path": "v1.23_README.md",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_README.md"
+        },
+        {
+          "path": "v1.23_WE_DWSB_energy.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_WE_DWSB_energy.csv"
+        },
+        {
+          "path": "v1.23_WE_DWSB_site_map.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_WE_DWSB_site_map.csv"
+        },
+        {
+          "path": "v1.23_baryogenesis_energy_gate.png",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_baryogenesis_energy_gate.png"
+        },
+        {
+          "path": "v1.23_branch_decision.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_branch_decision.csv"
+        },
+        {
+          "path": "v1.23_bundle_manifest.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_bundle_manifest.csv"
+        },
+        {
+          "path": "v1.23_domain_walls.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_domain_walls.csv"
+        },
+        {
+          "path": "v1.23_gates.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_gates.csv"
+        },
+        {
+          "path": "v1.23_gauge_kernel.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_gauge_kernel.csv"
+        },
+        {
+          "path": "v1.23_harmonic_action_gates.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_harmonic_action_gates.csv"
+        },
+        {
+          "path": "v1.23_instanton_action_scan.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_instanton_action_scan.csv"
+        },
+        {
+          "path": "v1.23_misalignment.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_misalignment.csv"
+        },
+        {
+          "path": "v1.23_misalignment_constraint.png",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_misalignment_constraint.png"
+        },
+        {
+          "path": "v1.23_parent_verification.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_parent_verification.csv"
+        },
+        {
+          "path": "v1.23_primary_sources.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_primary_sources.csv"
+        },
+        {
+          "path": "v1.23_sigma_relic.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_sigma_relic.csv"
+        },
+        {
+          "path": "v1.23_source_normalization.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_source_normalization.csv"
+        },
+        {
+          "path": "v1.23_source_period_obstruction.png",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_source_period_obstruction.png"
+        },
+        {
+          "path": "v1.23_summary.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_summary.csv"
+        },
+        {
+          "path": "v1.23_summary.json",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_summary.json"
+        },
+        {
+          "path": "v1.23_thermal_potential.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_thermal_potential.csv"
+        },
+        {
+          "path": "v1.23_uniform_propagator_audit.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_uniform_propagator_audit.csv"
+        },
+        {
+          "path": "v1.23_unwanted_site_action_gaps.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_unwanted_site_action_gaps.csv"
+        },
+        {
+          "path": "v1.23_wall_bias.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wall_bias.csv"
+        },
+        {
+          "path": "v1.23_wilson_benchmark.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_benchmark.csv"
+        },
+        {
+          "path": "v1.23_wilson_harmonic_purity.png",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_harmonic_purity.png"
+        },
+        {
+          "path": "v1.23_wilson_hessian.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_hessian.csv"
+        },
+        {
+          "path": "v1.23_wilson_hybrid_lock.csv",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_hybrid_lock.csv"
+        },
+        {
+          "path": "v1.23_wilson_instanton_cosmology_audit.py",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py"
+        },
+        {
+          "path": "v1.23_wilson_instanton_cosmology_audit_note.md",
+          "resolved_package_path": "source/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit_note.md"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/AM1232_CANDIDATE_20261001/SHA256SUMS.txt",
+      "entries": 40,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "BASELINE_REPLAY.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/BASELINE_REPLAY.json"
+        },
+        {
+          "path": "CLAIM_REVIEW.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/CLAIM_REVIEW.md"
+        },
+        {
+          "path": "NEXT_TESTS.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/NEXT_TESTS.md"
+        },
+        {
+          "path": "README.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/README.md"
+        },
+        {
+          "path": "REPRODUCE.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/REPRODUCE.md"
+        },
+        {
+          "path": "VALIDATION_RECEIPT.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/VALIDATION_RECEIPT.json"
+        },
+        {
+          "path": "figures/source_duration_bound.pdf",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/figures/source_duration_bound.pdf"
+        },
+        {
+          "path": "figures/source_duration_bound.png",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/figures/source_duration_bound.png"
+        },
+        {
+          "path": "figures/source_duration_bound.svg",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/figures/source_duration_bound.svg"
+        },
+        {
+          "path": "literature/LITERATURE_REVIEW_20261001.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/literature/LITERATURE_REVIEW_20261001.md"
+        },
+        {
+          "path": "literature/full_text_retrieval_receipts.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/literature/full_text_retrieval_receipts.json"
+        },
+        {
+          "path": "literature/initial_retrieval_receipts.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/literature/initial_retrieval_receipts.json"
+        },
+        {
+          "path": "literature/recent_metadata.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/literature/recent_metadata.json"
+        },
+        {
+          "path": "literature/source_metadata.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/literature/source_metadata.json"
+        },
+        {
+          "path": "make_figure.py",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/make_figure.py"
+        },
+        {
+          "path": "source-duration/REGISTRATION.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration/REGISTRATION.md"
+        },
+        {
+          "path": "source-duration/RESULTS.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration/RESULTS.md"
+        },
+        {
+          "path": "source-duration/audit.py",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration/audit.py"
+        },
+        {
+          "path": "source-duration/duration_bounds.csv",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration/duration_bounds.csv"
+        },
+        {
+          "path": "source-duration/results.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration/results.json"
+        },
+        {
+          "path": "source-duration/trajectories.csv",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration/trajectories.csv"
+        },
+        {
+          "path": "source-duration-independent/AUDIT.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/AUDIT.md"
+        },
+        {
+          "path": "source-duration-independent/compare_outputs.py",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/compare_outputs.py"
+        },
+        {
+          "path": "source-duration-independent/comparison_results.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/comparison_results.json"
+        },
+        {
+          "path": "source-duration-independent/independent_duration_bounds.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/independent_duration_bounds.json"
+        },
+        {
+          "path": "source-duration-independent/independent_duration_check.py",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/independent_duration_check.py"
+        },
+        {
+          "path": "source-duration-independent/independent_environment.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/independent_environment.json"
+        },
+        {
+          "path": "source-duration-independent/independent_time_check.py",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/independent_time_check.py"
+        },
+        {
+          "path": "source-duration-independent/registered_grid_time_results.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/registered_grid_time_results.json"
+        },
+        {
+          "path": "wilson-metric/REGISTRATION.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/REGISTRATION.md"
+        },
+        {
+          "path": "wilson-metric/RESULTS.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/RESULTS.md"
+        },
+        {
+          "path": "wilson-metric/audit.py",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/audit.py"
+        },
+        {
+          "path": "wilson-metric/reproduction.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/reproduction.json"
+        },
+        {
+          "path": "wilson-metric/results.csv",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/results.csv"
+        },
+        {
+          "path": "wilson-metric/results.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/results.json"
+        },
+        {
+          "path": "wilson-metric-independent/AUDIT.md",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/AUDIT.md"
+        },
+        {
+          "path": "wilson-metric-independent/compare.py",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/compare.py"
+        },
+        {
+          "path": "wilson-metric-independent/comparison-results.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/comparison-results.json"
+        },
+        {
+          "path": "wilson-metric-independent/independent-results.json",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/independent-results.json"
+        },
+        {
+          "path": "wilson-metric-independent/independent.py",
+          "resolved_package_path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/independent.py"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/rounds/2026-10-01_transport_gate/SHA256SUMS.txt",
+      "entries": 24,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "PINNED_REPLAY.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/PINNED_REPLAY.json"
+        },
+        {
+          "path": "README.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/README.md"
+        },
+        {
+          "path": "REPRODUCE.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/REPRODUCE.md"
+        },
+        {
+          "path": "ROUND.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/ROUND.json"
+        },
+        {
+          "path": "independent/AUDIT.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/AUDIT.md"
+        },
+        {
+          "path": "independent/SHA256SUMS.txt",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/SHA256SUMS.txt"
+        },
+        {
+          "path": "independent/compare_results.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/compare_results.py"
+        },
+        {
+          "path": "independent/comparison_results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/comparison_results.json"
+        },
+        {
+          "path": "independent/independent_check.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/independent_check.py"
+        },
+        {
+          "path": "independent/independent_results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/independent_results.json"
+        },
+        {
+          "path": "independent/validation_failure_checks.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/validation_failure_checks.json"
+        },
+        {
+          "path": "independent/validation_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/validation_receipt.json"
+        },
+        {
+          "path": "producer/AMENDMENTS.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/AMENDMENTS.md"
+        },
+        {
+          "path": "producer/DERIVATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/DERIVATION.md"
+        },
+        {
+          "path": "producer/REGISTRATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/REGISTRATION.md"
+        },
+        {
+          "path": "producer/RESULTS.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/RESULTS.md"
+        },
+        {
+          "path": "producer/SHA256SUMS.txt",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/SHA256SUMS.txt"
+        },
+        {
+          "path": "producer/registration_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/registration_receipt.json"
+        },
+        {
+          "path": "producer/results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/results.json"
+        },
+        {
+          "path": "producer/run_round.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/run_round.py"
+        },
+        {
+          "path": "producer/signed_trajectory.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/signed_trajectory.csv"
+        },
+        {
+          "path": "producer/test_transport.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/test_transport.py"
+        },
+        {
+          "path": "producer/transport.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/transport.py"
+        },
+        {
+          "path": "producer/validation_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/validation_receipt.json"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/rounds/2026-10-01_transport_gate/independent/SHA256SUMS.txt",
+      "entries": 7,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "AUDIT.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/AUDIT.md"
+        },
+        {
+          "path": "compare_results.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/compare_results.py"
+        },
+        {
+          "path": "comparison_results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/comparison_results.json"
+        },
+        {
+          "path": "independent_check.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/independent_check.py"
+        },
+        {
+          "path": "independent_results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/independent_results.json"
+        },
+        {
+          "path": "validation_failure_checks.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/validation_failure_checks.json"
+        },
+        {
+          "path": "validation_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/independent/validation_receipt.json"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/rounds/2026-10-01_transport_gate/producer/SHA256SUMS.txt",
+      "entries": 11,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "AMENDMENTS.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/AMENDMENTS.md"
+        },
+        {
+          "path": "DERIVATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/DERIVATION.md"
+        },
+        {
+          "path": "REGISTRATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/REGISTRATION.md"
+        },
+        {
+          "path": "RESULTS.md",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/RESULTS.md"
+        },
+        {
+          "path": "registration_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/registration_receipt.json"
+        },
+        {
+          "path": "results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/results.json"
+        },
+        {
+          "path": "run_round.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/run_round.py"
+        },
+        {
+          "path": "signed_trajectory.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/signed_trajectory.csv"
+        },
+        {
+          "path": "test_transport.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/test_transport.py"
+        },
+        {
+          "path": "transport.py",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/transport.py"
+        },
+        {
+          "path": "validation_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-01_transport_gate/producer/validation_receipt.json"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/rounds/2026-10-02_sm_operator_gate/SHA256SUMS.txt",
+      "entries": 60,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "PINNED_REPLAY.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/PINNED_REPLAY.json"
+        },
+        {
+          "path": "README.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/README.md"
+        },
+        {
+          "path": "REPRODUCE.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/REPRODUCE.md"
+        },
+        {
+          "path": "ROUND.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/ROUND.json"
+        },
+        {
+          "path": "independent/CONTROLS.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/CONTROLS.md"
+        },
+        {
+          "path": "independent/DERIVATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/DERIVATION.md"
+        },
+        {
+          "path": "independent/SENSITIVITY_CONTROLS.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/SENSITIVITY_CONTROLS.md"
+        },
+        {
+          "path": "independent/compare_frozen_producer.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/compare_frozen_producer.py"
+        },
+        {
+          "path": "independent/comparison_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/comparison_receipt.json"
+        },
+        {
+          "path": "independent/conditional_normalization_sensitivity.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/conditional_normalization_sensitivity.py"
+        },
+        {
+          "path": "independent/matrices.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/matrices.json"
+        },
+        {
+          "path": "independent/portability_provenance.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/portability_provenance.json"
+        },
+        {
+          "path": "independent/portability_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/portability_receipt.json"
+        },
+        {
+          "path": "independent/portability_replay.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/portability_replay.py"
+        },
+        {
+          "path": "independent/provenance_note.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/provenance_note.json"
+        },
+        {
+          "path": "independent/receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/receipt.json"
+        },
+        {
+          "path": "independent/sensitivity_receipt.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/sensitivity_receipt.json"
+        },
+        {
+          "path": "independent/sm_charge_response.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/sm_charge_response.py"
+        },
+        {
+          "path": "inventory/EXACT_INVENTORY_CHECKS.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/inventory/EXACT_INVENTORY_CHECKS.json"
+        },
+        {
+          "path": "inventory/PUBLIC_SAFE_OPERATOR_INVENTORY.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/inventory/PUBLIC_SAFE_OPERATOR_INVENTORY.md"
+        },
+        {
+          "path": "inventory/verify_inventory.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/inventory/verify_inventory.py"
+        },
+        {
+          "path": "literature/METADATA_RECEIPTS.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/literature/METADATA_RECEIPTS.json"
+        },
+        {
+          "path": "producer/DERIVATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/DERIVATION.md"
+        },
+        {
+          "path": "producer/ORIGINAL_PORTABILITY_INPUTS/ORIGINAL_SHA256.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/ORIGINAL_SHA256.json"
+        },
+        {
+          "path": "producer/ORIGINAL_PORTABILITY_INPUTS/PROVENANCE.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/PROVENANCE.json"
+        },
+        {
+          "path": "producer/ORIGINAL_PORTABILITY_INPUTS/RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/RECEIPT.json"
+        },
+        {
+          "path": "producer/ORIGINAL_PORTABILITY_INPUTS/SHA256SUMS",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/SHA256SUMS"
+        },
+        {
+          "path": "producer/ORIGINAL_PORTABILITY_INPUTS/conditional_sensitivity.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/conditional_sensitivity.py"
+        },
+        {
+          "path": "producer/ORIGINAL_PORTABILITY_INPUTS/verify_reproducibility.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/verify_reproducibility.py"
+        },
+        {
+          "path": "producer/PORTABILITY_AMENDMENT.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PORTABILITY_AMENDMENT.md"
+        },
+        {
+          "path": "producer/PORTABILITY_PROVENANCE.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PORTABILITY_PROVENANCE.json"
+        },
+        {
+          "path": "producer/PROVENANCE.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PROVENANCE.json"
+        },
+        {
+          "path": "producer/RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/RECEIPT.json"
+        },
+        {
+          "path": "producer/REGISTRATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/REGISTRATION.md"
+        },
+        {
+          "path": "producer/REGISTRATION_ADDENDUM.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/REGISTRATION_ADDENDUM.md"
+        },
+        {
+          "path": "producer/SHA256SUMS",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/SHA256SUMS"
+        },
+        {
+          "path": "producer/conditional_sensitivity.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.csv"
+        },
+        {
+          "path": "producer/conditional_sensitivity.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.json"
+        },
+        {
+          "path": "producer/conditional_sensitivity.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.py"
+        },
+        {
+          "path": "producer/conserved_density_basis.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conserved_density_basis.csv"
+        },
+        {
+          "path": "producer/reaction_charges.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/reaction_charges.csv"
+        },
+        {
+          "path": "producer/results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/results.json"
+        },
+        {
+          "path": "producer/sm_charge_diagnostic.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/sm_charge_diagnostic.py"
+        },
+        {
+          "path": "producer/species_response.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/species_response.csv"
+        },
+        {
+          "path": "producer/tests.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/tests.csv"
+        },
+        {
+          "path": "producer/verify_reproducibility.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/verify_reproducibility.py"
+        },
+        {
+          "path": "requirements-operator.txt",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/requirements-operator.txt"
+        },
+        {
+          "path": "retrieve_metadata.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/retrieve_metadata.py"
+        },
+        {
+          "path": "reviewer/REVIEW_RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/reviewer/REVIEW_RECEIPT.json"
+        },
+        {
+          "path": "reviewer/SCIENTIFIC_REVIEW.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/reviewer/SCIENTIFIC_REVIEW.md"
+        },
+        {
+          "path": "reviewer/review_checks.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/reviewer/review_checks.py"
+        },
+        {
+          "path": "wall_literature/BIBLIOGRAPHIC_METADATA.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/BIBLIOGRAPHIC_METADATA.json"
+        },
+        {
+          "path": "wall_literature/COMPARISON_RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/COMPARISON_RECEIPT.json"
+        },
+        {
+          "path": "wall_literature/LITERATURE_NOTE.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/LITERATURE_NOTE.md"
+        },
+        {
+          "path": "wall_literature/METADATA_RECEIPTS.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/METADATA_RECEIPTS.json"
+        },
+        {
+          "path": "wall_literature/PDF_RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/PDF_RECEIPT.json"
+        },
+        {
+          "path": "wall_literature/SHA256SUMS.txt",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/SHA256SUMS.txt"
+        },
+        {
+          "path": "wall_literature/SUSCEPTIBILITY_COMPARISON.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/SUSCEPTIBILITY_COMPARISON.json"
+        },
+        {
+          "path": "wall_literature/VALIDATION_RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/VALIDATION_RECEIPT.json"
+        },
+        {
+          "path": "wall_literature/compare_susceptibilities.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/compare_susceptibilities.py"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/SHA256SUMS",
+      "entries": 15,
+      "status": "passed",
+      "context": "Reconstructed original producer context: archived amended originals plus unchanged parent files",
+      "checked_paths": [
+        {
+          "path": "DERIVATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/DERIVATION.md"
+        },
+        {
+          "path": "PROVENANCE.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/PROVENANCE.json"
+        },
+        {
+          "path": "RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/RECEIPT.json"
+        },
+        {
+          "path": "REGISTRATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/REGISTRATION.md"
+        },
+        {
+          "path": "REGISTRATION_ADDENDUM.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/REGISTRATION_ADDENDUM.md"
+        },
+        {
+          "path": "conditional_sensitivity.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.csv"
+        },
+        {
+          "path": "conditional_sensitivity.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.json"
+        },
+        {
+          "path": "conditional_sensitivity.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/conditional_sensitivity.py"
+        },
+        {
+          "path": "conserved_density_basis.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conserved_density_basis.csv"
+        },
+        {
+          "path": "reaction_charges.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/reaction_charges.csv"
+        },
+        {
+          "path": "results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/results.json"
+        },
+        {
+          "path": "sm_charge_diagnostic.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/sm_charge_diagnostic.py"
+        },
+        {
+          "path": "species_response.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/species_response.csv"
+        },
+        {
+          "path": "tests.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/tests.csv"
+        },
+        {
+          "path": "verify_reproducibility.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/verify_reproducibility.py"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/rounds/2026-10-02_sm_operator_gate/producer/SHA256SUMS",
+      "entries": 23,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "DERIVATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/DERIVATION.md"
+        },
+        {
+          "path": "ORIGINAL_PORTABILITY_INPUTS/ORIGINAL_SHA256.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/ORIGINAL_SHA256.json"
+        },
+        {
+          "path": "ORIGINAL_PORTABILITY_INPUTS/PROVENANCE.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/PROVENANCE.json"
+        },
+        {
+          "path": "ORIGINAL_PORTABILITY_INPUTS/RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/RECEIPT.json"
+        },
+        {
+          "path": "ORIGINAL_PORTABILITY_INPUTS/SHA256SUMS",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/SHA256SUMS"
+        },
+        {
+          "path": "ORIGINAL_PORTABILITY_INPUTS/conditional_sensitivity.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/conditional_sensitivity.py"
+        },
+        {
+          "path": "ORIGINAL_PORTABILITY_INPUTS/verify_reproducibility.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/verify_reproducibility.py"
+        },
+        {
+          "path": "PORTABILITY_AMENDMENT.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PORTABILITY_AMENDMENT.md"
+        },
+        {
+          "path": "PORTABILITY_PROVENANCE.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PORTABILITY_PROVENANCE.json"
+        },
+        {
+          "path": "PROVENANCE.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PROVENANCE.json"
+        },
+        {
+          "path": "RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/RECEIPT.json"
+        },
+        {
+          "path": "REGISTRATION.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/REGISTRATION.md"
+        },
+        {
+          "path": "REGISTRATION_ADDENDUM.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/REGISTRATION_ADDENDUM.md"
+        },
+        {
+          "path": "conditional_sensitivity.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.csv"
+        },
+        {
+          "path": "conditional_sensitivity.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.json"
+        },
+        {
+          "path": "conditional_sensitivity.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.py"
+        },
+        {
+          "path": "conserved_density_basis.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conserved_density_basis.csv"
+        },
+        {
+          "path": "reaction_charges.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/reaction_charges.csv"
+        },
+        {
+          "path": "results.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/results.json"
+        },
+        {
+          "path": "sm_charge_diagnostic.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/sm_charge_diagnostic.py"
+        },
+        {
+          "path": "species_response.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/species_response.csv"
+        },
+        {
+          "path": "tests.csv",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/tests.csv"
+        },
+        {
+          "path": "verify_reproducibility.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/verify_reproducibility.py"
+        }
+      ]
+    },
+    {
+      "ledger": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/SHA256SUMS.txt",
+      "entries": 8,
+      "status": "passed",
+      "context": "Ledger directory",
+      "checked_paths": [
+        {
+          "path": "BIBLIOGRAPHIC_METADATA.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/BIBLIOGRAPHIC_METADATA.json"
+        },
+        {
+          "path": "COMPARISON_RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/COMPARISON_RECEIPT.json"
+        },
+        {
+          "path": "LITERATURE_NOTE.md",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/LITERATURE_NOTE.md"
+        },
+        {
+          "path": "METADATA_RECEIPTS.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/METADATA_RECEIPTS.json"
+        },
+        {
+          "path": "PDF_RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/PDF_RECEIPT.json"
+        },
+        {
+          "path": "SUSCEPTIBILITY_COMPARISON.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/SUSCEPTIBILITY_COMPARISON.json"
+        },
+        {
+          "path": "VALIDATION_RECEIPT.json",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/VALIDATION_RECEIPT.json"
+        },
+        {
+          "path": "compare_susceptibilities.py",
+          "resolved_package_path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/compare_susceptibilities.py"
+        }
+      ]
+    }
+  ],
+  "nested_archives": [
+    {
+      "archive": "source/research/AM1231/original/AM123_COMPLETE.zip",
+      "members": 32,
+      "internal_hashes": 31,
+      "status": "passed"
+    },
+    {
+      "archive": "source/research/AM1231/parents/AM122_COMPLETE.zip",
+      "members": 32,
+      "internal_hashes": 31,
+      "status": "passed"
+    }
+  ],
+  "archives": [
+    {
+      "filename": "AM1232_COMPLETE.zip",
+      "members": 209,
+      "bytes": 1788606,
+      "sha256": "b52bcb3b2d8e45ad5e4c4f72fb097d64eb19b21b2ee96a6e1073054d51df9599",
+      "crc": "passed",
+      "member_hashes": "passed",
+      "member_manifest": [
+        {
+          "path": "AM1232_ALL.txt",
+          "sha256": "2e03c77343a9ea9c9b8de8f5f03902333479ee7303953fcb3f052fdcd372c107",
+          "bytes": 315475
+        },
+        {
+          "path": "AM1232_NOTE.md",
+          "sha256": "26db8348626f6386d17316516b4651fb075b88dd0cb3c66311d24b8b1fa983ec",
+          "bytes": 17987
+        },
+        {
+          "path": "AM1232_NOTE.pdf",
+          "sha256": "f19a1e1b91a98df119717000db248e6b1dc033d87d6cd2de55034b0bfcdd8958",
+          "bytes": 62061
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+          "bytes": 18657
+        },
+        {
+          "path": "LICENSE_NOTICE.md",
+          "sha256": "e76b30694c697a58b54bcbff42d7156475361cb8e59a60aee269bc9550a0d953",
+          "bytes": 1211
+        },
+        {
+          "path": "RELEASE_CITATION.cff",
+          "sha256": "6e4baa022f36a5dc1bdb2778b60d243fbce83f557ea2e92fa2cd7bb8b5b5aa65",
+          "bytes": 851
+        },
+        {
+          "path": "REPRODUCTION.md",
+          "sha256": "175b82f0367ad22df21aad6b9ae25e30cdd2bba719cfec4a0e2ced2d5fbd2f89",
+          "bytes": 10058
+        },
+        {
+          "path": "SOURCE_MANIFEST.json",
+          "sha256": "d1734756e43c2bff31754955e34b11543f90c3f0e7caaede8ec793f2995669e3",
+          "bytes": 81545
+        },
+        {
+          "path": "source/.github/workflows/research-checks.yml",
+          "sha256": "3071785127f2d09fbf41a8c94a54c5d7aeda87533f8b749f0ba57ab911c0ade0",
+          "bytes": 3382
+        },
+        {
+          "path": "source/.gitignore",
+          "sha256": "1aee63fc2655cf0f4cfdc95d2e50c0846a35e6438ab79bb46249895304de15c7",
+          "bytes": 103
+        },
+        {
+          "path": "source/CITATION.cff",
+          "sha256": "6fae0239d800d3bf77b2161bafb0ceda036151205d8ef1fbdfa64a7115f406ac",
+          "bytes": 514
+        },
+        {
+          "path": "source/LICENSE",
+          "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+          "bytes": 18657
+        },
+        {
+          "path": "source/LICENSE_NOTICE.md",
+          "sha256": "e76b30694c697a58b54bcbff42d7156475361cb8e59a60aee269bc9550a0d953",
+          "bytes": 1211
+        },
+        {
+          "path": "source/README.md",
+          "sha256": "d24eba23db33d14b00e7e924b2c990b87c6bbe3fe039386e6a665b9c039e215d",
+          "bytes": 6722
+        },
+        {
+          "path": "source/docs/RESEARCH_STATUS.md",
+          "sha256": "8e7c66c055ee652c2b74a3cf7610e7949af3ddd17ab031cc4d3c4a368da17c29",
+          "bytes": 3771
+        },
+        {
+          "path": "source/docs/research-routine/PORTABLE_REPRODUCTION.md",
+          "sha256": "700eb8603e976d97624c384a3f12354bd438686a4eb88ed121d135ba8fb6c8f5",
+          "bytes": 6984
+        },
+        {
+          "path": "source/docs/research-routine/ROUND_PROMPT.md",
+          "sha256": "43e9affa63f079f5035da62620fc5202ca06a115ff75771d8c35ed2aae41d819",
+          "bytes": 3304
+        },
+        {
+          "path": "source/docs/research-routine/ROUND_PROTOCOL.md",
+          "sha256": "6c156dd49f3c3033e77e72a70ea4e8ee1ee2d307f4ff98a76cedee77901d6601",
+          "bytes": 10254
+        },
+        {
+          "path": "source/docs/research-routine/RUNNER_VALIDATION.json",
+          "sha256": "a4ea538d8d526c12a6e91d048ca7b85a7d6df9ea584c206895b7f1a5e72707d8",
+          "bytes": 2844
+        },
+        {
+          "path": "source/docs/research-routine/deployment/BASELINE_RUNNER_REFERENCE.json",
+          "sha256": "2051a62ebc385cbb6c19f0a7f188192788c18725bde2709bb6e99dcbc277c2a0",
+          "bytes": 338
+        },
+        {
+          "path": "source/docs/research-routine/deployment/DEPLOYMENT.md",
+          "sha256": "24101b2cb9455ac4ac17badc36db0b90c4e99943015b715bd5a91ff8ba9328d5",
+          "bytes": 7515
+        },
+        {
+          "path": "source/docs/research-routine/deployment/INDEPENDENT_REVIEW_RECEIPT.json",
+          "sha256": "df52d5721c9f39954f0517fd059139ec829e43b69cabf8e5482afbe6665af502",
+          "bytes": 1723
+        },
+        {
+          "path": "source/docs/research-routine/deployment/MOCK_VALIDATION_RECEIPT.json",
+          "sha256": "4e822a06280d2f045fe9cb34d6a5f7055285e6c3401924c67dac90882adc3e28",
+          "bytes": 500
+        },
+        {
+          "path": "source/docs/research-routine/deployment/antimatter-research.service.in",
+          "sha256": "c0dd761ae68d458f4b5be9f7d4a00b183a0c6256c37fcc4c0483981c1ecd7270",
+          "bytes": 775
+        },
+        {
+          "path": "source/docs/research-routine/deployment/runner.env.example",
+          "sha256": "2a7051404dfe04a7ce0a2944a1b327a272e8de9b759bf2b19f304dd566ac68ff",
+          "bytes": 401
+        },
+        {
+          "path": "source/docs/research-routine/routine.json",
+          "sha256": "24754bd63d2e8ac0dfaac7ed24b188c97764e715db21f03ada9a86b7d241a963",
+          "bytes": 4016
+        },
+        {
+          "path": "source/research/AM1231/AM1231_NOTE.md",
+          "sha256": "09e417536d3d507dcd6147b1ac4d71bc5ab400f97f12897dcc6eb1c9707bfb5a",
+          "bytes": 11266
+        },
+        {
+          "path": "source/research/AM1231/AM1231_NOTE.pdf",
+          "sha256": "e25c4d5df7d1a6201ece0e776bf0c484bfcfcfbd091ec97523102b0458baa184",
+          "bytes": 78451
+        },
+        {
+          "path": "source/research/AM1231/CHANGELOG.md",
+          "sha256": "c8615a376de8f7fb25cf07c88eaecb4b9f38f9729ae3d88b85bf1ccdc67de0bf",
+          "bytes": 936
+        },
+        {
+          "path": "source/research/AM1231/IN_MORE_BASIC_TERMS.md",
+          "sha256": "a3dad4a6c9f1dc35d3f17e51dcaaf9e4c7d90a1106833c7b51f0ec217d475d72",
+          "bytes": 1379
+        },
+        {
+          "path": "source/research/AM1231/PUBLICATION_DESCRIPTION.html",
+          "sha256": "9c6b0e763798fbe0ff8889d148c3856aad730bfcf21215dc832084fce71e9aa3",
+          "bytes": 2515
+        },
+        {
+          "path": "source/research/AM1231/README.md",
+          "sha256": "d3a110c6d75848760bb9630f886d32db9d3efd7a1f61dbf9f35a7ed4b5f4b61e",
+          "bytes": 2408
+        },
+        {
+          "path": "source/research/AM1231/REPRODUCIBILITY.md",
+          "sha256": "a8e27c43e196f460648b73c4eb7d80fad2adc0bbc399cdec880a3d8c97a14bc4",
+          "bytes": 2637
+        },
+        {
+          "path": "source/research/AM1231/SHA256SUMS.txt",
+          "sha256": "0332f843fa532329b9db16c15f947053509104d2633a6a662a7c5de5b313edd3",
+          "bytes": 4651
+        },
+        {
+          "path": "source/research/AM1231/original/AM123_COMPLETE.zip",
+          "sha256": "2014b0a707f7dcb2272ab6c0b47cce6893501db08fe61daa9327e8f60179bc5d",
+          "bytes": 351139
+        },
+        {
+          "path": "source/research/AM1231/parents/AM122_COMPLETE.zip",
+          "sha256": "44e5e29bb345e3da82d1dbddcc662b1e6c852f99bf951a3a6f5038da4bb8b807",
+          "bytes": 269933
+        },
+        {
+          "path": "source/research/AM1231/provenance_input_checksums.json",
+          "sha256": "874cc95a1e5a029de2ad2ef25f5b2a0c957d5a17830c879989f3bf8a4f6b4000",
+          "bytes": 1219
+        },
+        {
+          "path": "source/research/AM1231/reproducibility.json",
+          "sha256": "4d457f955b76690ada23380a34a69c2069b42ea07194411d85934ae3cdd4b930",
+          "bytes": 13529
+        },
+        {
+          "path": "source/research/AM1231/requirements-replay.txt",
+          "sha256": "19f712d456dc9aa8a42fe00047e7e212f33d2b4e6e44b357a54483c0db31d5b5",
+          "bytes": 248
+        },
+        {
+          "path": "source/research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.csv",
+          "sha256": "471158906c3a707cbb5b48148a422cc6e9b896ac80197e42a760c02d1997172a",
+          "bytes": 764
+        },
+        {
+          "path": "source/research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.md",
+          "sha256": "a6556d1e5f9313187fcdf22e040883781cbede285b9db2d01b69f97bd8558067",
+          "bytes": 5629
+        },
+        {
+          "path": "source/research/AM1231/v1.23.1/v1.23.1_efficiency_energy_frontier.py",
+          "sha256": "4a2bfece249ef634986256b45b75fc8ab89a147d16673972e5565aeca24fe3a9",
+          "bytes": 10633
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_ONE_PAGE.md",
+          "sha256": "a50626db3c9c2f43dd9c9e35706133fed6268b6ce7b48ec93d4b8a51f894fdc3",
+          "bytes": 2157
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_README.md",
+          "sha256": "8d1f3d652d846b51a4682d5ee08717b14a436fc6d7b2e170bec20a8a4d506ae3",
+          "bytes": 761
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_SHA256.txt",
+          "sha256": "3869cc10a14eb1d8d68a966fa21c8312358186b95a9bd633a2f09294fc95c05e",
+          "bytes": 2906
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_WE_DWSB_energy.csv",
+          "sha256": "cc9970037535fbff15dab1e279e58e0cb418ba7d85edbe2df066cced83f39709",
+          "bytes": 1077
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_WE_DWSB_site_map.csv",
+          "sha256": "386cb87bbe1f4f82894723b299f10e621b6e9cf500e760a4b786522e01fc6691",
+          "bytes": 463
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_baryogenesis_energy_gate.png",
+          "sha256": "1c9cc500cae265fa3e7022f2ce3c137abb514efb18ec22258872a582627cff77",
+          "bytes": 114372
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_branch_decision.csv",
+          "sha256": "214c8e8c614ef640686c6c3984103a8cad5aa0edffb7ffaf90399461fac9a06b",
+          "bytes": 674
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_bundle_manifest.csv",
+          "sha256": "44be657d1d57f069256c3b14d6e705656eabf12ff717672f6b02602a002fc063",
+          "bytes": 2947
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_domain_walls.csv",
+          "sha256": "58cda7e056aae90b46ec35b4a9fee7374ac288173b313daf9f85b10f5e51d622",
+          "bytes": 597
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_gates.csv",
+          "sha256": "f8d4f49766627480d2b6d07b72395733ea22bc96ca3dcb655de27111c724a1b5",
+          "bytes": 2901
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_gauge_kernel.csv",
+          "sha256": "f9aaed6dedce543865625672eaf9cdbdc732a3cca2811adaa79966b00133653b",
+          "bytes": 1045
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_harmonic_action_gates.csv",
+          "sha256": "d8a9a62fd493b5a12c00f05891aefec023b8b3c9177c03221526f5a9b324dabd",
+          "bytes": 534
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_instanton_action_scan.csv",
+          "sha256": "5045dfe828890c526934888a67935712c058beeffb82874e34de6993ca3de683",
+          "bytes": 715
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_misalignment.csv",
+          "sha256": "d01f8e45bfef0e5a2be5e0f9918fc0084a7e2283a12a2a4faabae7301b318c89",
+          "bytes": 626
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_misalignment_constraint.png",
+          "sha256": "eaf1ac32ea6dcb9ed459f2a2206fc68e5124124d3109bbcdae39ac52167a6fb6",
+          "bytes": 84858
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_parent_verification.csv",
+          "sha256": "9ee112b710a29246f5ef3032967f7e79677d90162d557c542f8974da772b4209",
+          "bytes": 308
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_primary_sources.csv",
+          "sha256": "8b4ce1944cc0d2b41b5915ba5166b96622ecfdc7fff3232e94f0d02c7a886241",
+          "bytes": 2214
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_sigma_relic.csv",
+          "sha256": "ee5038e082b5c8f831183f9ca7c1257c3bd1962ff8786a41d6de4a2778678788",
+          "bytes": 836
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_source_normalization.csv",
+          "sha256": "505a63231fdbf6dc72046807643fbda4208519a23761278f69476bd24e5e8997",
+          "bytes": 554
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_source_period_obstruction.png",
+          "sha256": "d273aa65fc6cf6fda1fdaa1409750868d7d437adaf485f6269fa0599462b165b",
+          "bytes": 48313
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_summary.csv",
+          "sha256": "cc271bb478c415b2dbc0ee1681a0d92df4e2bf76ec39eded64b7840155088485",
+          "bytes": 2479
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_summary.json",
+          "sha256": "f3be1a7e588e91703d2931734e7225d8d71fdf7fe90170acb41a6eeda48a9252",
+          "bytes": 2910
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_thermal_potential.csv",
+          "sha256": "d238b30bb0ba0415455647e6cdc5aed2be89e952b36b73758570a1008f726bfb",
+          "bytes": 397
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_uniform_propagator_audit.csv",
+          "sha256": "19f8bb71de587daec7e1b063dfad282610f5c878d7c1445322266357a828b5a9",
+          "bytes": 814
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_unwanted_site_action_gaps.csv",
+          "sha256": "9b52ee7e7d0a9c52643255027dd1272e79de4a7bb191cfc0a8e48ff2bd286b59",
+          "bytes": 688
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_wall_bias.csv",
+          "sha256": "56d8015e05ebdab9275451ec240511a374a664ea01c4f4b4e8370c9cc0e0acb9",
+          "bytes": 435
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_wilson_benchmark.csv",
+          "sha256": "b343472a4a0be6497132d24d808fbaf6acc4e15132ee576cfaf8961bf4a8bcc4",
+          "bytes": 2232
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_wilson_harmonic_purity.png",
+          "sha256": "692e609f81c78393166576dd4e8ab86d2af2f5743c445e8ebf0a240db6873242",
+          "bytes": 99407
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_wilson_hessian.csv",
+          "sha256": "54beed741d6b173b28d9184cfcd1683f199771b89651527521e554b117ce5c42",
+          "bytes": 306
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_wilson_hybrid_lock.csv",
+          "sha256": "b8c0b5cba7464752bc04cdb1bcc7bf47ca070aab534095bb14734361e35c8b07",
+          "bytes": 432
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit.py",
+          "sha256": "a9eb249654988960a46a6904b30e7734037881ad7bd37660f2ff33d982c5e16c",
+          "bytes": 76009
+        },
+        {
+          "path": "source/research/AM1231/v1.23/v1.23_wilson_instanton_cosmology_audit_note.md",
+          "sha256": "49ed915a9b33269105fb4ccc50c43f8eb90afdb404c043cf0c0a33ab72904ae4",
+          "bytes": 12828
+        },
+        {
+          "path": "source/research/AM1231/verify_release.py",
+          "sha256": "b0f6d170b0c86f37d7da858c27d27064a05e099ab04122d3650e038f31484166",
+          "bytes": 598
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/BASELINE_REPLAY.json",
+          "sha256": "4b1a792da3f6ce13869a26d20f5f854e4ef39ba056fcc5e371b672aa3b720a1c",
+          "bytes": 1261
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/CLAIM_REVIEW.md",
+          "sha256": "20d676fe421d06d0c8e3f114026e3285cf3feec917370aa755701c26975a3d2f",
+          "bytes": 2541
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/NEXT_TESTS.md",
+          "sha256": "e0d6a119c508473744b3e1ced6ecf6caa9ff3741ef7bf1c1e46eefe74184b258",
+          "bytes": 2132
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/README.md",
+          "sha256": "5926fe543e4e0536453372fc142f52536738ce4748083c7a4291b3db4dd7bfcd",
+          "bytes": 5956
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/REPRODUCE.md",
+          "sha256": "b2fdc10ff5a9ac9673602d80857e1453b5062a09bccafdead1ef2c582770356d",
+          "bytes": 2933
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/SHA256SUMS.txt",
+          "sha256": "d23b135b3e7448d6aa2f1536b2875855782b68f38e8817c2eccdfe70feb08168",
+          "bytes": 4035
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/VALIDATION_RECEIPT.json",
+          "sha256": "12c495b6a64bb0488a15f153551fa80de0507fd6c75ca53baaa16d55bca57db6",
+          "bytes": 1216
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/figures/source_duration_bound.pdf",
+          "sha256": "e3e90481db964a19825fa71ee387f87fb57bfbc3101072c73726a1b7a1f06c4f",
+          "bytes": 20042
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/figures/source_duration_bound.png",
+          "sha256": "6b5c52a209b916216cf03873fac8eb4656d29471ff88c0bc19c9a7a93b744aa6",
+          "bytes": 108495
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/figures/source_duration_bound.svg",
+          "sha256": "d9a4817a49e06df228c698746937ef7f263ed98e1e53ac0f6822f184ce45bf41",
+          "bytes": 62383
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/literature/LITERATURE_REVIEW_20261001.md",
+          "sha256": "38c798e64a376933b5187a8153eb6d74ae63cdae5d01c010ed4aff7288b086f2",
+          "bytes": 17837
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/literature/full_text_retrieval_receipts.json",
+          "sha256": "ccbc7ee911b74ae6916bf665ba0adeb4a95b400a05e11a86cfd54256565aaecb",
+          "bytes": 3126
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/literature/initial_retrieval_receipts.json",
+          "sha256": "c18e0333ce66f709528eade171b56da058ec8759822fd621eddd0d41ec59d9b2",
+          "bytes": 1727
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/literature/recent_metadata.json",
+          "sha256": "32b13550abbd09ad679aa7af128ad4d618a8b6a7212cfbf776beb2be19cdc484",
+          "bytes": 75609
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/literature/source_metadata.json",
+          "sha256": "048f747a0db65d1206695f175797b509a4d778419348e7f39cd4c237c0e4c161",
+          "bytes": 8634
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/make_figure.py",
+          "sha256": "bb761bb06f442df363f7515989573fb88d013a675748603a622c2cea7da047d8",
+          "bytes": 2295
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/AUDIT.md",
+          "sha256": "9a12649667c9925ddd6bb5d60956be3292e45737f531dcf295bc07cc23da9888",
+          "bytes": 6510
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/compare_outputs.py",
+          "sha256": "ef01d6e7f2a0f795938dd158833d037c855fd3c84d85bcf081ec7f43dd0b0dd8",
+          "bytes": 3130
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/comparison_results.json",
+          "sha256": "a14f0789c0e90796a4d76b61d886f96434067f0f1258f79c8639bb11d7178a8b",
+          "bytes": 15989
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/independent_duration_bounds.json",
+          "sha256": "e334163b49d7577b100c657a5b21317f81f622f661c4684a23049e5887281386",
+          "bytes": 1935
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/independent_duration_check.py",
+          "sha256": "9b25ed73425624270b8afa42fbb25c4f8c617efa8255674f7a13b11bdce89adc",
+          "bytes": 1843
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/independent_environment.json",
+          "sha256": "eafada76293c35ad94b57b68f37e2305043876f425f121fd573765e54ebf1d44",
+          "bytes": 464
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/independent_time_check.py",
+          "sha256": "263f2efad992ba24cb840360ab452c96f6640bf214b02f409705dda0b97fdb13",
+          "bytes": 5496
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration-independent/registered_grid_time_results.json",
+          "sha256": "2d988e0c80300e57cbc470a1c04f084708f9ba4bf16ae0e5642036c6918e6b56",
+          "bytes": 27256
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration/REGISTRATION.md",
+          "sha256": "1a927613aea6a38f59681f51e510fc87f1cd281297c3cbebff6c08bfca752994",
+          "bytes": 5085
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration/RESULTS.md",
+          "sha256": "ca7be7397161a75d5f8c814710974f5986900d0a432c5485d2eefda60e09c30c",
+          "bytes": 9678
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration/audit.py",
+          "sha256": "f1f23911ccb3af5eaa1235f2fc228d235fbc107ab8e42b9354bc54e4b90c8d16",
+          "bytes": 24243
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration/duration_bounds.csv",
+          "sha256": "08038dcb665359652fefc3b1c8117be7b0b6d46f06e5fead9810de49e5f1a790",
+          "bytes": 459
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration/results.json",
+          "sha256": "4d72bb8f6a5edd92a9543f904fefaa1935036bf5fbfdc12582e713b6264ce9f1",
+          "bytes": 55522
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/source-duration/trajectories.csv",
+          "sha256": "39665c3bd3451a75d64c637d1c0ec8eaf2b7db7bd2ecf14eb769aa32173b32d0",
+          "bytes": 17713
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/AUDIT.md",
+          "sha256": "945f8284a766a3a0b2e49b6d602b5710a536a828c153f319865def68a7059ca3",
+          "bytes": 8488
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/compare.py",
+          "sha256": "8b67960eed66011f8e63a8c550446eb162c6606b04266c33ee6d5ffa057e6833",
+          "bytes": 7153
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/comparison-results.json",
+          "sha256": "50bedcbd12b3202a143f6ab91e289f3fdfd6adc7ba4f6f4e4cfdc644b5501747",
+          "bytes": 14444
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/independent-results.json",
+          "sha256": "1010f4d2d3953654f81a96477efd92e038388d5613347e9e7a7abe61333f74b9",
+          "bytes": 42083
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric-independent/independent.py",
+          "sha256": "fc38f589ecf832ac854f15189676b78b6d4e1285f7d18d491e6ac521d454f635",
+          "bytes": 8158
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/REGISTRATION.md",
+          "sha256": "2b2619ca8765a71295406014cbb4e0b67a48d2d983f4fd438762dfb89dd9c631",
+          "bytes": 5282
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/RESULTS.md",
+          "sha256": "4342163679689475fe9dcd6cae52143c788deeb123ca3766a796b705101fa9a9",
+          "bytes": 10135
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/audit.py",
+          "sha256": "3ac8e37046a691c395d4f144ff7dd283df26f6ebc319fc1b56f257b2060e4a44",
+          "bytes": 16600
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/reproduction.json",
+          "sha256": "f02a9bb7e8d3c518fa23a23dc9ef1f40e1a7b209dfd6b9dc6cea8c72a8b43ce0",
+          "bytes": 1396
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/results.csv",
+          "sha256": "5b5303be401a72747897fe925bdcfaa776b2d28a6cd945db05c28697291be008",
+          "bytes": 30766
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/wilson-metric/results.json",
+          "sha256": "884e8126dad916a5c6b48cfd6fa91b1df180057cb7df80bc4592320347229876",
+          "bytes": 124306
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/PINNED_REPLAY.json",
+          "sha256": "6c68a7e481c9c00b526c442ab392860ea435d5c05f4cb5e8a4e14d69be7766b3",
+          "bytes": 561
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/README.md",
+          "sha256": "f2bd2718793dc052d094aa6fbdcc56b9d15f50214ea485bbac5e29712f2f55e8",
+          "bytes": 3933
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/REPRODUCE.md",
+          "sha256": "037729c120afcce2f7d4b9cbc2adb0f1c24fbcc365fb6abfb1310efc7e92c4d0",
+          "bytes": 1838
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/ROUND.json",
+          "sha256": "cf9f965e7ff995377c27cdeb0fee8a09635d8b60b168fe49ef32acc0c3b515d4",
+          "bytes": 2106
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/SHA256SUMS.txt",
+          "sha256": "7535ed3ee64e7968a72ae975596295a1ab4f8686a085a94163c5b676e751ca9d",
+          "bytes": 2208
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/independent/AUDIT.md",
+          "sha256": "104a058af585aafc7e79f73938127081261957a1cb28da77c87396c175e00693",
+          "bytes": 10578
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/independent/SHA256SUMS.txt",
+          "sha256": "29b4e8e25894fe35a3021b34af1bd8c2d8952cd8e547d99e36b6c7e26a09d8f7",
+          "bytes": 615
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/independent/compare_results.py",
+          "sha256": "4c0cc4b1149cd7fd9385fab3e645c422cbc7a160e0345b95ab205772df7458aa",
+          "bytes": 8596
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/independent/comparison_results.json",
+          "sha256": "36b82ad6c5d1eee1fcc27b3e92c1241f5229c19b5abc06f066035d038538c3fa",
+          "bytes": 4414
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/independent/independent_check.py",
+          "sha256": "0f0e67723895219efe9f6856473fd0ee9b380c4ab15c688f87a46ec908686e88",
+          "bytes": 10402
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/independent/independent_results.json",
+          "sha256": "3658904433d158c739a60f44c51e9b744098483e474d8c5fbd81f994448951a3",
+          "bytes": 14102
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/independent/validation_failure_checks.json",
+          "sha256": "82841ec3968f375e6d92553712eab5e54e7aed9ec3cd19221faee66b76b1d65b",
+          "bytes": 2087
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/independent/validation_receipt.json",
+          "sha256": "75b7008f60d392fe3a48e12e05fa191a5363d33c64644303b62537cc6e99b1e1",
+          "bytes": 4527
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/AMENDMENTS.md",
+          "sha256": "a3df19b4873dcbc2b633f66b36da48e17fbf74ac29d409ea0bfff8a95155992b",
+          "bytes": 734
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/DERIVATION.md",
+          "sha256": "6c07d67ec63306228295dd1c5b1d513daee39561826e63026e061dd8032ae383",
+          "bytes": 9694
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/REGISTRATION.md",
+          "sha256": "a8cf1c87f1dc5fd0d404a2f5b8a8b56ccf3cfe993aef8daeb08c8e35d4513006",
+          "bytes": 4843
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/RESULTS.md",
+          "sha256": "45698626e50aa32d73afba86a7da67e30b98f4cc63101367f10de57de260829f",
+          "bytes": 5944
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/SHA256SUMS.txt",
+          "sha256": "6260aefe84fffb8a29a05bc187f49e2dcc24c958064eb93f1969d0cdb48095f7",
+          "bytes": 910
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/registration_receipt.json",
+          "sha256": "2bbd13f5465735b84968d92384b2633972300ad56d8c678eb1258764ff5a0bba",
+          "bytes": 953
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/results.json",
+          "sha256": "4f7bafe6d1a0633d5308967c0a98cd9842a7d02a3efc02cd3d115baaeb24cd86",
+          "bytes": 3949
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/run_round.py",
+          "sha256": "3373b5cbdd9d90ab5f62c1f79c02af3a8f9fe2d5ff6e1e5da14a03840cc3641d",
+          "bytes": 3364
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/signed_trajectory.csv",
+          "sha256": "cb6cbb01f737c24e90ab048d2d4a9c8babff635b7006869c0326cb4bdfc379b2",
+          "bytes": 41003
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/test_transport.py",
+          "sha256": "6d56848cb0a9267c3d319509f65ef7e1341982e63eddc00c4f4f611b712bc260",
+          "bytes": 4293
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/transport.py",
+          "sha256": "cc38a4f5aa519ca9b41b0abdb110970dd9307c2ce357b28a4b8182f3b2e36e2b",
+          "bytes": 5396
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/producer/validation_receipt.json",
+          "sha256": "ef1472930cacaaabd46b80010fc0e06d9ca90692a7e191632f56599b73e27aa2",
+          "bytes": 2039
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/PINNED_REPLAY.json",
+          "sha256": "1f64583fe4153ca9f62a969d61d348de1ccf333d1807c71121eff731936d76d0",
+          "bytes": 2197
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/README.md",
+          "sha256": "da3f233277b9681874423036d5176dfa8593c1581b7ddf6b3a0478eb869cc79a",
+          "bytes": 5671
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/REPRODUCE.md",
+          "sha256": "212346275286a898fc3082e956179eead75955ad48c8e7ae715fad71adf3e09d",
+          "bytes": 1513
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/ROUND.json",
+          "sha256": "103e4b9ed560f174fb9b632be46e241805d79bca927490e67a162d1bbb560939",
+          "bytes": 2193
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/SHA256SUMS.txt",
+          "sha256": "141d659c556d28a384bec482efe9ca1221d8a576e0a0df46477ff91e6482165f",
+          "bytes": 5997
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/CONTROLS.md",
+          "sha256": "1088872e258cee37d35de83c5ea57012e35002b13ee031768efae41e3bf72ca2",
+          "bytes": 5576
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/DERIVATION.md",
+          "sha256": "117692145342e1d590bedc45332a539015c913fb0d0f756d31180a53dd6d40b4",
+          "bytes": 15665
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/SENSITIVITY_CONTROLS.md",
+          "sha256": "d18c9656f36429ab3340c9fadced17ebb93848fd6c3c802418a03aa0e19fb212",
+          "bytes": 1682
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/compare_frozen_producer.py",
+          "sha256": "4f97f2e1b566c9b475aa958ffdfc33c628caa8c68033169c24c0afe275093dd6",
+          "bytes": 7381
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/comparison_receipt.json",
+          "sha256": "74c902360a776415e50769d2244eedc5b09b7a0aaac021c11723faea51d69c19",
+          "bytes": 2044
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/conditional_normalization_sensitivity.py",
+          "sha256": "7f568b448c2de825626257f6f9518ddd2ffe6d9130eb1c2a26d4c728ab218444",
+          "bytes": 5558
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/matrices.json",
+          "sha256": "1db673a00c6f6c2daedee0b3b02de79a13fc5b1fb180e21e5537156220a13bbf",
+          "bytes": 14112
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/portability_provenance.json",
+          "sha256": "98fb7ffc54f8beffb312533b60bb35fb9f0c6376d7e89789a8f95e73cb84b85b",
+          "bytes": 2069
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/portability_receipt.json",
+          "sha256": "2c19a82ff24edc04d66fc044162169e75f0e49bb2deec7fc88d7baecc2540260",
+          "bytes": 2093
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/portability_replay.py",
+          "sha256": "dcd8799dbb9c36ce867d8baac0ee48f378db83c208c7f89a9b9412afb03a7998",
+          "bytes": 6257
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/provenance_note.json",
+          "sha256": "75e9b3e51142528964ede2ec538683cb0e434b91839c945ca5c2d4a038394557",
+          "bytes": 718
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/receipt.json",
+          "sha256": "a47c640ff60b6b967964c894de98fdb797f63b83d0ea169ee3c8da966116013a",
+          "bytes": 13678
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/sensitivity_receipt.json",
+          "sha256": "e975a7b21c3276da5f21ec6cb9a8b14c79665d52b7fe8a373721984c57a1f7b1",
+          "bytes": 2233
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/independent/sm_charge_response.py",
+          "sha256": "6ffd613763509c2c3cf6e6a49dab1e605b2fc804dc170c85a1777fcc8c2f0fe6",
+          "bytes": 12855
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/inventory/EXACT_INVENTORY_CHECKS.json",
+          "sha256": "9d92927fc3dfb54d6d868c917d42995287d23547f323f92f45e763b03e207a87",
+          "bytes": 1490
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/inventory/PUBLIC_SAFE_OPERATOR_INVENTORY.md",
+          "sha256": "69c4cdb2804742cb4427956735c863651b1a9f6b512c6575e6a17479d77c3256",
+          "bytes": 8778
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/inventory/verify_inventory.py",
+          "sha256": "208813c6df21ac0c48b1014ab5da357edabc9a4c831dddf27e2c838eae1761f9",
+          "bytes": 4014
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/literature/METADATA_RECEIPTS.json",
+          "sha256": "b1a01a0fabc77c278179eeee0b2b7960f4d4c560391352209510f84db845c47b",
+          "bytes": 18104
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/DERIVATION.md",
+          "sha256": "69e0357d44af23b5814ba1930447bd675c708612ac9ce1efa7494dfc84311265",
+          "bytes": 12266
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/ORIGINAL_SHA256.json",
+          "sha256": "83f7cc6f969ce62c290078ddfd5bb5dc7ea099ac9816fce24b52520078c4e4a5",
+          "bytes": 461
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/PROVENANCE.json",
+          "sha256": "0b0f347e10f016384a4f4cc99c6a7a716c3c1ad5367c2cee41fa3a24e3ef3ff1",
+          "bytes": 2654
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/RECEIPT.json",
+          "sha256": "696089626585eeb4784a8bbb17a1c1af0d3059cbf83552493e9ade00acd2d6cb",
+          "bytes": 3250
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/SHA256SUMS",
+          "sha256": "921a88e8aa86656415756f5331b7f4563d56811795f9d9a9e722c6aabde6d54f",
+          "bytes": 1301
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/conditional_sensitivity.py",
+          "sha256": "ed9a9089fecd0b99604fb6ad23ef27b99dd9cf51470a288c43ace69bbba1c92c",
+          "bytes": 9243
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/ORIGINAL_PORTABILITY_INPUTS/verify_reproducibility.py",
+          "sha256": "1b2ff1cc4d7c1a4867c0e135edd4782d89a37b279d34fe50edfd73f6751cf605",
+          "bytes": 3950
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PORTABILITY_AMENDMENT.md",
+          "sha256": "e7809cbe0c0a9b8b1261ee8fc838f64233ceee30fd4f1e8a5a6958ba53580efa",
+          "bytes": 2518
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PORTABILITY_PROVENANCE.json",
+          "sha256": "0aa01e2ae463559b722a816a66a33a40b87aebc6a2e7b7a3866f8248e7c28eab",
+          "bytes": 2446
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/PROVENANCE.json",
+          "sha256": "0b0f347e10f016384a4f4cc99c6a7a716c3c1ad5367c2cee41fa3a24e3ef3ff1",
+          "bytes": 2654
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/RECEIPT.json",
+          "sha256": "5c1334096ce9d16aed3548da9b211f88b37c6ac6c9149c1e36845f39f18d6241",
+          "bytes": 3250
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/REGISTRATION.md",
+          "sha256": "9b987fdffa4159628e680d27dc21fd8e295bcf6df6636450e4a6a5b2e3c9062f",
+          "bytes": 3485
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/REGISTRATION_ADDENDUM.md",
+          "sha256": "8d4191160e61241239748ae1e9fbc8ef6f269d01a80699e93c7d7e078abd5835",
+          "bytes": 2134
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/SHA256SUMS",
+          "sha256": "b921b8ba085add78be5340c0ec543d74669dd56209392b63b1c5fdb29d845382",
+          "bytes": 2164
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.csv",
+          "sha256": "d52c2416941ad64d1650a8c712b6f498030f364f09884333a6008fce4b9f44fb",
+          "bytes": 1542
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.json",
+          "sha256": "52482224f7aed2271cde5a6a4302a7771d31976ccc319a39469a70a5f1ddff2a",
+          "bytes": 9903
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conditional_sensitivity.py",
+          "sha256": "d0e793d18abfcda32bdd9b0f592860963db4df3f8db0d0d4400b1f07e747790d",
+          "bytes": 10247
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/conserved_density_basis.csv",
+          "sha256": "fedc2f232ed24523db346e84e5ae5f844bc878cf0a4352a00a5fec5dc80f371b",
+          "bytes": 382
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/reaction_charges.csv",
+          "sha256": "0ba5797af1f497730f6a0d0c02e6061a5ee9895f27f7b09d883d1c096f041485",
+          "bytes": 410
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/results.json",
+          "sha256": "5069a70c418d05031c822f0e33edd6a94ccd3c540edb47502fbfbd43599b9c19",
+          "bytes": 10756
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/sm_charge_diagnostic.py",
+          "sha256": "f803b6e6744b3a04d6ac08189748e599d7385a13003b326382152c5f3f0fac93",
+          "bytes": 12940
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/species_response.csv",
+          "sha256": "ffb05bfad5fdf854e7834c04c4ee0a9fc547d93b56aefd80aa63e9255b7794f2",
+          "bytes": 592
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/tests.csv",
+          "sha256": "9c0ee523ee1b66b271de455ad8a33d67d7516da563a1de4f7120d753c43de280",
+          "bytes": 3790
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/producer/verify_reproducibility.py",
+          "sha256": "8c8450c35df0f10f3cd058485cb00af6f2eae1d5e0c984ede64a7a46c0e0a8ba",
+          "bytes": 3977
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/requirements-operator.txt",
+          "sha256": "6040b9d16629b0b33df381eab6ce5f4b80e8351f64aaf2ffaa9c8ba38714ea81",
+          "bytes": 158
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/retrieve_metadata.py",
+          "sha256": "bf4c5ecd5b1e6e3aae772516b029843c95b867273ba7ad6bc73c9034f1b13208",
+          "bytes": 2875
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/reviewer/REVIEW_RECEIPT.json",
+          "sha256": "751f4fd7b8741593076c683d42024619656b4620377c782b4b364d19ba213fdd",
+          "bytes": 13965
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/reviewer/SCIENTIFIC_REVIEW.md",
+          "sha256": "9e8ebd4cb785ad06c6b1ab1933426272fc2dd7d86daacda5e33649f9666e6f1b",
+          "bytes": 18194
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/reviewer/review_checks.py",
+          "sha256": "beb5bbf1805f5c8ae78ef572dfbaa39278d8b59d6e6cc1a373c08b7ce4f4eeb8",
+          "bytes": 9149
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/BIBLIOGRAPHIC_METADATA.json",
+          "sha256": "2a6648007077c855dc6ccfe687c8106ff1c8c142a42e886c15318283daf14212",
+          "bytes": 1011
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/COMPARISON_RECEIPT.json",
+          "sha256": "710bd7d79f07439d713847e381c577d81bec6292f4c84a735f5c3ca4300f330b",
+          "bytes": 815
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/LITERATURE_NOTE.md",
+          "sha256": "6b66ea8785f3172fa59462bab2d8bfe9c2ce56e4f0c41a0e7830a2f56bb04df4",
+          "bytes": 11828
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/METADATA_RECEIPTS.json",
+          "sha256": "7d1bdca3393473d30586326654056d81f31339ee3acc012c1961faf0e4f48369",
+          "bytes": 983
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/PDF_RECEIPT.json",
+          "sha256": "4529177eeeefcc659fd00fd068afd5ff395568503fce146b5cf1c9ec91f3ec5e",
+          "bytes": 1848
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/SHA256SUMS.txt",
+          "sha256": "5ae08e0a530b674b7494c17c5dd9978664af0e2d0989096c919bbc08e5ea1a01",
+          "bytes": 722
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/SUSCEPTIBILITY_COMPARISON.json",
+          "sha256": "66ed5628e99c32206cfbcb8c0039c58f9577555342f99b11864dae1f7f21baa2",
+          "bytes": 748
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/VALIDATION_RECEIPT.json",
+          "sha256": "2653c9827098efa5545271049e2069c6d8848bf6018d33db85a723e4a4c65aff",
+          "bytes": 1220
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/compare_susceptibilities.py",
+          "sha256": "9953953402b5ce9447fd69095739bcde8b77cbb0af30c8eaa09ff4a4d8bde504",
+          "bytes": 2116
+        },
+        {
+          "path": "source/scripts/check_ai_runner.py",
+          "sha256": "c6df78a6233c453f4cd91b221c11ad6c285cf72257f8633572f843d4bed552e4",
+          "bytes": 10413
+        },
+        {
+          "path": "source/scripts/check_continuous_runner.py",
+          "sha256": "66cc29975c96ec6e3ff804af3f5befe1dbd3a5ba9e9e839ef89ac19824cdcd68",
+          "bytes": 6577
+        },
+        {
+          "path": "source/scripts/reproduce_candidate.py",
+          "sha256": "83df02f935ccfb7c3afe859063c32f4226ceb61113ac872b9215989bb8d15118",
+          "bytes": 7252
+        },
+        {
+          "path": "source/scripts/reproduce_operator_round.py",
+          "sha256": "6a019eeb439ad3ad737551ffde7e93e82eb930e378d5cd9dd1dd52d53bb7bbe1",
+          "bytes": 6179
+        },
+        {
+          "path": "source/scripts/reproduction_policy.py",
+          "sha256": "1eae0352a463b638c2ccb4e0fc1f2002d912e30d5e68a790db6f8d18dc28ed58",
+          "bytes": 28238
+        },
+        {
+          "path": "source/scripts/run_ai_continuously.sh",
+          "sha256": "d0ca7b46ea11a49539e8e4c26c1be8b945c914a0ab9181a053b9d5be39c71a02",
+          "bytes": 2295
+        },
+        {
+          "path": "source/scripts/run_ai_round.sh",
+          "sha256": "ea7881641949cb127b4816ce2323f3e90056e1b4efb7d77c703b13e2ce51c073",
+          "bytes": 6089
+        }
+      ]
+    },
+    {
+      "filename": "AM1232_PHONE.zip",
+      "members": 15,
+      "bytes": 211225,
+      "sha256": "b0158ca5e6fce3eb476326b672874c35cff47e331e5007e6209aa5c3fb218c16",
+      "crc": "passed",
+      "member_hashes": "passed",
+      "member_manifest": [
+        {
+          "path": "AM1232_ALL.txt",
+          "sha256": "2e03c77343a9ea9c9b8de8f5f03902333479ee7303953fcb3f052fdcd372c107",
+          "bytes": 315475
+        },
+        {
+          "path": "AM1232_NOTE.md",
+          "sha256": "26db8348626f6386d17316516b4651fb075b88dd0cb3c66311d24b8b1fa983ec",
+          "bytes": 17987
+        },
+        {
+          "path": "AM1232_NOTE.pdf",
+          "sha256": "f19a1e1b91a98df119717000db248e6b1dc033d87d6cd2de55034b0bfcdd8958",
+          "bytes": 62061
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+          "bytes": 18657
+        },
+        {
+          "path": "LICENSE_NOTICE.md",
+          "sha256": "e76b30694c697a58b54bcbff42d7156475361cb8e59a60aee269bc9550a0d953",
+          "bytes": 1211
+        },
+        {
+          "path": "RELEASE_CITATION.cff",
+          "sha256": "6e4baa022f36a5dc1bdb2778b60d243fbce83f557ea2e92fa2cd7bb8b5b5aa65",
+          "bytes": 851
+        },
+        {
+          "path": "REPRODUCTION.md",
+          "sha256": "175b82f0367ad22df21aad6b9ae25e30cdd2bba719cfec4a0e2ced2d5fbd2f89",
+          "bytes": 10058
+        },
+        {
+          "path": "SOURCE_MANIFEST.json",
+          "sha256": "d1734756e43c2bff31754955e34b11543f90c3f0e7caaede8ec793f2995669e3",
+          "bytes": 81545
+        },
+        {
+          "path": "source/CITATION.cff",
+          "sha256": "6fae0239d800d3bf77b2161bafb0ceda036151205d8ef1fbdfa64a7115f406ac",
+          "bytes": 514
+        },
+        {
+          "path": "source/docs/RESEARCH_STATUS.md",
+          "sha256": "8e7c66c055ee652c2b74a3cf7610e7949af3ddd17ab031cc4d3c4a368da17c29",
+          "bytes": 3771
+        },
+        {
+          "path": "source/research/AM1231/IN_MORE_BASIC_TERMS.md",
+          "sha256": "a3dad4a6c9f1dc35d3f17e51dcaaf9e4c7d90a1106833c7b51f0ec217d475d72",
+          "bytes": 1379
+        },
+        {
+          "path": "source/research/AM1232_CANDIDATE_20261001/README.md",
+          "sha256": "5926fe543e4e0536453372fc142f52536738ce4748083c7a4291b3db4dd7bfcd",
+          "bytes": 5956
+        },
+        {
+          "path": "source/research/rounds/2026-10-01_transport_gate/README.md",
+          "sha256": "f2bd2718793dc052d094aa6fbdcc56b9d15f50214ea485bbac5e29712f2f55e8",
+          "bytes": 3933
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/README.md",
+          "sha256": "da3f233277b9681874423036d5176dfa8593c1581b7ddf6b3a0478eb869cc79a",
+          "bytes": 5671
+        },
+        {
+          "path": "source/research/rounds/2026-10-02_sm_operator_gate/wall_literature/LITERATURE_NOTE.md",
+          "sha256": "6b66ea8785f3172fa59462bab2d8bfe9c2ce56e4f0c41a0e7830a2f56bb04df4",
+          "bytes": 11828
+        }
+      ]
+    }
+  ],
+  "manifest_member_hashes": "passed",
+  "preserved_predecessor_citation": "passed",
+  "version_doi": "10.5281/zenodo.23112808",
+  "publication_status": "reserved_not_yet_confirmed_published",
+  "publication_performed": false,
+  "network_mutation_performed": false,
+  "source_repository_modified": false,
+  "scientific_replays_run_by_this_builder": false,
+  "actual_ai_invocations": 0,
+  "pdf_included": true,
+  "limits": "Integrity/provenance/public-scope validation only. Does not establish physical baryogenesis, novelty, human peer review, active AI operation, or archival publication."
+}

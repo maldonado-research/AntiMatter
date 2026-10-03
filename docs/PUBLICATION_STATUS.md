@@ -25,4 +25,4 @@ The v1.23.2 package is prepared for the existing DOI family. Current secret bind
 
 Keep the existing draft for the authenticated browser editor fallback. Before publication, save and read back the full approved title, description, version, date and creator/license fields; replace inherited files with the verified v1.23.2 package; verify every filename, byte count and checksum. Do not create a GitHub release merely to test repaired integration: automatic deposition might create a separate record family. A Git tag/source snapshot can be added when the existing-family version is actually published.
 
-Website status is recorded separately in its pull request and deployment history; a proposed page edit alone is not evidence of live deployment.
+Website PR3 is merged. GitHub Pages reports a successful build for commit 0d46469f87840d66ae5ffa6ae990ab9d48eef080. The [prepared v1.23.2 report/download package](../research/AM1232_PUBLICATION_PACKAGE_20261002/README.md) is available on GitHub while the Zenodo update remains unpublished.

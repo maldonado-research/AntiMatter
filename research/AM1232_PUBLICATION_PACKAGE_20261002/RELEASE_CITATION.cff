@@ -1,0 +1,14 @@
+# Version metadata prepared for publication; DOI reserved, not yet published.
+# Planned publication date: 2026-10-02 (Pacific). Publication confirmation is separate.
+cff-version: 1.2.0
+message: "AntiMatter v1.23.2 publication package. At package preparation, DOI 10.5281/zenodo.23112808 was reserved for a draft and publication was not yet confirmed. Cite this version only after publication is confirmed; the preserved source/CITATION.cff remains the v1.23.1 citation."
+type: dataset
+title: "AntiMatter: Conditional Kinetic, Source-Duration, Transport and Standard Model Charge Audits (v1.23.2)"
+authors:
+  - family-names: Maldonado
+    given-names: Ricardo
+version: 1.23.2
+doi: 10.5281/zenodo.23112808
+url: "https://doi.org/10.5281/zenodo.23112808"
+repository-code: "https://github.com/maldonado-research/AntiMatter/tree/v1.23.2"
+license: CC-BY-4.0
