@@ -9,6 +9,8 @@ This repository makes the AntiMatter working hypothesis, calculations, and audit
 
 The research was published on **September 5, 2026**. This GitHub mirror was prepared on **September 30, 2026** and preserves that scientific version without adding a new physics result.
 
+**Latest public working updates — 2 October 2026, Pacific:** the follow-up kinetic/source-duration diagnostics, transport controls and [Standard Model charge/source comparator](research/rounds/2026-10-02_sm_operator_gate/README.md) are available on this repository’s main branch. They remain conditional research; the final matter excess has not been calculated. The latest published Zenodo version is still v1.23.1. See [publication status and project links](docs/PUBLICATION_STATUS.md).
+
 **Archived publication:** [Zenodo record 22400470](https://zenodo.org/records/22400470) · [DOI: 10.5281/zenodo.22400470](https://doi.org/10.5281/zenodo.22400470)
 
 ## In More Basic Terms
